@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.PrototypeObjectType
+* Starting client
+* Connecting to master process on port 7340
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17463_1629664298/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17463_1629664298/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17463_1629664298/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17463_1629664298/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17463_1629664298/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17463_1629664298/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17463_1629664298/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17463_1629664298/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.PrototypeObjectType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 183
+* Using seed 1629664311543
+* Starting evolution
+* Search finished after 302s and 1373 generations, 385815 statements, best individual has fitness: 27.333333333333336
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 77%
+* Total number of goals: 183
+* Number of covered goals: 141
+* Generated 38 tests with total length 220
+* Resulting test suite's coverage: 77%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     27 / 0           
+	- MaxTime :                        314 / 300          Finished!
+* Time spent executing tests: 182602ms
+* Generating assertions
+* Resulting test suite's mutation score: 86%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'PrototypeObjectType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,43 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CodeGenerator
+* Starting client
+* Connecting to master process on port 14827
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5656_1629463410/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5656_1629463410/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5656_1629463410/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5656_1629463410/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5656_1629463410/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5656_1629463410/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5656_1629463410/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CodeGenerator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 716
+* Using seed 1629463422216
+* Starting evolution
+* Search finished after 302s and 6026 generations, 699855 statements, best individual has fitness: 326.63895707405766
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 43%
+* Total number of goals: 716
+* Number of covered goals: 310
+* Generated 77 tests with total length 215
+* Resulting test suite's coverage: 48%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        309 / 300          Finished!
+	- ZeroFitness :                    339 / 0           
+* Time spent executing tests: 124271ms
+* Generating assertions
+* Resulting test suite's mutation score: 42%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'CodeGenerator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

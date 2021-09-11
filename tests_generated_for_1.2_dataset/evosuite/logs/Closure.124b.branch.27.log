@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ExploitAssigns
+* Starting client
+* Connecting to master process on port 19567
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_0/run_evosuite.pl_1275_1629884226/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_0/run_evosuite.pl_1275_1629884226/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_0/run_evosuite.pl_1275_1629884226/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_0/run_evosuite.pl_1275_1629884226/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_0/run_evosuite.pl_1275_1629884226/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_0/run_evosuite.pl_1275_1629884226/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_0/run_evosuite.pl_1275_1629884226/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_0/run_evosuite.pl_1275_1629884226/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ExploitAssigns
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 87
+* Using seed 1629884248083
+* Starting evolution
+* Search finished after 303s and 738 generations, 117639 statements, best individual has fitness: 87.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 5%
+* Total number of goals: 87
+* Number of covered goals: 4
+* Generated 1 tests with total length 7
+* Resulting test suite's coverage: 5%
+* GA-Budget:
+	- ZeroFitness :                     88 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        306 / 300          Finished!
+* Time spent executing tests: 220365ms
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'ExploitAssigns_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

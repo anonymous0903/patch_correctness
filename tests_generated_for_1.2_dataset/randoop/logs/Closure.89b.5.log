@@ -1,0 +1,488 @@
+Ignoring abstract class com.google.javascript.jscomp.PassConfig specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.PrototypeObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.SourceFile specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.TypeSafeDispatcher specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.LineNumberCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ChainableReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.graph.DiGraph specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.ObjectType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceAst specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.JsDocToken specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckUnreachableCode specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.ScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.Normalize specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.deps.DependencyInfo specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.FunctionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VariableReferenceCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodePrinter specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.GraphvizGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.AbstractMessageFormatter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.JSType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.Region specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnresolvedTypeExpression specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.GlobalNamespace specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ControlFlowGraph specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CollapseProperties specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SuppressDocWarningsGuard specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ValueType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ProcessDefines specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.ErrorReporter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckGlobalNames specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodeConsumer specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticScope specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.SemanticReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.MakeDeclaredNamesUnique specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypeValidator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.NamedType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSlot specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckAccessControls specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CodingConvention specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CodeGenerator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.JsDocTokenStream specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.PassFactory specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypedCodeGenerator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VarCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ReferenceCollectingCallback specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.MessageFormatter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.IndexedType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.RhinoErrorReporter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypedScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SyntacticScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.Annotation specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ErrorFunctionType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ArrowType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ProxyObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.BasicErrorManager specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.PrepareAst specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.SourceMap specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ParameterizedType specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.ReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.Tracer specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.Visitor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckSideEffects specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckRegExp specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.AdjacencyGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.WarningsGuard specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.ErrorManager specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.graph.Graph specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.CodeChangeHandler specified via --classlist or --testclass.
+PUBLIC MEMBERS=1794
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 09:39:59 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=1000, test inputs generated=449, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.TokenStream.<init>(TokenStream.java:77)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at randoop.util.ConstructorReflectionCode.runReflectionCodeRaw(ConstructorReflectionCode.java:38)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 9:40:48 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=1889, test inputs generated=911, failing inputs=0      (Mon Aug 23 09:40:59 PDT 2021)
+Progress update: steps=2000, test inputs generated=980, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=2840, test inputs generated=1519, failing inputs=0      (Mon Aug 23 09:41:59 PDT 2021)
+Progress update: steps=3000, test inputs generated=1601, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptOrFnNode.addParam(ScriptOrFnNode.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 9:42:32 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.TokenStream.<init>(TokenStream.java:77)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at randoop.util.ConstructorReflectionCode.runReflectionCodeRaw(ConstructorReflectionCode.java:38)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 9:42:58 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:42:59 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:42:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:42:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=3795, test inputs generated=2114, failing inputs=0      (Mon Aug 23 09:42:59 PDT 2021)Aug 23, 2021 9:42:59 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 9:43:01 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptOrFnNode.setBaseLineno(ScriptOrFnNode.java:73)
+	at sun.reflect.GeneratedMethodAccessor65.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 9:43:07 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:43:11 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:43:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: Named type with empty name component:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:12 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:16 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:43:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: Named type with empty name component:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=4000, test inputs generated=2280, failing inputs=0Aug 23, 2021 9:43:22 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 9:43:23 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 23, 2021 9:43:26 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:26 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:30 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:32 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:43:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: Named type with empty name component:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:32 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:43:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: Named type with empty name component:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:36 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:36 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:43:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: Named type with empty name component:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:41 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:44 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:45 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:43:47 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:43:48 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:43:56 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:43:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:43:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=4512, test inputs generated=2673, failing inputs=0      (Mon Aug 23 09:43:59 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptOrFnNode.addParam(ScriptOrFnNode.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 9:44:01 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:44:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:44:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:44:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:44:13 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:44:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:44:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 9:44:26 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:44:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: Named type with empty name component:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:44:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:44:29 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:44:30 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.TokenStream.<init>(TokenStream.java:77)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at randoop.util.ConstructorReflectionCode.runReflectionCodeRaw(ConstructorReflectionCode.java:38)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 9:44:33 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+Aug 23, 2021 9:44:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: Named type with empty name component:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:44:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:44:41 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+
+Progress update: steps=5000, test inputs generated=3022, failing inputs=0Aug 23, 2021 9:44:42 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 9:44:46 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.TokenStream.<init>(TokenStream.java:77)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at randoop.util.ConstructorReflectionCode.runReflectionCodeRaw(ConstructorReflectionCode.java:38)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 9:44:47 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:44:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:44:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 9:44:52 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Named type with empty name component: Compilation produced 1 syntax errors. (Named type with empty name component#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.TokenStream.<init>(TokenStream.java:77)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at randoop.util.ConstructorReflectionCode.runReflectionCodeRaw(ConstructorReflectionCode.java:38)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 9:44:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing function (this:{640221157}): {1552385791}: Compilation produced 1 syntax errors. (function (this:{640221157}): {1552385791}#1)
+Aug 23, 2021 9:44:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: function (this:{640221157}): {1552385791}:1: ERROR - Parse error. missing ; before statement
+
+Aug 23, 2021 9:44:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=5253, test inputs generated=3216, failing inputs=0      (Mon Aug 23 09:44:59 PDT 2021)
+Progress update: steps=5253, test inputs generated=3216, failing inputs=0      (Mon Aug 23 09:44:59 PDT 2021)
+Normal method executions: 2414005
+Exceptional method executions: 463
+
+Average method execution time (normal termination):      0.0999
+Average method execution time (exceptional termination): 1.55
+
+Regression test output:
+Regression test count: 1694
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_3/run_randoop.pl_18015_1629736783/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_3/run_randoop.pl_18015_1629736783/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_3/run_randoop.pl_18015_1629736783/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_3/run_randoop.pl_18015_1629736783/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_3/run_randoop.pl_18015_1629736783/randoop/RegressionTest.java
+
+Invalid tests generated: 0

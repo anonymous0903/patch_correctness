@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.rhino.IR
+* Starting client
+* Connecting to master process on port 4955
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_28156_1629583303/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_28156_1629583303/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_28156_1629583303/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_28156_1629583303/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_28156_1629583303/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_28156_1629583303/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_28156_1629583303/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_28156_1629583303/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.IR
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 376
+* Using seed 1629583329653
+* Starting evolution
+* Search finished after 303s and 914 generations, 188756 statements, best individual has fitness: 11.3
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 376
+* Number of covered goals: 356
+* Generated 148 tests with total length 441
+* Resulting test suite's coverage: 95%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        318 / 300          Finished!
+	- ZeroFitness :                     11 / 0           
+* Time spent executing tests: 124020ms
+* Generating assertions
+* Resulting test suite's mutation score: 36%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'IR_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,122 @@
+Ignoring non-visible class com.google.javascript.rhino.jstype.PrototypeObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.ObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.JSType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ValueType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.ErrorReporter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.rhino.jstype.StaticScope specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.IndexedType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ErrorFunctionType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ArrowType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ProxyObjectType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ParameterizedType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.Visitor specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=791
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 13:12:48 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:777)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=1000, test inputs generated=279, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:777)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:777)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=1910, test inputs generated=489, failing inputs=0      (Mon Aug 23 13:13:48 PDT 2021)
+Progress update: steps=2000, test inputs generated=532, failing inputs=0
+Progress update: steps=2116, test inputs generated=578, failing inputs=0      (Mon Aug 23 13:14:48 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:777)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:777)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:236)
+	at com.google.javascript.rhino.Node.toString(Node.java:939)
+	at com.google.javascript.rhino.Node.toString(Node.java:882)
+	at com.google.javascript.rhino.Node.toString(Node.java:872)
+	at java.lang.String.valueOf(String.java:2849)
+	at java.lang.StringBuilder.append(StringBuilder.java:128)
+	at com.google.javascript.rhino.Node.setDouble(Node.java:843)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=2300, test inputs generated=661, failing inputs=0      (Mon Aug 23 13:15:48 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:777)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=2489, test inputs generated=741, failing inputs=0      (Mon Aug 23 13:16:48 PDT 2021)
+Progress update: steps=2605, test inputs generated=802, failing inputs=0      (Mon Aug 23 13:17:48 PDT 2021)
+Progress update: steps=2605, test inputs generated=803, failing inputs=0      (Mon Aug 23 13:17:49 PDT 2021)
+Normal method executions: 1111569
+Exceptional method executions: 132
+
+Average method execution time (normal termination):      0.249
+Average method execution time (exceptional termination): 1.46
+
+Regression test output:
+Regression test count: 480
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_4/run_randoop.pl_151118_1629749551/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_4/run_randoop.pl_151118_1629749551/randoop/RegressionTest.java
+
+Invalid tests generated: 0

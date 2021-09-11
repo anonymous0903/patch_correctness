@@ -1,0 +1,47 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Starting client
+* Connecting to master process on port 6477
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_162902_1629740367/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_162902_1629740367/lib/ant-launcher.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_162902_1629740367/lib/ant.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_162902_1629740367/lib/args4j.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_162902_1629740367/lib/guava.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_162902_1629740367/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_162902_1629740367/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_162902_1629740367/lib/junit.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_162902_1629740367/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_162902_1629740367/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 364
+* Using seed 1629740382651
+* Starting evolution
+* Search finished after 302s and 3625 generations, 513172 statements, best individual has fitness: 308.42001899089456
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 17%
+* Total number of goals: 364
+* Number of covered goals: 61
+* Generated 18 tests with total length 82
+* Resulting test suite's coverage: 17%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    308 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        303 / 300          Finished!
+* Time spent executing tests: 122609ms
+* Generating assertions
+[MASTER] 10:44:55.617 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 7%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 14
+* Writing JUnit test case 'PeepholeSubstituteAlternateSyntax_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

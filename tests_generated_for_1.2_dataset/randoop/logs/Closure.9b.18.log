@@ -1,0 +1,949 @@
+Ignoring interface com.google.javascript.jscomp.type.ReverseAbstractInterpreter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.deps.DependencyInfo specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.Region specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSourceFile specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.CodingConvention specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.CompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.ErrorHandler specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.ErrorManager specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible interface com.google.javascript.jscomp.CodeChangeHandler specified via --classlist or --testclass.
+PUBLIC MEMBERS=837
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 08:12:39 PDT 2021)
+Progress update: steps=1000, test inputs generated=420, failing inputs=0
+Progress update: steps=2000, test inputs generated=835, failing inputs=0Aug 23, 2021 8:13:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:13:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:13:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:13:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:13:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:13:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:13:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:13:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:13:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:13:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:13:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:13:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:13:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:13:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+
+Progress update: steps=3000, test inputs generated=1745, failing inputs=0
+Progress update: steps=3011, test inputs generated=1756, failing inputs=0      (Mon Aug 23 08:13:39 PDT 2021)Aug 23, 2021 8:13:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:13:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:13:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:13:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:13:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:13:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: STRING  100
+
+
+Aug 23, 2021 8:13:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:13:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:13:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:13:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:13:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:13:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:13:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:13:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:13:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:13:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:13:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:14:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:14:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:14:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:14:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:14:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:14:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:14:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:14:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:14:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: STRING  100
+
+
+Aug 23, 2021 8:14:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:14:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:14:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:14:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:14:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+
+Progress update: steps=4000, test inputs generated=2678, failing inputs=0Aug 23, 2021 8:14:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:14:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:14:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:14:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:14:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:14:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:14:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.head.Kit.codeBug(Kit.java:449)
+	at com.google.javascript.rhino.head.TokenStream.<init>(TokenStream.java:83)
+	at com.google.javascript.rhino.head.Parser.parse(Parser.java:517)
+	at com.google.javascript.jscomp.parsing.ParserRunner.parse(ParserRunner.java:133)
+	at com.google.javascript.jscomp.JsAst.parse(JsAst.java:86)
+	at com.google.javascript.jscomp.JsAst.getAstRoot(JsAst.java:52)
+	at com.google.javascript.jscomp.Compiler.parse(Compiler.java:1543)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:14:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: STRING  100
+
+
+Aug 23, 2021 8:14:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:14:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+
+Progress update: steps=4389, test inputs generated=3041, failing inputs=0      (Mon Aug 23 08:14:39 PDT 2021)Aug 23, 2021 8:14:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:14:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:14:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:14:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:14:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:14:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:15:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: STRING  100
+
+
+Aug 23, 2021 8:15:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:15:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+
+Progress update: steps=5000, test inputs generated=3612, failing inputs=0Aug 23, 2021 8:15:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:15:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:15:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:15:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:15:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:15:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:15:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: STRING  100
+
+
+Aug 23, 2021 8:15:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:15:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+
+Progress update: steps=5549, test inputs generated=4110, failing inputs=0      (Mon Aug 23 08:15:39 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.head.Kit.codeBug(Kit.java:449)
+	at com.google.javascript.rhino.head.TokenStream.<init>(TokenStream.java:83)
+	at com.google.javascript.rhino.head.Parser.parse(Parser.java:517)
+	at com.google.javascript.jscomp.parsing.ParserRunner.parse(ParserRunner.java:133)
+	at com.google.javascript.jscomp.JsAst.parse(JsAst.java:86)
+	at com.google.javascript.jscomp.JsAst.getAstRoot(JsAst.java:52)
+	at com.google.javascript.jscomp.Compiler.parse(Compiler.java:1543)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:15:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: STRING  100
+
+
+Aug 23, 2021 8:15:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:15:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: STRING  100
+
+
+Aug 23, 2021 8:15:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:15:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:15:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:15:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:15:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:15:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:15:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:15:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:15:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:15:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:15:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:15:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Node tree inequality:: Compilation produced 1 syntax errors. (Node tree inequality:#1)
+Aug 23, 2021 8:16:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: Node tree inequality::1: [31mERROR[39m - Parse error. missing ; before statement
+module$$$ Input %num%
+          ^
+
+Aug 23, 2021 8:16:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:16:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:16:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:16:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:16:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+
+Progress update: steps=6000, test inputs generated=4530, failing inputs=0Aug 23, 2021 8:16:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:16:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:16:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:16:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:16:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: STRING  100
+
+
+Aug 23, 2021 8:16:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:16:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:16:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:16:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:16:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:16:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: Unversioned directory
+
+Aug 23, 2021 8:16:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:16:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: ERROR
+
+
+Aug 23, 2021 8:16:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:16:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: Unversioned directory
+
+Aug 23, 2021 8:16:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:16:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:16:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:16:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:16:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:16:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Node tree inequality:: Compilation produced 1 syntax errors. (Node tree inequality:#1)
+Aug 23, 2021 8:16:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: Node tree inequality::1: [31mERROR[39m - Parse error. missing ; before statement
+module$$$ Input %num%
+          ^
+
+Aug 23, 2021 8:16:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=6728, test inputs generated=5191, failing inputs=0      (Mon Aug 23 08:16:39 PDT 2021)Aug 23, 2021 8:16:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:16:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:16:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:16:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:16:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:50 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Node tree inequality:: Compilation produced 1 syntax errors. (Node tree inequality:#1)
+Aug 23, 2021 8:16:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: Node tree inequality::1: [31mERROR[39m - Parse error. missing ; before statement
+module$$$ Input %num%
+          ^
+
+Aug 23, 2021 8:16:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:16:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: ERROR
+
+
+Aug 23, 2021 8:16:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:16:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+
+Progress update: steps=7000, test inputs generated=5435, failing inputs=0Aug 23, 2021 8:16:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:16:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:16:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:16:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:16:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:16:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:16:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:16:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:16:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:16:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:17:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: STRING  100
+
+
+Aug 23, 2021 8:17:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:17:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:17:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:17:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:17:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:17:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:17:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:17:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:17:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:17:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:17:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:17:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:17:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:17:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:17:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:17:26 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing Node tree inequality:: Compilation produced 1 syntax errors. (Node tree inequality:#1)
+Aug 23, 2021 8:17:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: Node tree inequality::1: [31mERROR[39m - Parse error. missing ; before statement
+module$$$ Input %num%
+          ^
+
+Aug 23, 2021 8:17:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:17:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:17:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:17:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: [31mERROR[39m - Cannot read: STRING  0 [length: 12]
+
+Aug 23, 2021 8:17:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:17:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:17:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:17:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [Unversioned directory]
+
+Aug 23, 2021 8:17:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: []
+
+Aug 23, 2021 8:17:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 8:17:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:17:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: STRING  100
+
+
+Aug 23, 2021 8:17:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:17:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:17:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:17:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:17:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:17:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: ERROR
+
+
+Aug 23, 2021 8:17:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:17:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:17:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+Aug 23, 2021 8:17:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: STRING  100
+
+
+Aug 23, 2021 8:17:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:17:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+WARNING: WARNING - unknown @define variable Subtree1: STRING  0
+
+Aug 23, 2021 8:17:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 0 error(s), 1 warning(s)
+
+Progress update: steps=7752, test inputs generated=6125, failing inputs=0      (Mon Aug 23 08:17:39 PDT 2021)
+Normal method executions: 1582349
+Exceptional method executions: 812
+
+Average method execution time (normal termination):      0.105
+Average method execution time (exceptional termination): 0.737
+
+Regression test output:
+Regression test count: 3149
+Writing JUnit tests...
+                                                                                                                                                                                                       
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_33461_1629731539/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_33461_1629731539/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_33461_1629731539/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_33461_1629731539/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_33461_1629731539/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_33461_1629731539/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_33461_1629731539/randoop/RegressionTest6.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_33461_1629731539/randoop/RegressionTest.java
+
+Invalid tests generated: 0

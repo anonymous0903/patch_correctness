@@ -1,0 +1,90 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 19961
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 564
+* Using seed 1629640244074
+* Starting evolution
+* Search finished after 303s and 937 generations, 287602 statements, best individual has fitness: 333.29505400242556
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 41%
+* Total number of goals: 564
+* Number of covered goals: 230
+* Generated 25 tests with total length 286
+* Resulting test suite's coverage: 41%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    333 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        331 / 300          Finished!
+* Time spent executing tests: 220268ms
+* Generating assertions
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeTraversal
+* Starting client
+* Connecting to master process on port 3179
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_17064_1629640225/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeTraversal
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 136
+* Using seed 1629640754124
+* Starting evolution
+* Search finished after 303s and 826 generations, 180259 statements, best individual has fitness: 47.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 62%
+* Total number of goals: 136
+* Number of covered goals: 84
+* Generated 27 tests with total length 153
+* Resulting test suite's coverage: 62%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     47 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        347 / 300          Finished!
+* Time spent executing tests: 277162ms
+* Generating assertions
+* Resulting test suite's mutation score: 49%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve /<vZ;pC>)z%+vnO": 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'NodeTraversal_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

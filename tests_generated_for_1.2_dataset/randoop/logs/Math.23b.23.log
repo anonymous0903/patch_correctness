@@ -1,0 +1,38 @@
+Ignoring interface org.apache.commons.math3.exception.util.Localizable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.DifferentiableUnivariateFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.MultivariateFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.optimization.univariate.UnivariateOptimizer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.optimization.univariate.BaseAbstractUnivariateOptimizer specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.exception.util.ExceptionContextProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.optimization.univariate.BaseUnivariateOptimizer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.optimization.BaseOptimizer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.UnivariateFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.differentiation.UnivariateDifferentiable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.optimization.ConvergenceChecker specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=206
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=2, test inputs generated=0, failing inputs=0      (Thu Aug 26 07:33:49 PDT 2021)
+Progress update: steps=232, test inputs generated=200, failing inputs=0      (Thu Aug 26 07:34:49 PDT 2021)
+Progress update: steps=416, test inputs generated=371, failing inputs=0      (Thu Aug 26 07:35:49 PDT 2021)
+Progress update: steps=848, test inputs generated=758, failing inputs=0      (Thu Aug 26 07:36:49 PDT 2021)
+Progress update: steps=1000, test inputs generated=895, failing inputs=0
+Progress update: steps=1599, test inputs generated=1439, failing inputs=0      (Thu Aug 26 07:37:49 PDT 2021)
+Progress update: steps=2000, test inputs generated=1788, failing inputs=0
+Progress update: steps=2131, test inputs generated=1903, failing inputs=0      (Thu Aug 26 07:38:49 PDT 2021)
+Normal method executions: 804600
+Exceptional method executions: 167
+
+Average method execution time (normal termination):      0.339
+Average method execution time (exceptional termination): 1.67
+
+Regression test output:
+Regression test count: 1471
+Writing JUnit tests...
+                                                                                                                                                                                                       
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_49752_1629988402/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_49752_1629988402/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_49752_1629988402/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_49752_1629988402/randoop/RegressionTest.java
+
+Invalid tests generated: 0

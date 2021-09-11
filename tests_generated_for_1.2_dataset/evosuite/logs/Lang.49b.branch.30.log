@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang.math.Fraction
+* Starting client
+* Connecting to master process on port 13800
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_3/run_evosuite.pl_27031_1629519278/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.math.Fraction
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 194
+* Using seed 1629519286534
+* Starting evolution
+* Search finished after 302s and 5739 generations, 837072 statements, best individual has fitness: 5.412698412698413
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 194
+* Number of covered goals: 185
+* Generated 67 tests with total length 144
+* Resulting test suite's coverage: 96%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      5 / 0           
+	- MaxTime :                        303 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 95897ms
+* Generating assertions
+* Resulting test suite's mutation score: 42%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'Fraction_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

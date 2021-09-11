@@ -1,0 +1,49 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 19423
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_16839_1629773496/build/classes
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_16839_1629773496/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_16839_1629773496/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_16839_1629773496/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_16839_1629773496/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_16839_1629773496/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_16839_1629773496/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_16839_1629773496/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 2426
+* Using seed 1629773520350
+* Starting evolution
+* Search finished after 317s and 437 generations, 172453 statements, best individual has fitness: 779.727459886298
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 19:58:35.550 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 61%
+* Total number of goals: 2426
+* Number of covered goals: 1476
+[MASTER] 19:59:16.096 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 40 seconds more than allowed.
+* Generated 1540 tests with total length 27602
+* Resulting test suite's coverage: 61%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                        425 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    855 / 0           
+* Time spent executing tests: 199612ms
+* Generating assertions
+[MASTER] 19:59:23.229 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 28%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve NUl3OkgyP: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'NodeUtil_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

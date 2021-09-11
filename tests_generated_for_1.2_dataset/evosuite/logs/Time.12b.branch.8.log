@@ -1,0 +1,76 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.LocalDate
+* Starting client
+* Connecting to master process on port 10680
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_1/run_evosuite.pl_142146_1629402458/build/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.LocalDate
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 217
+* Using seed 1629402469468
+* Starting evolution
+* Search finished after 306s and 216 generations, 80469 statements, best individual has fitness: 12.499999999068677
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 217
+* Number of covered goals: 201
+* Generated 96 tests with total length 279
+* Resulting test suite's coverage: 94%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     12 / 0           
+	- MaxTime :                        328 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 273639ms
+* Generating assertions
+* Resulting test suite's mutation score: 43%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'LocalDate_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.LocalDateTime
+* Starting client
+* Connecting to master process on port 10277
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_1/run_evosuite.pl_142146_1629402458/build/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.LocalDateTime
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 222
+* Using seed 1629403002720
+* Starting evolution
+* Search finished after 302s and 2650 generations, 451618 statements, best individual has fitness: 12.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 94%
+* Total number of goals: 222
+* Number of covered goals: 209
+* Generated 119 tests with total length 341
+* Resulting test suite's coverage: 94%
+* GA-Budget:
+	- ZeroFitness :                     13 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        313 / 300          Finished!
+* Time spent executing tests: 135337ms
+* Generating assertions
+* Resulting test suite's mutation score: 43%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 16
+* Writing JUnit test case 'LocalDateTime_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

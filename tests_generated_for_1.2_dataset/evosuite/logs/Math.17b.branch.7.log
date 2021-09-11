@@ -1,0 +1,41 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.dfp.Dfp
+* Starting client
+* Connecting to master process on port 10750
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_Math_17_7/run_evosuite.pl_38893_1629968240/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.dfp.Dfp
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 808
+* Using seed 1629968268137
+* Starting evolution
+* Search finished after 480s and 1 generations, 605 statements, best individual has fitness: 597.0568576928792
+[MASTER] 02:05:55.327 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 180 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 02:14:02.565 [main] ERROR ExternalProcessHandler - Class org.apache.commons.math3.dfp.Dfp. Lost connection with clients.
+ClientNode: MINIMIZATION
+
+java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:228) ~[na:1.7.0_80]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.7.0_80]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:194) ~[na:1.7.0_80]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:148) ~[na:1.7.0_80]
+	at com.sun.proxy.$Proxy7.waitUntilFinished(Unknown Source) ~[na:na]
+	at org.evosuite.utils.ExternalProcessHandler.waitForResult(ExternalProcessHandler.java:597) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.executionmode.TestGeneration.generateTests(TestGeneration.java:445) [evosuite-0.2.0.jar:na]
+	at org.evosuite.executionmode.TestGeneration.executeTestGeneration(TestGeneration.java:66) [evosuite-0.2.0.jar:na]
+	at org.evosuite.EvoSuite.parseCommandLine(EvoSuite.java:260) [evosuite-0.2.0.jar:na]
+	at org.evosuite.EvoSuite.main(EvoSuite.java:293) [evosuite-0.2.0.jar:na]
+Caused by: java.io.EOFException: null
+	at java.io.ObjectInputStream$BlockDataInputStream.readByte(ObjectInputStream.java:2766) ~[na:1.7.0_80]
+	at java.io.ObjectInputStream.readByte(ObjectInputStream.java:916) ~[na:1.7.0_80]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:223) ~[na:1.7.0_80]
+	... 9 common frames omitted
+* Computation finished
+[MASTER] 02:14:02.810 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 02:14:02.810 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 02:14:02.911 [main] ERROR TestGeneration - failed to write statistics data

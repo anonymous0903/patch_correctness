@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.Normalize
+* Starting client
+* Connecting to master process on port 3433
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_3/run_evosuite.pl_162524_1629712283/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_3/run_evosuite.pl_162524_1629712283/lib/ant_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_3/run_evosuite.pl_162524_1629712283/lib/google_common_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_3/run_evosuite.pl_162524_1629712283/lib/hamcrest-core-1.1.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_3/run_evosuite.pl_162524_1629712283/lib/junit4-core.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_3/run_evosuite.pl_162524_1629712283/lib/junit4-legacy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_3/run_evosuite.pl_162524_1629712283/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_3/run_evosuite.pl_162524_1629712283/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Normalize
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 153
+* Using seed 1629712294772
+* Starting evolution
+* Search finished after 303s and 355 generations, 108154 statements, best individual has fitness: 107.96057692307693
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 28%
+* Total number of goals: 153
+* Number of covered goals: 43
+* Generated 10 tests with total length 52
+* Resulting test suite's coverage: 28%
+* GA-Budget:
+	- ZeroFitness :                    108 / 0           
+	- MaxTime :                        311 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 277434ms
+* Generating assertions
+* Resulting test suite's mutation score: 6%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'Normalize_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

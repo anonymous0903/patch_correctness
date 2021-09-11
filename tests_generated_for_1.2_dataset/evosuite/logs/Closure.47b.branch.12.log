@@ -1,0 +1,88 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.SourceMap
+* Starting client
+* Connecting to master process on port 11819
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/args4j.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/guava.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/protobuf-java.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/build/lib/rhino.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.SourceMap
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 50
+* Using seed 1629697610899
+* Starting evolution
+* Search finished after 301s and 9505 generations, 1086625 statements, best individual has fitness: 15.999999999534339
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 66%
+* Total number of goals: 50
+* Number of covered goals: 33
+* Generated 20 tests with total length 69
+* Resulting test suite's coverage: 66%
+* GA-Budget:
+	- ZeroFitness :                     16 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 134435ms
+* Generating assertions
+* Resulting test suite's mutation score: 21%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 11
+* Writing JUnit test case 'SourceMap_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.debugging.sourcemap.SourceMapConsumerV3
+* Starting client
+* Connecting to master process on port 7404
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/args4j.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/guava.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/protobuf-java.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/build/lib/rhino.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_124212_1629697590/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.debugging.sourcemap.SourceMapConsumerV3
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 170
+* Using seed 1629697921840
+* Starting evolution
+* Search finished after 304s and 235 generations, 42705 statements, best individual has fitness: 170.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 6%
+* Total number of goals: 170
+* Number of covered goals: 10
+* Generated 7 tests with total length 14
+* Resulting test suite's coverage: 6%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        304 / 300          Finished!
+	- ZeroFitness :                    171 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 8772ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'SourceMapConsumerV3_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

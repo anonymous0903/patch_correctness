@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.fraction.BigFraction
+* Starting client
+* Connecting to master process on port 15745
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_107875_1629397617/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.fraction.BigFraction
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 129
+* Using seed 1629397631270
+* Starting evolution
+* Search finished after 337s and 27 generations, 16953 statements, best individual has fitness: 0.5
+[MASTER] 11:32:51.818 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 37 seconds more than allowed.
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 129
+* Number of covered goals: 128
+* Generated 68 tests with total length 134
+* Resulting test suite's coverage: 99%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        360 / 300          Finished!
+	- ZeroFitness :                      1 / 0           
+* Time spent executing tests: 9743ms
+* Generating assertions
+* Resulting test suite's mutation score: 51%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'BigFraction_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,35 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.Partial
+* Starting client
+* Connecting to master process on port 17513
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_179923_1628360224/target/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.Partial
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 134
+* Using seed 1628360235234
+* Starting evolution
+* Search finished after 102s and 610 generations, 215693 statements, best individual has fitness: 1.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 134
+* Number of covered goals: 131
+* Generated 57 tests with total length 315
+* Resulting test suite's coverage: 98%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      2 / 0           
+	- MaxTime :                        106 / 100          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 34779ms
+* Generating assertions
+* Resulting test suite's mutation score: 46%
+* Writing JUnit test case 'Partial_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

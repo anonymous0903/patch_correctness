@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang.Entities
+* Starting client
+* Connecting to master process on port 7314
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_3/run_evosuite.pl_11745_1629559010/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.Entities
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 113
+* Using seed 1629559023951
+* Starting evolution
+[MASTER] 08:17:13.126 [logback-1] WARN  ClassResetter - class java.lang.reflect.InvocationTargetException thrown during execution of method  __STATIC_RESET() for class org.apache.commons.lang.Entities, java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+* Search finished after 305s and 2139 generations, 514100 statements, best individual has fitness: 2.833333333333333
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 91%
+* Total number of goals: 113
+* Number of covered goals: 103
+* Generated 26 tests with total length 98
+* Resulting test suite's coverage: 96%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        307 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                      3 / 0           
+* Time spent executing tests: 185231ms
+* Generating assertions
+* Resulting test suite's mutation score: 31%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 270
+* Writing JUnit test case 'Entities_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.LiveVariablesAnalysis
+* Starting client
+* Connecting to master process on port 9190
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5940_1629375282/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5940_1629375282/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5940_1629375282/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5940_1629375282/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5940_1629375282/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5940_1629375282/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5940_1629375282/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_5940_1629375282/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.LiveVariablesAnalysis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 82
+* Using seed 1629375298734
+* Starting evolution
+* Search finished after 301s and 1298 generations, 85686 statements, best individual has fitness: 74.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 15%
+* Total number of goals: 82
+* Number of covered goals: 12
+* Generated 7 tests with total length 40
+* Resulting test suite's coverage: 15%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     75 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        301 / 300          Finished!
+* Time spent executing tests: 50288ms
+* Generating assertions
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'LiveVariablesAnalysis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

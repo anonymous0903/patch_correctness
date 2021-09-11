@@ -1,0 +1,73 @@
+Ignoring interface org.joda.time.ReadablePeriod specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.joda.time.ReadableInstant specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.joda.time.DateTimeField specified via --classlist or --testclass.
+Ignoring interface org.joda.time.format.PeriodParser specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.joda.time.base.BasePeriod specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicMonthOfYearDateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.base.AbstractPeriod specified via --classlist or --testclass.
+Ignoring interface org.joda.time.tz.Provider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.joda.time.DateTimeFieldType specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.GJMonthOfYearDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.field.ImpreciseDateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.GJEraDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.DateTimeZone specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.field.BaseDateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicGJChronology specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.ISOYearOfEraDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.DurationField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.field.DecoratedDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.chrono.BaseChronology specified via --classlist or --testclass.
+Ignoring interface org.joda.time.ReadWritablePeriod specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class org.joda.time.chrono.GJYearOfEraDateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.GJDayOfWeekDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.field.PreciseDurationDateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicDayOfYearDateTimeField specified via --classlist or --testclass.
+Ignoring interface org.joda.time.format.PeriodPrinter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.joda.time.chrono.AssembledChronology specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.DurationFieldType specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.field.BaseDurationField specified via --classlist or --testclass.
+Ignoring interface org.joda.time.ReadableInterval specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class org.joda.time.chrono.BasicChronology specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.Chronology specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicYearDateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicDayOfMonthDateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicWeekyearDateTimeField specified via --classlist or --testclass.
+Ignoring interface org.joda.time.tz.NameProvider specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=666
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=3, test inputs generated=0, failing inputs=0      (Thu Aug 19 13:55:41 PDT 2021)
+Progress update: steps=1000, test inputs generated=627, failing inputs=0
+Progress update: steps=2000, test inputs generated=1304, failing inputs=0
+Progress update: steps=2463, test inputs generated=1680, failing inputs=0      (Thu Aug 19 13:56:41 PDT 2021)
+Progress update: steps=3000, test inputs generated=2116, failing inputs=0
+Progress update: steps=3949, test inputs generated=2883, failing inputs=0      (Thu Aug 19 13:57:41 PDT 2021)
+Progress update: steps=4000, test inputs generated=2927, failing inputs=0
+Progress update: steps=5000, test inputs generated=3769, failing inputs=0
+Progress update: steps=5217, test inputs generated=3950, failing inputs=0      (Thu Aug 19 13:58:41 PDT 2021)
+Progress update: steps=6000, test inputs generated=4625, failing inputs=0
+Progress update: steps=6222, test inputs generated=4823, failing inputs=0      (Thu Aug 19 13:59:41 PDT 2021)
+Progress update: steps=7000, test inputs generated=5504, failing inputs=0
+Progress update: steps=7297, test inputs generated=5765, failing inputs=0      (Thu Aug 19 14:00:41 PDT 2021)
+Progress update: steps=7297, test inputs generated=5766, failing inputs=0      (Thu Aug 19 14:00:41 PDT 2021)
+Normal method executions: 1845038
+Exceptional method executions: 1324
+
+Average method execution time (normal termination):      0.120
+Average method execution time (exceptional termination): 0.503
+
+Regression test output:
+Regression test count: 3259
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_114970_1629406528/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_114970_1629406528/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_114970_1629406528/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_114970_1629406528/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_114970_1629406528/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_114970_1629406528/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_114970_1629406528/randoop/RegressionTest6.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_114970_1629406528/randoop/RegressionTest.java
+
+Invalid tests generated: 0

@@ -1,0 +1,34 @@
+Ignoring abstract class org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.analysis.MultivariateMatrixFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.optimization.VectorialConvergenceChecker specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.analysis.DifferentiableMultivariateVectorialFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.optimization.DifferentiableMultivariateVectorialOptimizer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.analysis.MultivariateVectorialFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.exception.util.Localizable specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=107
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 26 08:18:51 PDT 2021)
+Progress update: steps=468, test inputs generated=379, failing inputs=0      (Thu Aug 26 08:19:51 PDT 2021)
+Progress update: steps=951, test inputs generated=736, failing inputs=0      (Thu Aug 26 08:20:51 PDT 2021)
+Progress update: steps=1000, test inputs generated=768, failing inputs=0
+Progress update: steps=1396, test inputs generated=1054, failing inputs=0      (Thu Aug 26 08:21:51 PDT 2021)
+Progress update: steps=1814, test inputs generated=1343, failing inputs=0      (Thu Aug 26 08:22:51 PDT 2021)
+Progress update: steps=2000, test inputs generated=1472, failing inputs=0
+Progress update: steps=2234, test inputs generated=1632, failing inputs=0      (Thu Aug 26 08:23:51 PDT 2021)
+Progress update: steps=2234, test inputs generated=1633, failing inputs=0      (Thu Aug 26 08:23:51 PDT 2021)
+Normal method executions: 3278278
+Exceptional method executions: 85
+
+Average method execution time (normal termination):      0.0810
+Average method execution time (exceptional termination): 0.445
+
+Regression test output:
+Regression test count: 821
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_69119_1629991114/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_69119_1629991114/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_69119_1629991114/randoop/RegressionTest.java
+
+Invalid tests generated: 0

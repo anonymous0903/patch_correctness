@@ -1,0 +1,72 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.VarCheck
+* Starting client
+* Connecting to master process on port 17936
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.VarCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 75
+* Using seed 1629723960125
+* Starting evolution
+* Search finished after 301s and 1409 generations, 169808 statements, best individual has fitness: 56.36378205128205
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 25%
+* Total number of goals: 75
+* Number of covered goals: 19
+* Generated 5 tests with total length 32
+* Resulting test suite's coverage: 25%
+* GA-Budget:
+	- MaxTime :                        304 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                     56 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 220339ms
+* Generating assertions
+* Resulting test suite's mutation score: 27%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'VarCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.Normalize
+* Starting client
+* Connecting to master process on port 11329
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_32254_1629723947/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.Normalize
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 228
+* Using seed 1629724282711
+* Starting evolution
+* Search finished after 598s and 2191 generations, 362527 statements, best individual has fitness: 177.0
+[MASTER] 06:21:27.076 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 297 seconds more than allowed.
+[MASTER] 06:26:23.196 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.Normalize. Clients have not finished yet, although timeout.
+ClientNode: INLINING
+
+* Computation finished
+[MASTER] 06:26:23.300 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 06:26:23.300 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 06:26:23.401 [main] ERROR TestGeneration - failed to write statistics data

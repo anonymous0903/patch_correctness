@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.optimization.direct.BOBYQAOptimizer
+* Starting client
+* Connecting to master process on port 15485
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_55639_1629427005/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.direct.BOBYQAOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 651
+* Using seed 1629427018479
+* Starting evolution
+* Search finished after 303s and 839 generations, 349098 statements, best individual has fitness: 360.72465437408874
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 42%
+* Total number of goals: 651
+* Number of covered goals: 273
+* Generated 12 tests with total length 106
+* Resulting test suite's coverage: 42%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        313 / 300          Finished!
+	- ZeroFitness :                    362 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 256778ms
+* Generating assertions
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'BOBYQAOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

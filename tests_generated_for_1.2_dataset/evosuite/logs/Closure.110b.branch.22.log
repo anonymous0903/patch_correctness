@@ -1,0 +1,76 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.rhino.Node
+* Starting client
+* Connecting to master process on port 19495
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/args4j.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/guava.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/protobuf-java.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/build/lib/rhino.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.Node
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 708
+* Using seed 1629835360372
+* Starting evolution
+* Search finished after 307s and 330 generations, 166520 statements, best individual has fitness: 126.51523409983741
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 13:09:00.776 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 13:17:41.137 [main] ERROR ExternalProcessHandler - Class com.google.javascript.rhino.Node. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+* Computation finished
+[MASTER] 13:17:41.238 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 13:17:41.238 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 13:17:41.339 [main] ERROR TestGeneration - failed to write statistics data
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ScopedAliases
+* Starting client
+* Connecting to master process on port 18981
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/args4j.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/guava.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/protobuf-java.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/build/lib/rhino.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_88764_1629835338/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ScopedAliases
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 161
+* Using seed 1629836265546
+* Starting evolution
+* Search finished after 302s and 177 generations, 31397 statements, best individual has fitness: 139.33333333286765
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 14%
+* Total number of goals: 161
+* Number of covered goals: 23
+* Generated 2 tests with total length 9
+* Resulting test suite's coverage: 14%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    139 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        312 / 300          Finished!
+* Time spent executing tests: 212122ms
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'ScopedAliases_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeCheck
+* Starting client
+* Connecting to master process on port 4821
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_13872_1629379649/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_13872_1629379649/lib/ant_deploy.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_13872_1629379649/lib/args4j_deploy.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_13872_1629379649/lib/guava-r06.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_13872_1629379649/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_13872_1629379649/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_13872_1629379649/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_13872_1629379649/lib/junit.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_13872_1629379649/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_13872_1629379649/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 909
+* Using seed 1629379660026
+* Starting evolution
+* Search finished after 305s and 1030 generations, 181674 statements, best individual has fitness: 565.1027870680044
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 36%
+* Total number of goals: 909
+* Number of covered goals: 325
+* Generated 112 tests with total length 900
+* Resulting test suite's coverage: 35%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                        360 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    573 / 0           
+* Time spent executing tests: 211416ms
+* Generating assertions
+* Resulting test suite's mutation score: 11%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'TypeCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

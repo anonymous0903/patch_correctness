@@ -1,0 +1,49 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.UnreachableCodeElimination
+* Starting client
+* Connecting to master process on port 5935
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_58680_1629730544/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_58680_1629730544/lib/ant-launcher.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_58680_1629730544/lib/ant.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_58680_1629730544/lib/args4j.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_58680_1629730544/lib/caja-r4314.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_58680_1629730544/lib/guava.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_58680_1629730544/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_58680_1629730544/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_58680_1629730544/lib/junit.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_58680_1629730544/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_0/run_evosuite.pl_58680_1629730544/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.UnreachableCodeElimination
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 71
+* Using seed 1629730558319
+* Starting evolution
+* Search finished after 302s and 594 generations, 73570 statements, best individual has fitness: 34.06144098297873
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 45%
+* Total number of goals: 71
+* Number of covered goals: 32
+* Generated 5 tests with total length 22
+* Resulting test suite's coverage: 46%
+* GA-Budget:
+	- MaxTime :                        306 / 300          Finished!
+	- ZeroFitness :                     34 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 137913ms
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve 8#$l?dSL8i|2-J6(V=: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'UnreachableCodeElimination_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

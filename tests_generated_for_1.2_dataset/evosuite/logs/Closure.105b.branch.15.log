@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.FoldConstants
+* Starting client
+* Connecting to master process on port 8246
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_120471_1629696785/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_120471_1629696785/lib/ant_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_120471_1629696785/lib/google_common_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_120471_1629696785/lib/hamcrest-core-1.1.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_120471_1629696785/lib/junit4-core.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_120471_1629696785/lib/junit4-legacy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_120471_1629696785/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_120471_1629696785/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FoldConstants
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 928
+* Using seed 1629696796497
+* Starting evolution
+* Search finished after 304s and 462 generations, 171429 statements, best individual has fitness: 742.3011654055454
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 19%
+* Total number of goals: 928
+* Number of covered goals: 180
+* Generated 49 tests with total length 270
+* Resulting test suite's coverage: 19%
+* GA-Budget:
+	- MaxTime :                        336 / 300          Finished!
+	- ZeroFitness :                    742 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 231923ms
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'FoldConstants_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

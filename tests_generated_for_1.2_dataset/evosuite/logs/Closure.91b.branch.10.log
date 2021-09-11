@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 12706
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_61682_1629759696/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_61682_1629759696/lib/ant_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_61682_1629759696/lib/args4j_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_61682_1629759696/lib/guava-r06.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_61682_1629759696/lib/hamcrest-core-1.1.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_61682_1629759696/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_61682_1629759696/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_61682_1629759696/lib/junit.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_61682_1629759696/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_61682_1629759696/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 67
+* Using seed 1629759710209
+* Starting evolution
+* Search finished after 302s and 4638 generations, 638307 statements, best individual has fitness: 48.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 24%
+* Total number of goals: 67
+* Number of covered goals: 16
+* Generated 7 tests with total length 38
+* Resulting test suite's coverage: 24%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        303 / 300          Finished!
+	- ZeroFitness :                     49 / 0           
+* Time spent executing tests: 157140ms
+* Generating assertions
+* Resulting test suite's mutation score: 6%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 14
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

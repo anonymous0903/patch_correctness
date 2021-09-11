@@ -1,0 +1,67 @@
+Ignoring interface org.joda.time.ReadableInstant specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.joda.time.format.DateTimeParser specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.joda.time.DateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicMonthOfYearDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.base.BaseDateTime specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField specified via --classlist or --testclass.
+Ignoring interface org.joda.time.tz.Provider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.joda.time.format.DateTimePrinter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.joda.time.DateTimeFieldType specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.GJMonthOfYearDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.field.ImpreciseDateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.GJEraDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.DateTimeZone specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.field.BaseDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.base.AbstractInstant specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicGJChronology specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.ISOYearOfEraDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.DurationField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.field.DecoratedDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.chrono.BaseChronology specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.GJYearOfEraDateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.GJDayOfWeekDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.field.PreciseDurationDateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicDayOfYearDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.chrono.AssembledChronology specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.DurationFieldType specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.field.BaseDurationField specified via --classlist or --testclass.
+Ignoring interface org.joda.time.ReadableInterval specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class org.joda.time.chrono.BasicChronology specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.Chronology specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicYearDateTimeField specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicDayOfMonthDateTimeField specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.base.AbstractDateTime specified via --classlist or --testclass.
+Ignoring non-visible class org.joda.time.chrono.BasicWeekyearDateTimeField specified via --classlist or --testclass.
+Ignoring interface org.joda.time.tz.NameProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.joda.time.ReadableDateTime specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=821
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sat Aug 07 06:44:39 PDT 2021)
+Progress update: steps=1000, test inputs generated=586, failing inputs=0
+Progress update: steps=1431, test inputs generated=927, failing inputs=0      (Sat Aug 07 06:45:39 PDT 2021)
+Progress update: steps=2000, test inputs generated=1366, failing inputs=0
+Progress update: steps=2277, test inputs generated=1568, failing inputs=0      (Sat Aug 07 06:46:39 PDT 2021)
+Progress update: steps=2931, test inputs generated=2084, failing inputs=0      (Sat Aug 07 06:47:39 PDT 2021)
+Progress update: steps=3000, test inputs generated=2133, failing inputs=0
+Progress update: steps=3631, test inputs generated=2643, failing inputs=0      (Sat Aug 07 06:48:39 PDT 2021)
+Progress update: steps=4000, test inputs generated=2942, failing inputs=0
+Progress update: steps=4191, test inputs generated=3100, failing inputs=0      (Sat Aug 07 06:49:39 PDT 2021)
+Progress update: steps=4191, test inputs generated=3101, failing inputs=0      (Sat Aug 07 06:49:39 PDT 2021)
+Normal method executions: 2295658
+Exceptional method executions: 649
+
+Average method execution time (normal termination):      0.0981
+Average method execution time (exceptional termination): 0.957
+
+Regression test output:
+Regression test count: 1781
+Writing JUnit tests...
+
+Created file /tmp/run_randoop.pl_91635_1628343869/randoop/RegressionTest0.java
+Created file /tmp/run_randoop.pl_91635_1628343869/randoop/RegressionTest1.java
+Created file /tmp/run_randoop.pl_91635_1628343869/randoop/RegressionTest2.java
+Created file /tmp/run_randoop.pl_91635_1628343869/randoop/RegressionTest3.java
+Created file /tmp/run_randoop.pl_91635_1628343869/randoop/RegressionTest.java
+
+Invalid tests generated: 0

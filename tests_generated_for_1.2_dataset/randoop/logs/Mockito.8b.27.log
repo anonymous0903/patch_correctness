@@ -1,0 +1,32 @@
+Ignoring abstract class org.mockito.internal.util.reflection.GenericMetadataSupport specified via --classlist or --testclass.
+PUBLIC MEMBERS=11
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sun Aug 08 13:47:58 PDT 2021)
+Progress update: steps=1000, test inputs generated=733, failing inputs=0
+Progress update: steps=1332, test inputs generated=965, failing inputs=0      (Sun Aug 08 13:48:58 PDT 2021)
+Progress update: steps=2000, test inputs generated=1442, failing inputs=0
+Progress update: steps=2332, test inputs generated=1687, failing inputs=0      (Sun Aug 08 13:49:58 PDT 2021)
+Progress update: steps=3000, test inputs generated=2159, failing inputs=0
+Progress update: steps=3266, test inputs generated=2338, failing inputs=0      (Sun Aug 08 13:50:58 PDT 2021)
+Progress update: steps=4000, test inputs generated=2853, failing inputs=0
+Progress update: steps=4102, test inputs generated=2931, failing inputs=0      (Sun Aug 08 13:51:58 PDT 2021)
+Progress update: steps=4958, test inputs generated=3514, failing inputs=0      (Sun Aug 08 13:52:58 PDT 2021)
+Progress update: steps=4958, test inputs generated=3515, failing inputs=0      (Sun Aug 08 13:52:59 PDT 2021)
+Normal method executions: 2547867
+Exceptional method executions: 96
+
+Average method execution time (normal termination):      0.0953
+Average method execution time (exceptional termination): 0.731
+
+Regression test output:
+Regression test count: 1761
+Writing JUnit tests...
+
+Created file /tmp/run_randoop.pl_75938_1628455548/randoop/RegressionTest0.java
+Created file /tmp/run_randoop.pl_75938_1628455548/randoop/RegressionTest1.java
+Created file /tmp/run_randoop.pl_75938_1628455548/randoop/RegressionTest2.java
+Created file /tmp/run_randoop.pl_75938_1628455548/randoop/RegressionTest3.java
+Created file /tmp/run_randoop.pl_75938_1628455548/randoop/RegressionTest.java
+
+Invalid tests generated: 0

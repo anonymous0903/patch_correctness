@@ -1,0 +1,93 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.FunctionType
+* Starting client
+* Connecting to master process on port 13715
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/ant_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/args4j_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/guava-r06.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/hamcrest-core-1.1.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/junit.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.FunctionType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 302
+* Using seed 1629753539525
+* Starting evolution
+* Search finished after 305s and 1470 generations, 510634 statements, best individual has fitness: 36.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 84%
+* Total number of goals: 302
+* Number of covered goals: 254
+* Generated 73 tests with total length 424
+* Resulting test suite's coverage: 83%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     36 / 0           
+	- MaxTime :                        376 / 300          Finished!
+* Time spent executing tests: 237294ms
+* Generating assertions
+[MASTER] 14:25:19.993 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 8 seconds more than allowed.
+* Resulting test suite's mutation score: 89%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'FunctionType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.FunctionTypeBuilder
+* Starting client
+* Connecting to master process on port 3230
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/ant_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/args4j_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/guava-r06.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/hamcrest-core-1.1.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/junit.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_67430_1629753527/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.FunctionTypeBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 243
+* Using seed 1629754012420
+* Starting evolution
+* Search finished after 302s and 1345 generations, 277559 statements, best individual has fitness: 163.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 31%
+* Total number of goals: 243
+* Number of covered goals: 75
+* Generated 26 tests with total length 143
+* Resulting test suite's coverage: 31%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    163 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        333 / 300          Finished!
+* Time spent executing tests: 248380ms
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'FunctionTypeBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

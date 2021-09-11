@@ -1,0 +1,705 @@
+Ignoring non-visible class com.google.javascript.jscomp.ProcessTweaks specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.PassConfig specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.PrototypeObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.SourceFile specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.TypeSafeDispatcher specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.LineNumberCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ChainableReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.graph.DiGraph specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.ObjectType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceAst specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckUnreachableCode specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.ScopeCreator specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.deps.DependencyInfo specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.FunctionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VariableReferenceCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodePrinter specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.GraphvizGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.AbstractMessageFormatter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.JSType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.Region specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnresolvedTypeExpression specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.SubGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.ControlFlowGraph specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SuppressDocWarningsGuard specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ControlFlowAnalysis specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ValueType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ProcessDefines specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.ErrorReporter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckGlobalNames specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodeConsumer specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticScope specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.UnreachableCodeElimination specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.Annotatable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.SemanticReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypeValidator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.NamedType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSlot specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckAccessControls specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CodingConvention specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CodeGenerator specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.PassFactory specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypedCodeGenerator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VarCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ReferenceCollectingCallback specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.MessageFormatter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.IndexedType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.RhinoErrorReporter specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.GraphNode specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.TypedScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SyntacticScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.Annotation specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ErrorFunctionType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ArrowType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ProxyObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.BasicErrorManager specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.PrepareAst specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.SourceMap specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ParameterizedType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.Annotation specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible interface com.google.javascript.jscomp.ReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.Tracer specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.Visitor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckSideEffects specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckRegExp specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.AdjacencyGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.WarningsGuard specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.ErrorManager specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.graph.Graph specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.CodeChangeHandler specified via --classlist or --testclass.
+PUBLIC MEMBERS=1684
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Tue Aug 24 08:05:25 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=1000, test inputs generated=397, failing inputs=0Aug 24, 2021 8:05:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:05:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:05:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:05:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:05:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:05:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=2000, test inputs generated=1055, failing inputs=0Aug 24, 2021 8:06:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=2075, test inputs generated=1109, failing inputs=0      (Tue Aug 24 08:06:25 PDT 2021)Aug 24, 2021 8:06:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:27 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 24, 2021 8:06:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:28 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: createSyntheticBlocks
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptOrFnNode.addParam(ScriptOrFnNode.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:06:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:06:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:06:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:06:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:06:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:06:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=3000, test inputs generated=1704, failing inputs=0Aug 24, 2021 8:07:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:08 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: createSyntheticBlocks
+Aug 24, 2021 8:07:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=3413, test inputs generated=1985, failing inputs=0      (Tue Aug 24 08:07:25 PDT 2021)Aug 24, 2021 8:07:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:07:46 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing eol: Compilation produced 1 syntax errors. (eol#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:07:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:07:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:07:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:07:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:08:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:08:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:08:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=4000, test inputs generated=2372, failing inputs=0Aug 24, 2021 8:08:04 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing eol: Compilation produced 1 syntax errors. (eol#1)
+Aug 24, 2021 8:08:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing eol: Compilation produced 1 syntax errors. (eol#1)
+Aug 24, 2021 8:08:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:08:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:08:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:08:18 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing eol: Compilation produced 1 syntax errors. (eol#1)
+Aug 24, 2021 8:08:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:08:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:08:24 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: createSyntheticBlocks
+Aug 24, 2021 8:08:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=4388, test inputs generated=2637, failing inputs=0      (Tue Aug 24 08:08:25 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:08:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:08:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:08:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:08:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:08:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=5000, test inputs generated=3029, failing inputs=0Aug 24, 2021 8:09:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:09:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:09:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:09:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:09:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:09:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:09:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:09:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=5525, test inputs generated=3371, failing inputs=0      (Tue Aug 24 08:09:25 PDT 2021)Aug 24, 2021 8:09:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:09:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:09:35 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:09:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing eol: Compilation produced 1 syntax errors. (eol#1)
+Aug 24, 2021 8:09:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:09:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptOrFnNode.setBaseLineno(ScriptOrFnNode.java:73)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=6000, test inputs generated=3682, failing inputs=0Aug 24, 2021 8:09:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:09:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:09:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:09:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:09:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:09:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptOrFnNode.setBaseLineno(ScriptOrFnNode.java:73)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:10:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:10:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:10:06 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: createSyntheticBlocks
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptOrFnNode.addParam(ScriptOrFnNode.java:163)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:10:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:10:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 8:10:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: TypeError: Not declared as a type name
+
+Aug 24, 2021 8:10:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 24, 2021 8:10:18 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+
+Progress update: steps=6601, test inputs generated=4092, failing inputs=0      (Tue Aug 24 08:10:25 PDT 2021)
+Normal method executions: 2124033
+Exceptional method executions: 551
+
+Average method execution time (normal termination):      0.0973
+Average method execution time (exceptional termination): 1.45
+
+Regression test output:
+Regression test count: 2152
+Writing JUnit tests...
+                                                                                                                                                                                                       
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_137436_1629817510/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_137436_1629817510/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_137436_1629817510/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_137436_1629817510/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_137436_1629817510/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_137436_1629817510/randoop/RegressionTest.java
+
+Invalid tests generated: 0

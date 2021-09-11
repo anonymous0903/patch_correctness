@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.base.BasePeriod
+* Starting client
+* Connecting to master process on port 19332
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_1/run_evosuite.pl_28639_1629491589/build/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.base.BasePeriod
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 78
+* Using seed 1629491600794
+* Starting evolution
+* Search finished after 301s and 3857 generations, 583394 statements, best individual has fitness: 1.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 78
+* Number of covered goals: 76
+* Generated 31 tests with total length 103
+* Resulting test suite's coverage: 97%
+* GA-Budget:
+	- MaxTime :                        302 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                      1 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 162248ms
+* Generating assertions
+* Resulting test suite's mutation score: 18%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'BasePeriod_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,35 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optimization.univariate.BrentOptimizer
+* Starting client
+* Connecting to master process on port 15592
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_2/run_evosuite.pl_178221_1629496473/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optimization.univariate.BrentOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 75
+* Using seed 1629496486612
+* Starting evolution
+* Search finished after 781s and 2952 generations, 369085 statements, best individual has fitness: 3.0
+[MASTER] 15:07:51.544 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 481 seconds more than allowed.
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 75
+* Number of covered goals: 71
+* Generated 11 tests with total length 49
+* Resulting test suite's coverage: 95%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                      3 / 0           
+	- MaxTime :                        784 / 300          Finished!
+* Time spent executing tests: 80797ms
+* Generating assertions
+* Resulting test suite's mutation score: 51%
+* Writing JUnit test case 'BrentOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

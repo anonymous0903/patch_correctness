@@ -1,0 +1,46 @@
+Ignoring interface org.apache.commons.math3.exception.util.Localizable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.optimization.BaseMultivariateSimpleBoundsOptimizer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.MultivariateFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateSimpleBoundsOptimizer specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.linear.RealMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.optimization.MultivariateOptimizer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.exception.util.ExceptionContextProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.random.RandomGenerator specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.optimization.BaseOptimizer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.optimization.direct.BaseAbstractMultivariateOptimizer specified via --classlist or --testclass.
+Ignoring abstract class org.apache.commons.math3.optimization.AbstractConvergenceChecker specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.linear.AnyMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.optimization.BaseMultivariateOptimizer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.optimization.ConvergenceChecker specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.random.BitsStreamGenerator specified via --classlist or --testclass.
+PUBLIC MEMBERS=520
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 26 04:19:11 PDT 2021)
+Progress update: steps=1000, test inputs generated=953, failing inputs=0
+Progress update: steps=1238, test inputs generated=1176, failing inputs=0      (Thu Aug 26 04:20:11 PDT 2021)
+Progress update: steps=2000, test inputs generated=1888, failing inputs=0
+Progress update: steps=2051, test inputs generated=1935, failing inputs=0      (Thu Aug 26 04:21:11 PDT 2021)
+Progress update: steps=2493, test inputs generated=2350, failing inputs=0      (Thu Aug 26 04:22:11 PDT 2021)
+Progress update: steps=2804, test inputs generated=2641, failing inputs=0      (Thu Aug 26 04:23:11 PDT 2021)
+Progress update: steps=3000, test inputs generated=2820, failing inputs=0
+Progress update: steps=3171, test inputs generated=2981, failing inputs=0      (Thu Aug 26 04:24:11 PDT 2021)
+Progress update: steps=3171, test inputs generated=2982, failing inputs=0      (Thu Aug 26 04:24:12 PDT 2021)
+Normal method executions: 733642
+Exceptional method executions: 140
+
+Average method execution time (normal termination):      0.333
+Average method execution time (exceptional termination): 4.46
+
+Regression test output:
+Regression test count: 2158
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_13966_1629976723/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_13966_1629976723/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_13966_1629976723/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_13966_1629976723/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_13966_1629976723/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_13966_1629976723/randoop/RegressionTest.java
+
+Invalid tests generated: 0

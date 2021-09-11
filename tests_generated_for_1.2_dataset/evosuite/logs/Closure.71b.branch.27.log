@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckAccessControls
+* Starting client
+* Connecting to master process on port 13270
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_29965_1629444574/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_29965_1629444574/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_29965_1629444574/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_29965_1629444574/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_29965_1629444574/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_29965_1629444574/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_29965_1629444574/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_29965_1629444574/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckAccessControls
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 230
+* Using seed 1629444585890
+* Starting evolution
+[MASTER] 00:32:31.714 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 00:32:46.473 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 303s and 1341 generations, 208381 statements, best individual has fitness: 224.25
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 7%
+* Total number of goals: 230
+* Number of covered goals: 16
+* Generated 5 tests with total length 32
+* Resulting test suite's coverage: 7%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        305 / 300          Finished!
+	- ZeroFitness :                    224 / 0           
+* Time spent executing tests: 107065ms
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'CheckAccessControls_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,33 @@
+Ignoring abstract class org.apache.commons.math.optimization.general.AbstractLeastSquaresOptimizer specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.analysis.MultivariateMatrixFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.optimization.VectorialConvergenceChecker specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.analysis.DifferentiableMultivariateVectorialFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.optimization.DifferentiableMultivariateVectorialOptimizer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.analysis.MultivariateVectorialFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.exception.util.Localizable specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=107
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sat Aug 07 23:02:28 PDT 2021)
+Progress update: steps=428, test inputs generated=316, failing inputs=0      (Sat Aug 07 23:03:28 PDT 2021)
+Progress update: steps=804, test inputs generated=588, failing inputs=0      (Sat Aug 07 23:04:28 PDT 2021)
+Progress update: steps=1000, test inputs generated=720, failing inputs=0
+Progress update: steps=1200, test inputs generated=863, failing inputs=0      (Sat Aug 07 23:05:28 PDT 2021)
+Progress update: steps=1542, test inputs generated=1110, failing inputs=0      (Sat Aug 07 23:06:28 PDT 2021)
+Progress update: steps=1949, test inputs generated=1386, failing inputs=0      (Sat Aug 07 23:07:28 PDT 2021)
+Progress update: steps=1949, test inputs generated=1387, failing inputs=0      (Sat Aug 07 23:07:29 PDT 2021)
+Normal method executions: 2832446
+Exceptional method executions: 86
+
+Average method execution time (normal termination):      0.0930
+Average method execution time (exceptional termination): 0.403
+
+Regression test output:
+Regression test count: 707
+Writing JUnit tests...
+
+Created file /tmp/run_randoop.pl_102706_1628402538/randoop/RegressionTest0.java
+Created file /tmp/run_randoop.pl_102706_1628402538/randoop/RegressionTest1.java
+Created file /tmp/run_randoop.pl_102706_1628402538/randoop/RegressionTest.java
+
+Invalid tests generated: 0

@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.stat.inference.ChiSquareTestImpl
+* Starting client
+* Connecting to master process on port 9711
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_5/run_evosuite.pl_71917_1629547779/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.stat.inference.ChiSquareTestImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 93
+* Using seed 1629547791077
+* Starting evolution
+* Search finished after 301s and 5661 generations, 4605064 statements, best individual has fitness: 0.6666666666666666
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 99%
+* Total number of goals: 93
+* Number of covered goals: 92
+* Generated 26 tests with total length 138
+* Resulting test suite's coverage: 99%
+* GA-Budget:
+	- ZeroFitness :                      1 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        302 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 114518ms
+* Generating assertions
+* Resulting test suite's mutation score: 31%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'ChiSquareTestImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

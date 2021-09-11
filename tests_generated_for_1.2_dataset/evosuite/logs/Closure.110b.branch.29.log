@@ -1,0 +1,91 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.rhino.Node
+* Starting client
+* Connecting to master process on port 8503
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/args4j.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/guava.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/protobuf-java.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/build/lib/rhino.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.Node
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 708
+* Using seed 1629842915240
+* Starting evolution
+* Search finished after 305s and 781 generations, 377986 statements, best individual has fitness: 90.9608087813011
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 15:15:02.524 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 82%
+* Total number of goals: 714
+* Number of covered goals: 584
+* Generated 625 tests with total length 10003
+* Resulting test suite's coverage: 82%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     93 / 0           
+	- MaxTime :                        393 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 180953ms
+* Generating assertions
+[MASTER] 15:15:14.065 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 25 seconds more than allowed.
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'Node_ESTest' to evosuite-branch
+[MASTER] 15:21:26.303 [logback-1] WARN  TimeController - Phase WRITING_TESTS lasted too long, 9 seconds more than allowed.
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ScopedAliases
+* Starting client
+* Connecting to master process on port 12863
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/args4j.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/guava.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/protobuf-java.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/build/lib/rhino.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_18485_1629842895/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ScopedAliases
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 161
+* Using seed 1629843690909
+* Starting evolution
+* Search finished after 304s and 278 generations, 37756 statements, best individual has fitness: 141.33333333286765
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 13%
+* Total number of goals: 161
+* Number of covered goals: 21
+* Generated 2 tests with total length 11
+* Resulting test suite's coverage: 13%
+* GA-Budget:
+	- ZeroFitness :                    141 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        305 / 300          Finished!
+* Time spent executing tests: 43704ms
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'ScopedAliases_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

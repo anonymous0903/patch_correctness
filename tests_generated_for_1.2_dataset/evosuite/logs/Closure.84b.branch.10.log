@@ -1,0 +1,49 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 7529
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_84_10/run_evosuite.pl_21654_1629978056/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_84_10/run_evosuite.pl_21654_1629978056/lib/ant-launcher.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_84_10/run_evosuite.pl_21654_1629978056/lib/ant.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_84_10/run_evosuite.pl_21654_1629978056/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_84_10/run_evosuite.pl_21654_1629978056/lib/caja-r4314.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_84_10/run_evosuite.pl_21654_1629978056/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_84_10/run_evosuite.pl_21654_1629978056/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_84_10/run_evosuite.pl_21654_1629978056/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_84_10/run_evosuite.pl_21654_1629978056/lib/junit.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_84_10/run_evosuite.pl_21654_1629978056/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_84_10/run_evosuite.pl_21654_1629978056/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 506
+* Using seed 1629978065577
+* Starting evolution
+[MASTER] 04:41:12.590 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 305s and 1548 generations, 413872 statements, best individual has fitness: 246.93292654120745
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 49%
+* Total number of goals: 506
+* Number of covered goals: 246
+* Generated 40 tests with total length 223
+* Resulting test suite's coverage: 49%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    248 / 0           
+	- MaxTime :                        392 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 262728ms
+* Generating assertions
+[MASTER] 04:47:41.903 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 21 seconds more than allowed.
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

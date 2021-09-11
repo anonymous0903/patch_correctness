@@ -1,0 +1,47 @@
+Ignoring interface org.joda.time.ReadableInstant specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.joda.time.tz.Provider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.joda.time.DateTimeZone specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.chrono.BaseChronology specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.chrono.AssembledChronology specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.Chronology specified via --classlist or --testclass.
+Ignoring interface org.joda.time.tz.NameProvider specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=129
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Fri Aug 20 04:19:40 PDT 2021)
+Progress update: steps=1000, test inputs generated=866, failing inputs=0
+Progress update: steps=1785, test inputs generated=1586, failing inputs=0      (Fri Aug 20 04:20:40 PDT 2021)
+Progress update: steps=2000, test inputs generated=1786, failing inputs=0
+Progress update: steps=3000, test inputs generated=2681, failing inputs=0
+Progress update: steps=3201, test inputs generated=2865, failing inputs=0      (Fri Aug 20 04:21:40 PDT 2021)
+Progress update: steps=4000, test inputs generated=3590, failing inputs=0
+Progress update: steps=5000, test inputs generated=4488, failing inputs=0
+Progress update: steps=5232, test inputs generated=4700, failing inputs=0      (Fri Aug 20 04:22:40 PDT 2021)
+Progress update: steps=6000, test inputs generated=5389, failing inputs=0
+Progress update: steps=7000, test inputs generated=6303, failing inputs=0
+Progress update: steps=7216, test inputs generated=6498, failing inputs=0      (Fri Aug 20 04:23:40 PDT 2021)
+Progress update: steps=8000, test inputs generated=7190, failing inputs=0
+Progress update: steps=8981, test inputs generated=8078, failing inputs=0      (Fri Aug 20 04:24:40 PDT 2021)
+Progress update: steps=8981, test inputs generated=8079, failing inputs=0      (Fri Aug 20 04:24:40 PDT 2021)
+Normal method executions: 1416305
+Exceptional method executions: 1095
+
+Average method execution time (normal termination):      0.145
+Average method execution time (exceptional termination): 0.839
+
+Regression test output:
+Regression test count: 4275
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_167481_1629458368/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_167481_1629458368/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_167481_1629458368/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_167481_1629458368/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_167481_1629458368/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_167481_1629458368/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_167481_1629458368/randoop/RegressionTest6.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_167481_1629458368/randoop/RegressionTest7.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_167481_1629458368/randoop/RegressionTest8.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_167481_1629458368/randoop/RegressionTest.java
+
+Invalid tests generated: 0

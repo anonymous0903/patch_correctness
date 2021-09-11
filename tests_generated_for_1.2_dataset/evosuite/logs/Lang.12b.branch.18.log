@@ -1,0 +1,51 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.RandomStringUtils
+* Starting client
+* Connecting to master process on port 19412
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Lang_12_18/run_evosuite.pl_20601_1629982068/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.RandomStringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 57
+* Using seed 1629982079818
+* Starting evolution
+* Search finished after 310s and 79 generations, 45213 statements, best individual has fitness: 7.499589114820497
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 05:54:36.852 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 82%
+* Total number of goals: 57
+* Number of covered goals: 47
+* Generated 54 tests with total length 123
+* Resulting test suite's coverage: 86%
+* GA-Budget:
+	- MaxTime :                        429 / 300          Finished!
+	- ZeroFitness :                      7 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 366378ms
+* Generating assertions
+[MASTER] 05:55:11.470 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 49 seconds more than allowed.
+[MASTER] 05:56:39.791 [main] ERROR ExternalProcessHandler - Class org.apache.commons.lang3.RandomStringUtils. Lost connection with clients.
+ClientNode: ASSERTION_GENERATION
+The JVM of the client process did crash:
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007fbdcd0dbba2, pid=21549, tid=140452822984448
+#
+# JRE version: Java(TM) SE Runtime Environment (7.0_80-b15) (build 1.7.0_80-b15)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.80-b11 mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# J 687 C2 java.lang.Character.isLetter(C)Z (5 bytes) @ 0x00007fbdcd0dbba2 [0x00007fbdcd0dbb20+0x82]
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+* Computation finished

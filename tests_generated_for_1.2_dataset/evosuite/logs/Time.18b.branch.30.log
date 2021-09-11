@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.chrono.GJChronology
+* Starting client
+* Connecting to master process on port 6240
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_1/run_evosuite.pl_114961_1629471086/build/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.chrono.GJChronology
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 193
+* Using seed 1629471097050
+* Starting evolution
+* Search finished after 302s and 2018 generations, 353425 statements, best individual has fitness: 65.49999999627471
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 60%
+* Total number of goals: 193
+* Number of covered goals: 115
+* Generated 27 tests with total length 103
+* Resulting test suite's coverage: 69%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     65 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        328 / 300          Finished!
+* Time spent executing tests: 196275ms
+* Generating assertions
+* Resulting test suite's mutation score: 31%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'GJChronology_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

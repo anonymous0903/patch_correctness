@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.complex.Complex
+* Starting client
+* Connecting to master process on port 21200
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_23844_1629479448/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.complex.Complex
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 155
+* Using seed 1629479462957
+* Starting evolution
+* Search finished after 301s and 5655 generations, 516619 statements, best individual has fitness: 12.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 155
+* Number of covered goals: 143
+* Generated 70 tests with total length 157
+* Resulting test suite's coverage: 92%
+* GA-Budget:
+	- ZeroFitness :                     12 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        303 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 110374ms
+* Generating assertions
+[MASTER] 10:16:13.206 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.util.FastMath, null
+* Resulting test suite's mutation score: 27%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'Complex_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

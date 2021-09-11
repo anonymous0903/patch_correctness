@@ -1,0 +1,48 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 11703
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_112206_1629787738/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_112206_1629787738/lib/ant_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_112206_1629787738/lib/args4j_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_112206_1629787738/lib/guava-r06.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_112206_1629787738/lib/hamcrest-core-1.1.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_112206_1629787738/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_112206_1629787738/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_112206_1629787738/lib/junit.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_112206_1629787738/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_112206_1629787738/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 530
+* Using seed 1629787750702
+* Starting evolution
+* Search finished after 304s and 1127 generations, 180478 statements, best individual has fitness: 409.2040184453228
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 22%
+* Total number of goals: 530
+* Number of covered goals: 114
+* Generated 14 tests with total length 87
+* Resulting test suite's coverage: 22%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        323 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                    409 / 0           
+* Time spent executing tests: 260305ms
+* Generating assertions
+* Resulting test suite's mutation score: 9%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve TypedScopeCreator: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 12
+* Writing JUnit test case 'TypedScopeCreator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

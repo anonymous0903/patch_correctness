@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.StringUtils
+* Starting client
+* Connecting to master process on port 7529
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Lang_20_15/run_evosuite.pl_5102_1629967627/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.StringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1187
+* Using seed 1629967637943
+* Starting evolution
+* Search finished after 313s and 475 generations, 408814 statements, best individual has fitness: 65.62096029820755
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 1187
+* Number of covered goals: 1105
+* Generated 437 tests with total length 560
+* Resulting test suite's coverage: 93%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     67 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        381 / 300          Finished!
+* Time spent executing tests: 226753ms
+* Generating assertions
+* Resulting test suite's mutation score: 18%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 13
+* Writing JUnit test case 'StringUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

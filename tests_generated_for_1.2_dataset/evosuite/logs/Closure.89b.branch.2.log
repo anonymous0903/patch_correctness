@@ -1,0 +1,94 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.GlobalNamespace
+* Starting client
+* Connecting to master process on port 12015
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/ant-launcher.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/ant.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/args4j.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/guava.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/junit.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.GlobalNamespace
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 408
+* Using seed 1629712882627
+* Starting evolution
+* Search finished after 303s and 1756 generations, 291314 statements, best individual has fitness: 241.63600891861762
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 41%
+* Total number of goals: 408
+* Number of covered goals: 167
+* Generated 51 tests with total length 204
+* Resulting test suite's coverage: 41%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    242 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        308 / 300          Finished!
+* Time spent executing tests: 161372ms
+* Generating assertions
+* Resulting test suite's mutation score: 14%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'GlobalNamespace_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CollapseProperties
+* Starting client
+* Connecting to master process on port 11615
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/ant-launcher.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/ant.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/args4j.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/guava.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/junit.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_1/run_evosuite.pl_166596_1629712867/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CollapseProperties
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 232
+* Using seed 1629713224821
+* Starting evolution
+* Search finished after 301s and 1046 generations, 112112 statements, best individual has fitness: 236.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 4%
+* Total number of goals: 232
+* Number of covered goals: 9
+* Generated 2 tests with total length 6
+* Resulting test suite's coverage: 4%
+* GA-Budget:
+	- ZeroFitness :                    236 / 0           
+	- MaxTime :                        302 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 243164ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve k]3&qr!.ue#{We!d83: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'CollapseProperties_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

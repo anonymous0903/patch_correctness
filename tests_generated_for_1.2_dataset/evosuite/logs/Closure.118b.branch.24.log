@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.DisambiguateProperties
+* Starting client
+* Connecting to master process on port 8564
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_182253_1629730406/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_182253_1629730406/lib/args4j.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_182253_1629730406/lib/guava.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_182253_1629730406/lib/json.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_182253_1629730406/lib/jsr305.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_182253_1629730406/lib/protobuf-java.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_182253_1629730406/build/lib/rhino.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_4/run_evosuite.pl_182253_1629730406/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.DisambiguateProperties
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 371
+* Using seed 1629730426836
+* Starting evolution
+* Search finished after 301s and 654 generations, 69651 statements, best individual has fitness: 409.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 1%
+* Total number of goals: 371
+* Number of covered goals: 4
+* Generated 3 tests with total length 4
+* Resulting test suite's coverage: 1%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    409 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 22245ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'DisambiguateProperties_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

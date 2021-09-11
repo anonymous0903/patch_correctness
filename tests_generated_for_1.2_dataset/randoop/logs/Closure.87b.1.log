@@ -1,0 +1,2983 @@
+Ignoring abstract class com.google.javascript.jscomp.PassConfig specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.PrototypeObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.SourceFile specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.TypeSafeDispatcher specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.LineNumberCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ChainableReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.graph.DiGraph specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.ObjectType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceAst specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckUnreachableCode specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.ScopeCreator specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.deps.DependencyInfo specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.FunctionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VariableReferenceCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodePrinter specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.GraphvizGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.AbstractMessageFormatter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.JSType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.Region specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnresolvedTypeExpression specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.AbstractPeepholeOptimization specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ControlFlowGraph specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SuppressDocWarningsGuard specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ValueType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ProcessDefines specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.ErrorReporter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckGlobalNames specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodeConsumer specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticScope specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.SemanticReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypeValidator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.NamedType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckAccessControls specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CodingConvention specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CodeGenerator specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.PassFactory specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypedCodeGenerator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VarCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ReferenceCollectingCallback specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.MessageFormatter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.IndexedType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.RhinoErrorReporter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.PeepholeOptimizationsPass specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypedScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SyntacticScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.Annotation specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ErrorFunctionType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ArrowType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ProxyObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.BasicErrorManager specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.PrepareAst specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.SourceMap specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ParameterizedType specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.ReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.Tracer specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.Visitor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckSideEffects specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckRegExp specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.AdjacencyGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.WarningsGuard specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.ErrorManager specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.graph.Graph specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.CodeChangeHandler specified via --classlist or --testclass.
+PUBLIC MEMBERS=1645
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 04:00:08 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=1000, test inputs generated=302, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:234)
+	at com.google.javascript.rhino.Node.toString(Node.java:977)
+	at com.google.javascript.rhino.Node.toString(Node.java:917)
+	at com.google.javascript.rhino.Node.toString(Node.java:908)
+	at java.lang.String.valueOf(String.java:2849)
+	at java.lang.StringBuilder.append(StringBuilder.java:128)
+	at com.google.javascript.rhino.Node.getString(Node.java:892)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:00:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:234)
+	at com.google.javascript.rhino.Node.toString(Node.java:977)
+	at com.google.javascript.rhino.Node.toString(Node.java:917)
+	at com.google.javascript.rhino.Node.toString(Node.java:908)
+	at com.google.javascript.rhino.Node.toStringTreeHelper(Node.java:1066)
+	at com.google.javascript.rhino.Node.appendStringTree(Node.java:1057)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:234)
+	at com.google.javascript.rhino.Node.toString(Node.java:977)
+	at com.google.javascript.rhino.Node.toString(Node.java:917)
+	at com.google.javascript.rhino.Node.toString(Node.java:908)
+	at java.lang.String.valueOf(String.java:2849)
+	at java.lang.StringBuilder.append(StringBuilder.java:128)
+	at com.google.javascript.rhino.Node.getString(Node.java:892)
+	at com.google.javascript.jscomp.GoogleCodingConvention.isVarArgsParameter(GoogleCodingConvention.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:234)
+	at com.google.javascript.rhino.Node.toString(Node.java:977)
+	at com.google.javascript.rhino.Node.toString(Node.java:917)
+	at com.google.javascript.rhino.Node.toString(Node.java:908)
+	at java.lang.String.valueOf(String.java:2849)
+	at java.lang.StringBuilder.append(StringBuilder.java:128)
+	at com.google.javascript.rhino.Node.getDouble(Node.java:872)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:00:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:27 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 4:00:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:00:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:00:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:00:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:00:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:234)
+	at com.google.javascript.rhino.Node.toString(Node.java:977)
+	at com.google.javascript.rhino.Node.toString(Node.java:917)
+	at com.google.javascript.rhino.Node.toString(Node.java:908)
+	at java.lang.String.valueOf(String.java:2849)
+	at java.lang.StringBuilder.append(StringBuilder.java:128)
+	at com.google.javascript.rhino.Node.getString(Node.java:892)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+
+Progress update: steps=2000, test inputs generated=843, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:00:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:41 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 4:00:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:234)
+	at com.google.javascript.rhino.Node.toString(Node.java:977)
+	at com.google.javascript.rhino.Node.toString(Node.java:917)
+	at com.google.javascript.rhino.Node.toString(Node.java:908)
+	at java.lang.String.valueOf(String.java:2849)
+	at java.lang.StringBuilder.append(StringBuilder.java:128)
+	at com.google.javascript.rhino.Node.getString(Node.java:892)
+	at com.google.javascript.jscomp.GoogleCodingConvention.isOptionalParameter(GoogleCodingConvention.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:00:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:00:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:01:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+
+Progress update: steps=2395, test inputs generated=1119, failing inputs=0      (Mon Aug 23 04:01:08 PDT 2021)Aug 23, 2021 4:01:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:234)
+	at com.google.javascript.rhino.Node.toString(Node.java:977)
+	at com.google.javascript.rhino.Node.toString(Node.java:917)
+	at com.google.javascript.rhino.Node.toString(Node.java:908)
+	at com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodesInternal(JSTypeRegistry.java:1526)
+	at com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodes(JSTypeRegistry.java:1352)
+	at com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodes(JSTypeRegistry.java:1331)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:01:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:01:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 4:01:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:01:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:01:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:01:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 4:01:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptOrFnNode.setEndLineno(ScriptOrFnNode.java:81)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:01:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:01:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:01:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:01:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:01:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=3000, test inputs generated=1562, failing inputs=0Aug 23, 2021 4:01:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 4:01:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:01:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:01:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:01:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:01:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 4:02:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=3130, test inputs generated=1642, failing inputs=0      (Mon Aug 23 04:02:08 PDT 2021)Aug 23, 2021 4:02:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:02:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:02:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:02:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:02:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:02:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:02:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:02:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:02:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:02:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 4:02:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:02:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:02:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:02:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:02:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:02:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:02:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:02:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:02:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:02:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:02:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:03:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:03:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:03:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 4:03:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+
+Progress update: steps=3834, test inputs generated=2115, failing inputs=0      (Mon Aug 23 04:03:08 PDT 2021)Aug 23, 2021 4:03:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: 
+
+Aug 23, 2021 4:03:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:03:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 4:03:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=4000, test inputs generated=2235, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:03:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:20 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:25 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:03:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:234)
+	at com.google.javascript.rhino.Node.toString(Node.java:977)
+	at com.google.javascript.rhino.Node.toString(Node.java:917)
+	at com.google.javascript.rhino.Node.toString(Node.java:908)
+	at java.lang.String.valueOf(String.java:2849)
+	at java.lang.StringBuilder.append(StringBuilder.java:128)
+	at com.google.javascript.rhino.Node.getString(Node.java:892)
+	at com.google.javascript.jscomp.GoogleCodingConvention.isOptionalParameter(GoogleCodingConvention.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:03:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:03:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:03:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2228)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:03:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:03:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:03:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:03:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:03:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:03:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:03:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:03:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:59 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 4:03:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:03:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:03:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 4:04:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+
+Progress update: steps=4566, test inputs generated=2606, failing inputs=0      (Mon Aug 23 04:04:08 PDT 2021)Aug 23, 2021 4:04:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: 
+
+Aug 23, 2021 4:04:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:234)
+	at com.google.javascript.rhino.Node.toString(Node.java:977)
+	at com.google.javascript.rhino.Node.toString(Node.java:917)
+	at com.google.javascript.rhino.Node.toString(Node.java:908)
+	at java.lang.String.valueOf(String.java:2849)
+	at java.lang.StringBuilder.append(StringBuilder.java:128)
+	at com.google.javascript.rhino.Node.setString(Node.java:902)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:04:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:234)
+	at com.google.javascript.rhino.Node.toString(Node.java:977)
+	at com.google.javascript.rhino.Node.toString(Node.java:917)
+	at com.google.javascript.rhino.Node.toString(Node.java:908)
+	at com.google.javascript.rhino.Node.toStringTreeHelper(Node.java:1066)
+	at com.google.javascript.rhino.Node.appendStringTree(Node.java:1057)
+	at com.google.javascript.rhino.Node.toStringTreeImpl(Node.java:1049)
+	at com.google.javascript.rhino.Node.toStringTree(Node.java:1043)
+	at com.google.javascript.jscomp.CodeGenerator.add(CodeGenerator.java:693)
+	at com.google.javascript.jscomp.CodeGenerator.add(CodeGenerator.java:72)
+	at com.google.javascript.jscomp.CodePrinter.toSource(CodePrinter.java:610)
+	at com.google.javascript.jscomp.CodePrinter.access$100(CodePrinter.java:34)
+	at com.google.javascript.jscomp.CodePrinter$Builder.build(CodePrinter.java:577)
+	at com.google.javascript.jscomp.Compiler.toSource(Compiler.java:1443)
+	at com.google.javascript.jscomp.Compiler.access$400(Compiler.java:65)
+	at com.google.javascript.jscomp.Compiler$9.call(Compiler.java:1407)
+	at com.google.javascript.jscomp.Compiler$9.call(Compiler.java:1373)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:572)
+	at java.lang.Thread.run(Thread.java:745)
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+
+Progress update: steps=5000, test inputs generated=2902, failing inputs=0Aug 23, 2021 4:04:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:04:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:04:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:04:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:04:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:04:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:05:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:05:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:05:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:05:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 4:05:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:05:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:05:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:05:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:05:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:05:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:05:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:05:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:05:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:05:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:05:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:05:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:05:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:05:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:05:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:05:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 4:05:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: 
+
+Aug 23, 2021 4:05:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 4:05:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: Not declared as a type name
+
+Aug 23, 2021 4:05:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: goog.exportProperty
+
+Aug 23, 2021 4:05:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 4:05:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 5 error(s), 0 warning(s)
+Aug 23, 2021 4:05:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 4:05:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptOrFnNode.setBaseLineno(ScriptOrFnNode.java:73)
+	at sun.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=5262, test inputs generated=3084, failing inputs=0      (Mon Aug 23 04:05:08 PDT 2021)
+Normal method executions: 2234763
+Exceptional method executions: 512
+
+Average method execution time (normal termination):      0.102
+Average method execution time (exceptional termination): 1.31
+                                                                                                                                                                                                       
+Regression test output:
+Regression test count: 1687
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_3/run_randoop.pl_126291_1629716393/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_3/run_randoop.pl_126291_1629716393/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_3/run_randoop.pl_126291_1629716393/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_3/run_randoop.pl_126291_1629716393/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_3/run_randoop.pl_126291_1629716393/randoop/RegressionTest.java
+
+Invalid tests generated: 0

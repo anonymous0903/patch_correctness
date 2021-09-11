@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+* Starting client
+* Connecting to master process on port 19664
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_114438_1629493755/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.analysis.solvers.BaseSecantSolver
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 68
+* Using seed 1629493768694
+* Starting evolution
+* Search finished after 301s and 6666 generations, 1049360 statements, best individual has fitness: 45.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 32%
+* Total number of goals: 68
+* Number of covered goals: 22
+* Generated 8 tests with total length 37
+* Resulting test suite's coverage: 32%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     45 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        301 / 300          Finished!
+* Time spent executing tests: 132863ms
+* Generating assertions
+[MASTER] 14:14:35.909 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.util.FastMath, null
+* Resulting test suite's mutation score: 45%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'BaseSecantSolver_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

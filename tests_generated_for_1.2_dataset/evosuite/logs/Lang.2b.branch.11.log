@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.LocaleUtils
+* Starting client
+* Connecting to master process on port 21259
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_5/run_evosuite.pl_97412_1629692698/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.LocaleUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 79
+* Using seed 1629692708815
+* Starting evolution
+* Search finished after 301s and 7090 generations, 303004 statements, best individual has fitness: 0.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 78%
+* Total number of goals: 79
+* Number of covered goals: 62
+* Generated 33 tests with total length 39
+* Resulting test suite's coverage: 99%
+* GA-Budget:
+	- MaxTime :                        302 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                      1 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 120605ms
+* Generating assertions
+* Resulting test suite's mutation score: 55%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'LocaleUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang.builder.EqualsBuilder
+* Starting client
+* Connecting to master process on port 3982
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_3/run_evosuite.pl_9512_1629498402/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.builder.EqualsBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 228
+* Using seed 1629498412793
+* Starting evolution
+* Search finished after 302s and 4152 generations, 2707349 statements, best individual has fitness: 5.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 228
+* Number of covered goals: 220
+* Generated 83 tests with total length 347
+* Resulting test suite's coverage: 96%
+* GA-Budget:
+	- ZeroFitness :                      5 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        307 / 300          Finished!
+* Time spent executing tests: 146082ms
+* Generating assertions
+* Resulting test suite's mutation score: 75%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'EqualsBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

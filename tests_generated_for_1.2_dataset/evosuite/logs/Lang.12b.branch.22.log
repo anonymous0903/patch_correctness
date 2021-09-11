@@ -1,0 +1,25 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.RandomStringUtils
+* Starting client
+* Connecting to master process on port 12213
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Lang_12_22/run_evosuite.pl_5705_1629974075/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.RandomStringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 57
+* Using seed 1629974085184
+* Starting evolution
+* Search finished after 303s and 117 generations, 50674 statements, best individual has fitness: 0.0
+* Minimizing test suite
+[MASTER] 03:44:12.519 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 03:46:12.381 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 306 seconds more than allowed.
+[MASTER] 03:46:07.082 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: org.apache.commons.lang3.RandomStringUtils with seed 1629974085184. Configuration id : null
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+* Computation finished
+[MASTER] 03:46:16.352 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 03:46:16.352 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 03:46:16.456 [main] ERROR TestGeneration - failed to write statistics data

@@ -1,0 +1,76 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.ArrayRealVector
+* Starting client
+* Connecting to master process on port 18240
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_4/run_evosuite.pl_1741_1629467509/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.ArrayRealVector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 220
+* Using seed 1629467520375
+* Starting evolution
+* Search finished after 312s and 133 generations, 117956 statements, best individual has fitness: 3.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 06:59:47.436 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 220
+* Number of covered goals: 213
+* Generated 227 tests with total length 5108
+* Resulting test suite's coverage: 97%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                        463 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      7 / 0           
+* Time spent executing tests: 138923ms
+* Generating assertions
+[MASTER] 06:59:48.727 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 90 seconds more than allowed.
+* Resulting test suite's mutation score: 22%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'ArrayRealVector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.OpenMapRealVector
+* Starting client
+* Connecting to master process on port 11750
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_4/run_evosuite.pl_1741_1629467509/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.OpenMapRealVector
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 186
+* Using seed 1629468309413
+* Starting evolution
+* Search finished after 118s and 327 generations, 170799 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 186
+* Number of covered goals: 186
+* Generated 54 tests with total length 239
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                      0 / 0            Finished!
+	- MaxTime :                        171 / 300         
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 122174ms
+* Generating assertions
+* Resulting test suite's mutation score: 57%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'OpenMapRealVector_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

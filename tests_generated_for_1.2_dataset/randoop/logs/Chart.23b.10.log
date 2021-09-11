@@ -1,0 +1,97 @@
+Ignoring interface org.jfree.data.general.DatasetChangeListener specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.jfree.chart.renderer.category.AbstractCategoryItemRenderer specified via --classlist or --testclass.
+Ignoring abstract class org.jfree.chart.plot.Plot specified via --classlist or --testclass.
+Ignoring interface org.jfree.chart.event.RendererChangeListener specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.KeyedValues2D specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.category.CategoryDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.chart.renderer.category.CategoryItemRenderer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.chart.event.MarkerChangeListener specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.jfree.chart.axis.ValueAxis specified via --classlist or --testclass.
+Ignoring abstract class org.jfree.chart.axis.Axis specified via --classlist or --testclass.
+Ignoring interface org.jfree.chart.plot.ValueAxisPlot specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.chart.LegendItemSource specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.general.Dataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.jfree.chart.renderer.AbstractRenderer specified via --classlist or --testclass.
+Ignoring interface org.jfree.chart.plot.Zoomable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.chart.labels.CategorySeriesLabelGenerator specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.chart.event.AxisChangeListener specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.chart.util.PublicCloneable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.Values2D specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.jfree.data.general.AbstractDataset specified via --classlist or --testclass.
+PUBLIC MEMBERS=733
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 19 16:54:36 PDT 2021)java.lang.NoSuchMethodException: java.awt.BasicStroke.clone()
+	at java.lang.Class.getMethod(Class.java:1678)
+	at org.jfree.chart.util.ObjectUtilities.clone(ObjectUtilities.java:173)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.NoSuchMethodException: org.jfree.chart.util.RectangleInsets.clone()
+	at java.lang.Class.getMethod(Class.java:1678)
+	at org.jfree.chart.util.ObjectUtilities.clone(ObjectUtilities.java:173)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=1000, test inputs generated=646, failing inputs=0
+Progress update: steps=1815, test inputs generated=1433, failing inputs=0      (Thu Aug 19 16:55:36 PDT 2021)
+Progress update: steps=2000, test inputs generated=1610, failing inputs=0java.lang.NoSuchMethodException: java.util.Collections$UnmodifiableRandomAccessList.clone()
+	at java.lang.Class.getMethod(Class.java:1678)
+	at org.jfree.chart.util.ObjectUtilities.clone(ObjectUtilities.java:173)
+	at org.jfree.chart.util.ObjectUtilities.deepClone(ObjectUtilities.java:211)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=2880, test inputs generated=2436, failing inputs=0      (Thu Aug 19 16:56:36 PDT 2021)
+Progress update: steps=3000, test inputs generated=2554, failing inputs=0java.lang.NoSuchMethodException: java.lang.Boolean.clone()
+	at java.lang.Class.getMethod(Class.java:1678)
+	at org.jfree.chart.util.ObjectUtilities.clone(ObjectUtilities.java:173)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=3873, test inputs generated=3360, failing inputs=0      (Thu Aug 19 16:57:36 PDT 2021)
+Progress update: steps=4000, test inputs generated=3478, failing inputs=0
+Progress update: steps=4812, test inputs generated=4230, failing inputs=0      (Thu Aug 19 16:58:36 PDT 2021)
+Progress update: steps=5000, test inputs generated=4398, failing inputs=0
+Progress update: steps=5730, test inputs generated=5064, failing inputs=0      (Thu Aug 19 16:59:36 PDT 2021)
+Normal method executions: 1795882
+Exceptional method executions: 447
+
+Average method execution time (normal termination):      0.121
+Average method execution time (exceptional termination): 0.390
+                                                                                                                                                                                                       
+Regression test output:
+Regression test count: 2413
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_122546_1629417263/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_122546_1629417263/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_122546_1629417263/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_122546_1629417263/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_122546_1629417263/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_122546_1629417263/randoop/RegressionTest.java
+
+Invalid tests generated: 0

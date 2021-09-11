@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang.Entities
+* Starting client
+* Connecting to master process on port 4184
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_3/run_evosuite.pl_4560_1629557679/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.Entities
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 113
+* Using seed 1629557690442
+* Starting evolution
+[MASTER] 07:54:56.728 [logback-1] WARN  ClassResetter - class java.lang.reflect.InvocationTargetException thrown during execution of method  __STATIC_RESET() for class org.apache.commons.lang.Entities, java.lang.NullPointerException
+* Search finished after 301s and 3156 generations, 735722 statements, best individual has fitness: 16.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 113
+* Number of covered goals: 80
+* Generated 22 tests with total length 59
+* Resulting test suite's coverage: 84%
+* GA-Budget:
+	- MaxTime :                        302 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                     16 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 153207ms
+* Generating assertions
+* Resulting test suite's mutation score: 32%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 252
+* Writing JUnit test case 'Entities_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

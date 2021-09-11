@@ -1,0 +1,54 @@
+Ignoring interface org.apache.commons.math3.exception.util.Localizable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.DifferentiableUnivariateFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.MultivariateMatrixFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.optim.OptimizationData specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.linear.AbstractFieldMatrix specified via --classlist or --testclass.
+Ignoring abstract class org.apache.commons.math3.optim.nonlinear.vector.MultivariateVectorOptimizer specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.linear.RealMatrixChangingVisitor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.linear.RealMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.distribution.RealDistribution specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.linear.FieldVector specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.differentiation.UnivariateDifferentiableFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.optim.BaseOptimizer specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.linear.SparseRealMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.exception.util.ExceptionContextProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.ParametricUnivariateFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.optim.BaseMultivariateOptimizer specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.linear.FieldMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.UnivariateFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.linear.AbstractRealMatrix specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.linear.AnyMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.linear.RealVector specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.linear.FieldMatrixPreservingVisitor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.optim.nonlinear.vector.JacobianMultivariateVectorOptimizer specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.analysis.BivariateFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.linear.RealMatrixPreservingVisitor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.optim.ConvergenceChecker specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.MultivariateVectorFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer specified via --classlist or --testclass.
+Ignoring abstract class org.apache.commons.math3.linear.RealLinearOperator specified via --classlist or --testclass.
+PUBLIC MEMBERS=721
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 26 01:08:46 PDT 2021)
+Progress update: steps=705, test inputs generated=513, failing inputs=0      (Thu Aug 26 01:09:46 PDT 2021)
+Progress update: steps=945, test inputs generated=698, failing inputs=0      (Thu Aug 26 01:11:18 PDT 2021)
+Progress update: steps=1000, test inputs generated=741, failing inputs=0
+Progress update: steps=1036, test inputs generated=773, failing inputs=0      (Thu Aug 26 01:12:18 PDT 2021)
+Progress update: steps=1139, test inputs generated=855, failing inputs=0      (Thu Aug 26 01:13:18 PDT 2021)
+Progress update: steps=1208, test inputs generated=905, failing inputs=0      (Thu Aug 26 01:13:51 PDT 2021)
+Normal method executions: 418223
+Exceptional method executions: 305
+
+Average method execution time (normal termination):      0.532
+Average method execution time (exceptional termination): 3.90
+
+Regression test output:
+Regression test count: 627
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_158088_1629965291/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_158088_1629965291/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_158088_1629965291/randoop/RegressionTest.java
+
+Invalid tests generated: 0

@@ -1,0 +1,88 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 3322
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/build/classes
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 640
+* Using seed 1629785463482
+* Starting evolution
+* Search finished after 302s and 1321 generations, 184238 statements, best individual has fitness: 552.8614718614718
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 15%
+* Total number of goals: 640
+* Number of covered goals: 99
+* Generated 21 tests with total length 116
+* Resulting test suite's coverage: 15%
+* GA-Budget:
+	- ZeroFitness :                    553 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        315 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 229228ms
+* Generating assertions
+* Resulting test suite's mutation score: 12%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'TypedScopeCreator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.FunctionType
+* Starting client
+* Connecting to master process on port 20040
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/build/classes
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_29539_1629785444/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.FunctionType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 334
+* Using seed 1629785820575
+* Starting evolution
+* Search finished after 305s and 685 generations, 277877 statements, best individual has fitness: 63.24242424195858
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 76%
+* Total number of goals: 334
+* Number of covered goals: 255
+* Generated 64 tests with total length 346
+* Resulting test suite's coverage: 76%
+* GA-Budget:
+	- ZeroFitness :                     63 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        369 / 300          Finished!
+* Time spent executing tests: 289024ms
+* Generating assertions
+* Resulting test suite's mutation score: 74%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'FunctionType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

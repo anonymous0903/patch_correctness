@@ -1,0 +1,25 @@
+Ignoring abstract class org.apache.commons.lang3.text.translate.CharSequenceTranslator specified via --classlist or --testclass.
+PUBLIC MEMBERS=10
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sun Aug 22 07:00:40 PDT 2021)
+Progress update: steps=146, test inputs generated=120, failing inputs=0      (Sun Aug 22 07:01:40 PDT 2021)
+Progress update: steps=255, test inputs generated=204, failing inputs=0      (Sun Aug 22 07:02:40 PDT 2021)
+Progress update: steps=357, test inputs generated=282, failing inputs=0      (Sun Aug 22 07:03:40 PDT 2021)
+Progress update: steps=483, test inputs generated=372, failing inputs=0      (Sun Aug 22 07:04:40 PDT 2021)
+Progress update: steps=561, test inputs generated=441, failing inputs=0      (Sun Aug 22 07:05:40 PDT 2021)
+Progress update: steps=561, test inputs generated=442, failing inputs=0      (Sun Aug 22 07:05:40 PDT 2021)
+Normal method executions: 2815319
+Exceptional method executions: 166
+
+Average method execution time (normal termination):      0.0975
+Average method execution time (exceptional termination): 1.04
+
+Regression test output:
+Regression test count: 274
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_127919_1629640831/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_127919_1629640831/randoop/RegressionTest.java
+
+Invalid tests generated: 0

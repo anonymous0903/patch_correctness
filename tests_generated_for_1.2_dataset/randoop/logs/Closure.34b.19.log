@@ -1,0 +1,38 @@
+Ignoring non-visible class com.google.javascript.jscomp.CodePrinter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodeConsumer specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodeGenerator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypedCodeGenerator specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=338
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Tue Aug 24 06:04:07 PDT 2021)
+Progress update: steps=1000, test inputs generated=846, failing inputs=0
+Progress update: steps=1221, test inputs generated=1046, failing inputs=0      (Tue Aug 24 06:05:07 PDT 2021)
+Progress update: steps=2000, test inputs generated=1740, failing inputs=0
+Progress update: steps=2134, test inputs generated=1859, failing inputs=0      (Tue Aug 24 06:06:07 PDT 2021)
+Progress update: steps=3000, test inputs generated=2628, failing inputs=0
+Progress update: steps=3086, test inputs generated=2707, failing inputs=0      (Tue Aug 24 06:07:07 PDT 2021)
+Progress update: steps=3968, test inputs generated=3489, failing inputs=0      (Tue Aug 24 06:08:07 PDT 2021)
+Progress update: steps=4000, test inputs generated=3520, failing inputs=0
+Progress update: steps=4849, test inputs generated=4282, failing inputs=0      (Tue Aug 24 06:09:07 PDT 2021)
+Progress update: steps=4849, test inputs generated=4283, failing inputs=0      (Tue Aug 24 06:09:07 PDT 2021)
+Normal method executions: 2433421
+Exceptional method executions: 995
+
+Average method execution time (normal termination):      0.0898
+Average method execution time (exceptional termination): 1.83
+
+Regression test output:
+Regression test count: 2429
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_64319_1629810228/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_64319_1629810228/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_64319_1629810228/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_64319_1629810228/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_64319_1629810228/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_64319_1629810228/randoop/RegressionTest.java
+
+Invalid tests generated: 0

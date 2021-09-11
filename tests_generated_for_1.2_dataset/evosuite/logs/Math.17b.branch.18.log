@@ -1,0 +1,24 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.dfp.Dfp
+* Starting client
+* Connecting to master process on port 13494
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_Math_17_18/run_evosuite.pl_160560_1629975891/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.dfp.Dfp
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 808
+* Using seed 1629975926566
+* Starting evolution
+* Search finished after 450s and 3 generations, 739 statements, best individual has fitness: 595.0568576928792
+[MASTER] 04:13:04.312 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 149 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 04:20:27.163 [main] ERROR ExternalProcessHandler - Class org.apache.commons.math3.dfp.Dfp. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+* Computation finished
+[MASTER] 04:20:27.265 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 04:20:27.265 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 04:20:27.366 [main] ERROR TestGeneration - failed to write statistics data

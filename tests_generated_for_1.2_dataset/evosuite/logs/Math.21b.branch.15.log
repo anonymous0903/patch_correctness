@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.linear.RectangularCholeskyDecomposition
+* Starting client
+* Connecting to master process on port 5667
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_2/run_evosuite.pl_138106_1629484837/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.linear.RectangularCholeskyDecomposition
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 30
+* Using seed 1629484850529
+* Starting evolution
+* Search finished after 30s and 16 generations, 16290 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 30
+* Number of covered goals: 30
+* Generated 5 tests with total length 28
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- MaxTime :                         32 / 300         
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      0 / 0            Finished!
+* Time spent executing tests: 29963ms
+* Generating assertions
+* Resulting test suite's mutation score: 50%
+* Writing JUnit test case 'RectangularCholeskyDecomposition_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

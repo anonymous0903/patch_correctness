@@ -1,0 +1,47 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 7461
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_16326_1628414388/build/classes
+  - /tmp/run_evosuite.pl_16326_1628414388/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_16326_1628414388/lib/ant.jar
+  - /tmp/run_evosuite.pl_16326_1628414388/lib/args4j.jar
+  - /tmp/run_evosuite.pl_16326_1628414388/lib/caja-r4314.jar
+  - /tmp/run_evosuite.pl_16326_1628414388/lib/guava.jar
+  - /tmp/run_evosuite.pl_16326_1628414388/lib/json.jar
+  - /tmp/run_evosuite.pl_16326_1628414388/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_16326_1628414388/lib/junit.jar
+  - /tmp/run_evosuite.pl_16326_1628414388/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_16326_1628414388/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 506
+* Using seed 1628414401123
+* Starting evolution
+* Search finished after 102s and 905 generations, 267258 statements, best individual has fitness: 266.12677722791756
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 45%
+* Total number of goals: 506
+* Number of covered goals: 229
+* Generated 21 tests with total length 151
+* Resulting test suite's coverage: 45%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    266 / 0           
+	- MaxTime :                        110 / 100          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 49904ms
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

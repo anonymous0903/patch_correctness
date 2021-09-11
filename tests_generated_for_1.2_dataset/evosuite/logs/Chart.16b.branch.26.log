@@ -1,0 +1,35 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.data.category.DefaultIntervalCategoryDataset
+* Starting client
+* Connecting to master process on port 12664
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_44031_1629415267/build
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_44031_1629415267/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.category.DefaultIntervalCategoryDataset
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 137
+* Using seed 1629415280731
+* Starting evolution
+* Search finished after 302s and 1377 generations, 1185981 statements, best individual has fitness: 10.666666666666668
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 137
+* Number of covered goals: 120
+* Generated 54 tests with total length 199
+* Resulting test suite's coverage: 88%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        308 / 300          Finished!
+	- ZeroFitness :                     11 / 0           
+* Time spent executing tests: 62880ms
+* Generating assertions
+* Resulting test suite's mutation score: 31%
+* Writing JUnit test case 'DefaultIntervalCategoryDataset_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

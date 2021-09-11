@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.MutableDateTime
+* Starting client
+* Connecting to master process on port 4942
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_28005_1629472013/target/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.MutableDateTime
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 140
+* Using seed 1629472024691
+* Starting evolution
+* Search finished after 301s and 3406 generations, 504238 statements, best individual has fitness: 4.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 140
+* Number of covered goals: 134
+* Generated 89 tests with total length 267
+* Resulting test suite's coverage: 96%
+* GA-Budget:
+	- MaxTime :                        308 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      4 / 0           
+* Time spent executing tests: 126465ms
+* Generating assertions
+* Resulting test suite's mutation score: 40%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'MutableDateTime_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

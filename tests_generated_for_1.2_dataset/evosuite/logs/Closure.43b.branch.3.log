@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 7695
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_8478_1629710680/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_8478_1629710680/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_8478_1629710680/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_8478_1629710680/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_8478_1629710680/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_8478_1629710680/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_8478_1629710680/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_8478_1629710680/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 688
+* Using seed 1629710699417
+* Starting evolution
+* Search finished after 307s and 662 generations, 99134 statements, best individual has fitness: 560.85533126294
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 18%
+* Total number of goals: 688
+* Number of covered goals: 121
+* Generated 7 tests with total length 35
+* Resulting test suite's coverage: 18%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        318 / 300          Finished!
+	- ZeroFitness :                    561 / 0           
+* Time spent executing tests: 254131ms
+* Generating assertions
+* Resulting test suite's mutation score: 19%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'TypedScopeCreator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

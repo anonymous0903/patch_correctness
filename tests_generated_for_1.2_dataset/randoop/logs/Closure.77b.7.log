@@ -1,0 +1,1385 @@
+Ignoring non-visible class com.google.javascript.jscomp.ProcessTweaks specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.PassConfig specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.PrototypeObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.SourceFile specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.TypeSafeDispatcher specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ChainableReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.graph.DiGraph specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.ObjectType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceAst specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckUnreachableCode specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.ScopeCreator specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.deps.DependencyInfo specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.FunctionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VariableReferenceCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodePrinter specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.GraphvizGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.AbstractMessageFormatter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.JSType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.Region specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.ControlFlowGraph specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SuppressDocWarningsGuard specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ProcessDefines specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.ErrorReporter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckGlobalNames specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodeConsumer specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticScope specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.SemanticReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypeValidator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.DisambiguateProperties specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckAccessControls specified via --classlist or --testclass.
+Ignoring interface com.google.debugging.sourcemap.SourceMapGenerator specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.CodingConvention specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CodeGenerator specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.PassFactory specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypedCodeGenerator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VarCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ReferenceCollectingCallback specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.MessageFormatter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.RhinoErrorReporter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypedScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SyntacticScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.Annotation specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.BasicErrorManager specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.PrepareAst specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible interface com.google.javascript.jscomp.ReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.Tracer specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckSideEffects specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckRegExp specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.AdjacencyGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.WarningsGuard specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.ErrorManager specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.graph.Graph specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.CodeChangeHandler specified via --classlist or --testclass.
+PUBLIC MEMBERS=1178
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 17:54:37 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:54:44 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=1000, test inputs generated=402, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:54:53 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:234)
+	at com.google.javascript.rhino.Node.toString(Node.java:977)
+	at com.google.javascript.rhino.Node.toString(Node.java:917)
+	at com.google.javascript.rhino.Node.toString(Node.java:908)
+	at com.google.javascript.rhino.Node.toStringTreeHelper(Node.java:1066)
+	at com.google.javascript.rhino.Node.appendStringTree(Node.java:1057)
+	at com.google.javascript.rhino.Node.toStringTreeImpl(Node.java:1049)
+	at com.google.javascript.rhino.Node.toStringTree(Node.java:1043)
+	at com.google.javascript.jscomp.CodeGenerator.add(CodeGenerator.java:716)
+	at com.google.javascript.jscomp.CodeGenerator.add(CodeGenerator.java:79)
+	at com.google.javascript.jscomp.CodePrinter.toSource(CodePrinter.java:634)
+	at com.google.javascript.jscomp.CodePrinter.access$100(CodePrinter.java:35)
+	at com.google.javascript.jscomp.CodePrinter$Builder.build(CodePrinter.java:595)
+	at com.google.javascript.jscomp.Compiler.toSource(Compiler.java:1454)
+	at com.google.javascript.jscomp.Compiler.access$400(Compiler.java:65)
+	at com.google.javascript.jscomp.Compiler$9.call(Compiler.java:1405)
+	at com.google.javascript.jscomp.Compiler$9.call(Compiler.java:1371)
+	at com.google.javascript.jscomp.Compiler$2.run(Compiler.java:582)
+	at java.lang.Thread.run(Thread.java:745)
+Aug 23, 2021 5:55:00 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=2000, test inputs generated=903, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:55:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:15 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:15 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:15 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:17 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:17 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:17 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:18 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:18 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:18 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:18 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 5:55:25 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:25 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:25 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:25 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:25 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:25 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2238)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:55:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:28 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:30 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:30 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:30 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:31 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:31 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:31 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:31 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 5:55:36 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:36 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:36 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+
+Progress update: steps=2949, test inputs generated=1602, failing inputs=0      (Mon Aug 23 17:55:37 PDT 2021)Aug 23, 2021 5:55:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:39 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+
+Progress update: steps=3000, test inputs generated=1645, failing inputs=0Aug 23, 2021 5:55:42 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 5:55:42 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 5:55:43 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 5:55:44 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:44 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:44 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:55:46 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:46 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:46 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:50 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:50 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:55:50 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:51 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:51 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:51 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:52 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:53 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:53 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:55:53 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:55 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:55 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:55 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:56 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:56 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:56 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:55:56 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:56 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:55:58 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:55:58 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:55:58 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:56:02 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 5:56:02 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:02 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:02 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:03 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:03 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:03 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:03 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:03 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:03 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:04 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 5:56:05 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:05 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:05 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:08 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:08 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:08 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:09 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:09 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:56:09 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:09 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:09 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:56:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:12 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 5:56:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:56:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:15 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:15 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:15 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:17 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:17 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:17 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:17 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:17 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:17 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+
+Progress update: steps=4000, test inputs generated=2357, failing inputs=0Aug 23, 2021 5:56:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:22 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:56:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:22 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:56:23 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:23 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:23 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:25 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:25 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:25 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:29 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 5:56:34 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:34 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:34 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+
+Progress update: steps=4325, test inputs generated=2609, failing inputs=0      (Mon Aug 23 17:56:37 PDT 2021)Aug 23, 2021 5:56:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:39 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:39 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:40 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:40 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:40 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:41 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:41 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:41 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:42 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:42 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:46 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:46 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:46 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:48 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:48 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:48 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:48 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:48 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:48 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:52 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:56:55 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:55 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:56:59 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:56:59 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:56:59 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:01 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:01 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:57:02 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:02 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:57:02 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:02 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:02 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:03 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:03 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:03 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:06 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:06 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=5000, test inputs generated=3097, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2238)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:57:16 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:16 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:16 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:19 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:19 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:19 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:20 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:21 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:21 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:21 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:23 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:34 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:34 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:57:34 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:36 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:36 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:57:36 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:36 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:36 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:57:36 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:36 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=5441, test inputs generated=3401, failing inputs=0      (Mon Aug 23 17:57:37 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2238)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:57:44 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:44 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:44 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:57:47 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:51 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:51 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:51 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:54 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:54 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:54 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:55 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:55 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:55 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:57:57 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:57 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:57 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:57 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:57 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:57 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:57 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:57 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:57:58 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:57:58 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:58 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:57:59 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:57:59 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:57:59 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+
+Progress update: steps=6000, test inputs generated=3802, failing inputs=0Aug 23, 2021 5:58:02 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 5:58:02 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:02 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:02 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:03 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:03 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:03 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:04 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:04 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:04 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:05 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:05 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:58:05 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:05 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:05 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:58:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:12 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:12 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:58:15 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:15 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:15 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:17 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:17 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:17 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:19 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:19 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:19 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:19 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:19 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:58:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:20 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:20 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2238)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:58:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:22 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:22 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:24 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:24 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:58:24 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:24 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:24 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:27 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:27 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:27 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:31 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:31 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:31 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:34 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:34 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:34 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:35 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:35 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:35 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:35 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:35 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:58:35 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:35 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:35 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:58:36 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:36 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:58:36 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:36 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:36 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=6788, test inputs generated=4358, failing inputs=0      (Mon Aug 23 17:58:37 PDT 2021)Aug 23, 2021 5:58:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 5:58:41 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:41 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:41 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:41 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:41 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:41 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2238)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:58:45 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:45 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:58:45 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:58:47 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:58:47 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:47 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=7000, test inputs generated=4517, failing inputs=0Aug 23, 2021 5:58:48 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:48 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:58:50 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:50 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:50 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:58:51 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:51 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:58:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:58:52 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:58:52 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:09 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:09 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:09 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:10 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:10 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:10 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:59:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:10 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:10 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:11 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:11 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:13 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:13 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:14 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:14 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:59:16 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:16 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:16 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:21 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:21 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:59:22 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:22 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:59:23 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: 
+
+Aug 23, 2021 5:59:23 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 5:59:24 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:24 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:24 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:818)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 5:59:25 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:25 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:25 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:26 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 23, 2021 5:59:26 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:26 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:26 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:27 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:27 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:27 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:27 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:27 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:27 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:28 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:28 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 5:59:28 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 5:59:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:29 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:29 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:30 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:30 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:30 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+
+Progress update: steps=8000, test inputs generated=5201, failing inputs=0Aug 23, 2021 5:59:33 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:33 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:33 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:33 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 5:59:33 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 5:59:33 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:33 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 5:59:35 PM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: hi!
+
+Aug 23, 2021 5:59:35 PM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=8105, test inputs generated=5275, failing inputs=0      (Mon Aug 23 17:59:37 PDT 2021)
+Progress update: steps=8105, test inputs generated=5276, failing inputs=0      (Mon Aug 23 17:59:37 PDT 2021)
+Normal method executions: 1890759
+Exceptional method executions: 848
+
+Average method execution time (normal termination):      0.104
+Average method execution time (exceptional termination): 1.15
+
+Regression test output:
+Regression test count: 2786
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_28301_1629766462/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_28301_1629766462/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_28301_1629766462/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_28301_1629766462/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_28301_1629766462/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_28301_1629766462/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_28301_1629766462/randoop/RegressionTest.java
+
+Invalid tests generated: 0

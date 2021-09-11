@@ -1,0 +1,78 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 7089
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/build/classes
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 640
+* Using seed 1629794118311
+* Starting evolution
+* Search finished after 541s and 1206 generations, 81051 statements, best individual has fitness: 654.0
+[MASTER] 01:44:27.861 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 241 seconds more than allowed.
+[MASTER] 01:45:38.256 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 01:46:53.432 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Minimizing test suite
+[MASTER] 01:48:43.721 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 01:50:18.776 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.TypedScopeCreator. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+* Computation finished
+[MASTER] 01:50:18.880 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 01:50:18.880 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 01:50:18.981 [main] ERROR TestGeneration - failed to write statistics data
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.FunctionType
+* Starting client
+* Connecting to master process on port 18937
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/build/classes
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_1864_1629794099/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.FunctionType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 334
+* Using seed 1629795023985
+* Starting evolution
+* Search finished after 305s and 753 generations, 315788 statements, best individual has fitness: 60.07575757529192
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 78%
+* Total number of goals: 334
+* Number of covered goals: 259
+* Generated 71 tests with total length 423
+* Resulting test suite's coverage: 78%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        350 / 300          Finished!
+	- ZeroFitness :                     61 / 0           
+* Time spent executing tests: 275524ms
+* Generating assertions
+* Resulting test suite's mutation score: 81%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'FunctionType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

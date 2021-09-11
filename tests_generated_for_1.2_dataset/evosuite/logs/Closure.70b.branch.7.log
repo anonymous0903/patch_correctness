@@ -1,0 +1,48 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 16582
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_7747_1629882876/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_7747_1629882876/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_7747_1629882876/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_7747_1629882876/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_7747_1629882876/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_7747_1629882876/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_7747_1629882876/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_7747_1629882876/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 663
+* Using seed 1629882891717
+* Starting evolution
+* Search finished after 366s and 1493 generations, 184856 statements, best individual has fitness: 516.4477759316126
+[MASTER] 02:21:07.816 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 66 seconds more than allowed.
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 02:23:38.352 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 20%
+* Total number of goals: 663
+* Number of covered goals: 134
+* Generated 144 tests with total length 2514
+* Resulting test suite's coverage: 20%
+* GA-Budget:
+	- ZeroFitness :                    516 / 0           
+	- MaxTime :                        582 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 513415ms
+* Generating assertions
+[MASTER] 02:24:44.566 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 90 seconds more than allowed.
+[MASTER] 02:24:49.989 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 25%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 16
+* Writing JUnit test case 'TypedScopeCreator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

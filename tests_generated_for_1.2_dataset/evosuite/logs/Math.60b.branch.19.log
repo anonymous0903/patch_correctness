@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.distribution.NormalDistributionImpl
+* Starting client
+* Connecting to master process on port 3144
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_Math_60_19/run_evosuite.pl_169594_1629967095/target/classes
+* Error while initializing target class: java.lang.ExceptionInInitializerError
+* Computation finished
+[MASTER] 01:38:50.022 [logback-2] ERROR TestSuiteGenerator - Problem for org.apache.commons.math.distribution.NormalDistributionImpl. Full stack:
+java.lang.ExceptionInInitializerError: null
+	at org.apache.commons.math.distribution.NormalDistributionImpl.<clinit>(NormalDistributionImpl.java) ~[classes/:na]
+	at java.lang.Class.forName0(Native Method) ~[na:1.7.0_80]
+	at java.lang.Class.forName(Class.java:278) ~[na:1.7.0_80]
+	at org.evosuite.Properties.getTargetClass(Properties.java:2147) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.Properties.getTargetClass(Properties.java:2116) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.setup.TestClusterGenerator.initializeTargetMethods(TestClusterGenerator.java:407) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:173) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:116) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:221) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:125) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_80]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+Caused by: org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+	at org.evosuite.runtime.LoopCounter.checkLoop(LoopCounter.java:82) ~[evosuite-0.2.0.jar:na]
+	at org.apache.commons.math.util.FastMath.resplit(FastMath.java:964) ~[classes/:na]
+	at org.apache.commons.math.util.FastMath.splitMult(FastMath.java:985) ~[classes/:na]
+	at org.apache.commons.math.util.FastMath.slowexp(FastMath.java:919) ~[classes/:na]
+	at org.apache.commons.math.util.FastMath.<clinit>(FastMath.java) ~[classes/:na]
+	... 15 common frames omitted
+[MASTER] 01:38:50.155 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 01:38:50.256 [main] ERROR TestGeneration - failed to write statistics data

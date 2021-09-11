@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.DateTimeZone
+* Starting client
+* Connecting to master process on port 17031
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_1/run_evosuite.pl_46395_1629498745/build/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.DateTimeZone
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 186
+* Using seed 1629498757342
+* Starting evolution
+* Search finished after 302s and 2155 generations, 418277 statements, best individual has fitness: 25.666664254533146
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 81%
+* Total number of goals: 186
+* Number of covered goals: 150
+* Generated 49 tests with total length 104
+* Resulting test suite's coverage: 81%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                        306 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     26 / 0           
+* Time spent executing tests: 113271ms
+* Generating assertions
+* Resulting test suite's mutation score: 42%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'DateTimeZone_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

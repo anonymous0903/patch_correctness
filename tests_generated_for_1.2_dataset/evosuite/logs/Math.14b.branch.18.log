@@ -1,0 +1,71 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer
+* Starting client
+* Connecting to master process on port 8570
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_2/run_evosuite.pl_67371_1629418219/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 20
+* Using seed 1629418233498
+* Starting evolution
+* Search finished after 301s and 7735 generations, 1402937 statements, best individual has fitness: 6.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 70%
+* Total number of goals: 20
+* Number of covered goals: 14
+* Generated 7 tests with total length 23
+* Resulting test suite's coverage: 70%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                      6 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 139078ms
+* Generating assertions
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'AbstractLeastSquaresOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optim.nonlinear.vector.Weight
+* Starting client
+* Connecting to master process on port 17531
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_2/run_evosuite.pl_67371_1629418219/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optim.nonlinear.vector.Weight
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 5
+* Using seed 1629418541971
+* Starting evolution
+* Search finished after 2s and 0 generations, 5935 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 5
+* Number of covered goals: 5
+* Generated 2 tests with total length 7
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                          2 / 300         
+	- ZeroFitness :                      0 / 0            Finished!
+* Time spent executing tests: 1065ms
+* Generating assertions
+* Resulting test suite's mutation score: 62%
+* Writing JUnit test case 'Weight_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.random.BitsStreamGenerator
+* Starting client
+* Connecting to master process on port 12879
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_2/run_evosuite.pl_157398_1629411270/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.random.BitsStreamGenerator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 20
+* Using seed 1629411284430
+* Starting evolution
+* Search finished after 6s and 22 generations, 26449 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 20
+* Number of covered goals: 20
+* Generated 9 tests with total length 26
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                          6 / 300         
+	- ZeroFitness :                      0 / 0            Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 4298ms
+* Generating assertions
+* Resulting test suite's mutation score: 62%
+* Writing JUnit test case 'BitsStreamGenerator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

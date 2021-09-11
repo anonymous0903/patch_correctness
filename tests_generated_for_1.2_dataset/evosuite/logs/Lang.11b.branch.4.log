@@ -1,0 +1,23 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.RandomStringUtils
+* Starting client
+* Connecting to master process on port 7676
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Lang_11_4/run_evosuite.pl_29753_1629971284/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.RandomStringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 63
+* Using seed 1629971292873
+* Starting evolution
+* Search finished after 319s and 58 generations, 33311 statements, best individual has fitness: 1.9989827060020344
+* Minimizing test suite
+[MASTER] 03:07:56.630 [main] ERROR ExternalProcessHandler - Class org.apache.commons.lang3.RandomStringUtils. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+* Computation finished
+[MASTER] 03:07:56.731 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 03:07:56.732 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 03:07:56.832 [main] ERROR TestGeneration - failed to write statistics data

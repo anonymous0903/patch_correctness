@@ -1,0 +1,35 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.util.ShapeList
+* Starting client
+* Connecting to master process on port 3590
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_147309_1629875111/build
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_147309_1629875111/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.util.ShapeList
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 17
+* Using seed 1629875127875
+* Starting evolution
+* Search finished after 301s and 13529 generations, 1605227 statements, best individual has fitness: 10.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 53%
+* Total number of goals: 17
+* Number of covered goals: 9
+* Generated 6 tests with total length 15
+* Resulting test suite's coverage: 53%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- ZeroFitness :                     10 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 181246ms
+* Generating assertions
+* Resulting test suite's mutation score: 9%
+* Writing JUnit test case 'ShapeList_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,47 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 18220
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_2/run_evosuite.pl_121212_1629722341/build/classes
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_2/run_evosuite.pl_121212_1629722341/lib/ant_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_2/run_evosuite.pl_121212_1629722341/lib/args4j_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_2/run_evosuite.pl_121212_1629722341/lib/google_common_deploy.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_2/run_evosuite.pl_121212_1629722341/lib/hamcrest-core-1.1.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_2/run_evosuite.pl_121212_1629722341/lib/junit.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_2/run_evosuite.pl_121212_1629722341/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/evosuite_2/run_evosuite.pl_121212_1629722341/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 59
+* Using seed 1629722354695
+* Starting evolution
+* Search finished after 301s and 4338 generations, 610995 statements, best individual has fitness: 23.316666666666666
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 51%
+* Total number of goals: 59
+* Number of covered goals: 30
+* Generated 8 tests with total length 62
+* Resulting test suite's coverage: 51%
+* GA-Budget:
+	- MaxTime :                        302 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                     23 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 111583ms
+* Generating assertions
+* Resulting test suite's mutation score: 14%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve p@p5,~TDs: 1
+         resolve dangeous use of the global 'this' object: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 16
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

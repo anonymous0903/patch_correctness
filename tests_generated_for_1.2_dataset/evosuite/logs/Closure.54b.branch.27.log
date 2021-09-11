@@ -1,0 +1,75 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 3787
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/build/classes
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 640
+* Using seed 1629791969026
+* Starting evolution
+[MASTER] 01:08:33.021 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 236 seconds more than allowed.
+* Search finished after 537s and 829 generations, 98042 statements, best individual has fitness: 328.48214285714283
+* Minimizing test suite
+[MASTER] 01:14:29.560 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.TypedScopeCreator. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+* Computation finished
+[MASTER] 01:14:29.661 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 01:14:29.661 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 01:14:29.762 [main] ERROR TestGeneration - failed to write statistics data
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.rhino.jstype.FunctionType
+* Starting client
+* Connecting to master process on port 7769
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/build/classes
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_18213_1629791949/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.rhino.jstype.FunctionType
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 334
+* Using seed 1629792874824
+* Starting evolution
+* Search finished after 304s and 1062 generations, 383785 statements, best individual has fitness: 73.49999999953434
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 75%
+* Total number of goals: 334
+* Number of covered goals: 251
+* Generated 72 tests with total length 399
+* Resulting test suite's coverage: 75%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        336 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                     73 / 0           
+* Time spent executing tests: 231280ms
+* Generating assertions
+* Resulting test suite's mutation score: 74%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'FunctionType_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

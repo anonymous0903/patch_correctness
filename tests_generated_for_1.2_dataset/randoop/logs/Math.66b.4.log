@@ -1,0 +1,39 @@
+Ignoring abstract class org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.optimization.UnivariateRealOptimizer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.stat.descriptive.WeightedEvaluation specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.optimization.univariate.AbstractUnivariateRealOptimizer specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.ConvergingAlgorithm specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.analysis.UnivariateRealFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.stat.descriptive.StatisticalSummary specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.random.RandomGenerator specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.analysis.DifferentiableUnivariateRealFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.stat.descriptive.StorelessUnivariateStatistic specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.stat.descriptive.UnivariateStatistic specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.util.Localizable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.util.DoubleArray specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.ConvergingAlgorithmImpl specified via --classlist or --testclass.
+PUBLIC MEMBERS=628
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 26 00:46:57 PDT 2021)
+Progress update: steps=823, test inputs generated=687, failing inputs=0      (Thu Aug 26 00:47:57 PDT 2021)
+Progress update: steps=1000, test inputs generated=843, failing inputs=0
+Progress update: steps=1280, test inputs generated=1099, failing inputs=0      (Thu Aug 26 00:48:57 PDT 2021)
+Progress update: steps=1387, test inputs generated=1199, failing inputs=0      (Thu Aug 26 00:52:12 PDT 2021)
+Progress update: steps=1387, test inputs generated=1200, failing inputs=0      (Thu Aug 26 00:52:13 PDT 2021)
+Normal method executions: 579289
+Exceptional method executions: 156
+
+Average method execution time (normal termination):      0.220
+Average method execution time (exceptional termination): 2.91
+
+Regression test output:
+Regression test count: 705
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_168056_1629963952/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_168056_1629963952/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_168056_1629963952/randoop/RegressionTest.java
+
+Invalid tests generated: 0

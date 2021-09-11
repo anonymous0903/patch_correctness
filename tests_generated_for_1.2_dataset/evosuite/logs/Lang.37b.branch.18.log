@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.ArrayUtils
+* Starting client
+* Connecting to master process on port 13729
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_3/run_evosuite.pl_752_1629465451/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.ArrayUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 852
+* Using seed 1629465460291
+* Starting evolution
+* Search finished after 303s and 655 generations, 668417 statements, best individual has fitness: 133.13888888888889
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 77%
+* Total number of goals: 852
+* Number of covered goals: 656
+* Generated 248 tests with total length 568
+* Resulting test suite's coverage: 77%
+* GA-Budget:
+	- ZeroFitness :                    134 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        318 / 300          Finished!
+* Time spent executing tests: 54944ms
+* Generating assertions
+* Resulting test suite's mutation score: 64%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'ArrayUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

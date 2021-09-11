@@ -1,0 +1,26 @@
+PUBLIC MEMBERS=26
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sat Aug 07 15:35:31 PDT 2021)
+Progress update: steps=501, test inputs generated=421, failing inputs=0      (Sat Aug 07 15:36:31 PDT 2021)
+Progress update: steps=901, test inputs generated=732, failing inputs=0      (Sat Aug 07 15:37:31 PDT 2021)
+Progress update: steps=1000, test inputs generated=806, failing inputs=0
+Progress update: steps=1168, test inputs generated=940, failing inputs=0      (Sat Aug 07 15:38:31 PDT 2021)
+Progress update: steps=1501, test inputs generated=1196, failing inputs=0      (Sat Aug 07 15:39:31 PDT 2021)
+Progress update: steps=1812, test inputs generated=1447, failing inputs=0      (Sat Aug 07 15:40:31 PDT 2021)
+Progress update: steps=1812, test inputs generated=1448, failing inputs=0      (Sat Aug 07 15:40:31 PDT 2021)
+Normal method executions: 2786631
+Exceptional method executions: 619
+
+Average method execution time (normal termination):      0.0939
+Average method execution time (exceptional termination): 0.644
+
+Regression test output:
+Regression test count: 894
+Writing JUnit tests...
+
+Created file /tmp/run_randoop.pl_50949_1628375721/randoop/RegressionTest0.java
+Created file /tmp/run_randoop.pl_50949_1628375721/randoop/RegressionTest1.java
+Created file /tmp/run_randoop.pl_50949_1628375721/randoop/RegressionTest.java
+
+Invalid tests generated: 0

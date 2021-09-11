@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.SourceFile
+* Starting client
+* Connecting to master process on port 20260
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_21051_1629367779/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_21051_1629367779/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_21051_1629367779/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_21051_1629367779/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_21051_1629367779/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_21051_1629367779/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_21051_1629367779/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_21051_1629367779/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.SourceFile
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 76
+* Using seed 1629367798617
+* Starting evolution
+* Search finished after 301s and 3505 generations, 509671 statements, best individual has fitness: 6.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 76
+* Number of covered goals: 71
+* Generated 30 tests with total length 102
+* Resulting test suite's coverage: 93%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      6 / 0           
+	- MaxTime :                        304 / 300          Finished!
+* Time spent executing tests: 82051ms
+* Generating assertions
+* Resulting test suite's mutation score: 48%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'SourceFile_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

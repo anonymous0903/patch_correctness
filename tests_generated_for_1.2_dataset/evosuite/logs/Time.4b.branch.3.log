@@ -1,0 +1,40 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.Partial
+* Starting client
+* Connecting to master process on port 9367
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_149551_1628356962/target/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.Partial
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 134
+* Using seed 1628356973068
+* Starting evolution
+* Search finished after 105s and 201 generations, 77520 statements, best individual has fitness: 7.493150683326778
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 10:26:21.854 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 134
+* Number of covered goals: 123
+* Generated 136 tests with total length 2422
+* Resulting test suite's coverage: 92%
+* GA-Budget:
+	- ZeroFitness :                      8 / 0           
+	- MaxTime :                        210 / 100          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 176212ms
+* Generating assertions
+[MASTER] 10:26:28.625 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 41 seconds more than allowed.
+* Resulting test suite's mutation score: 45%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'Partial_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

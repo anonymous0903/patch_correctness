@@ -1,0 +1,73 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.Partial
+* Starting client
+* Connecting to master process on port 10451
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_77061_1629433417/target/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.Partial
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 132
+* Using seed 1629433429462
+* Starting evolution
+* Search finished after 301s and 2955 generations, 525627 statements, best individual has fitness: 1.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 132
+* Number of covered goals: 130
+* Generated 54 tests with total length 215
+* Resulting test suite's coverage: 98%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                      1 / 0           
+	- MaxTime :                        307 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 106326ms
+* Generating assertions
+* Resulting test suite's mutation score: 58%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'Partial_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.field.UnsupportedDurationField
+* Starting client
+* Connecting to master process on port 21453
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_77061_1629433417/target/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/org/joda/joda-convert/1.2/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.field.UnsupportedDurationField
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 35
+* Using seed 1629433788760
+* Starting evolution
+* Search finished after 301s and 8772 generations, 1069051 statements, best individual has fitness: 3.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 83%
+* Total number of goals: 35
+* Number of covered goals: 29
+* Generated 22 tests with total length 70
+* Resulting test suite's coverage: 89%
+* GA-Budget:
+	- ZeroFitness :                      4 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 124746ms
+* Generating assertions
+* Resulting test suite's mutation score: 61%
+* Writing JUnit test case 'UnsupportedDurationField_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

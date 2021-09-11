@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.analysis.solvers.BaseSecantSolver
+* Starting client
+* Connecting to master process on port 14731
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_57586_1629502104/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.analysis.solvers.BaseSecantSolver
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 66
+* Using seed 1629502117809
+* Starting evolution
+* Search finished after 302s and 7286 generations, 931090 statements, best individual has fitness: 44.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 32%
+* Total number of goals: 66
+* Number of covered goals: 21
+* Generated 8 tests with total length 29
+* Resulting test suite's coverage: 32%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                        301 / 300          Finished!
+	- ZeroFitness :                     45 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 128202ms
+* Generating assertions
+[MASTER] 16:33:43.320 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.util.FastMath, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+* Resulting test suite's mutation score: 44%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'BaseSecantSolver_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

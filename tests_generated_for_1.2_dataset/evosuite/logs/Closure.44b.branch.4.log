@@ -1,0 +1,41 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CodeConsumer
+* Starting client
+* Connecting to master process on port 20167
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_14678_1629699889/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_14678_1629699889/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_14678_1629699889/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_14678_1629699889/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_14678_1629699889/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_14678_1629699889/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_14678_1629699889/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_14678_1629699889/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CodeConsumer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 82
+* Using seed 1629699901958
+* Starting evolution
+* Search finished after 301s and 8231 generations, 645134 statements, best individual has fitness: 80.99999999930151
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 11%
+* Total number of goals: 82
+* Number of covered goals: 9
+* Generated 6 tests with total length 6
+* Resulting test suite's coverage: 11%
+* GA-Budget:
+	- ZeroFitness :                     81 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 49091ms
+* Generating assertions
+* Resulting test suite's mutation score: 9%
+* Writing JUnit test case 'CodeConsumer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

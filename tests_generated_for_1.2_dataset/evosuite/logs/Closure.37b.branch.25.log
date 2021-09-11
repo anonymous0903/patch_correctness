@@ -1,0 +1,81 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 19035
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 564
+* Using seed 1629656537090
+* Starting evolution
+* Search finished after 302s and 813 generations, 275889 statements, best individual has fitness: 308.39411297293714
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 45%
+* Total number of goals: 564
+* Number of covered goals: 253
+* Generated 24 tests with total length 233
+* Resulting test suite's coverage: 45%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                        316 / 300          Finished!
+	- ZeroFitness :                    308 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 241580ms
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeTraversal
+* Starting client
+* Connecting to master process on port 11936
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_8685_1629656518/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeTraversal
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 136
+* Using seed 1629656910332
+* Starting evolution
+[MASTER] 11:35:48.809 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 478s and 406 generations, 120483 statements, best individual has fitness: 91.0
+[MASTER] 11:36:34.339 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 177 seconds more than allowed.
+[MASTER] 11:38:55.153 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 11:39:05.215 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Minimizing test suite
+[MASTER] 11:40:30.965 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Coverage analysis for criterion BRANCH
+[MASTER] 11:43:16.772 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 11:43:30.496 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.NodeTraversal. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+* Computation finished
+[MASTER] 11:43:30.598 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 11:43:30.598 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 11:43:30.698 [main] ERROR TestGeneration - failed to write statistics data

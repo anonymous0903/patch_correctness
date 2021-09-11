@@ -1,0 +1,47 @@
+Ignoring abstract class org.apache.commons.math.stat.descriptive.AbstractUnivariateStatistic specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.stat.inference.UnknownDistributionChiSquareTest specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.stat.inference.ChiSquareTest specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.distribution.ContinuousDistribution specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.distribution.ChiSquaredDistribution specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.analysis.UnivariateRealFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.stat.descriptive.StatisticalSummary specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.stat.descriptive.AbstractStorelessUnivariateStatistic specified via --classlist or --testclass.
+Ignoring abstract class org.apache.commons.math.distribution.AbstractDistribution specified via --classlist or --testclass.
+Ignoring abstract class org.apache.commons.math.distribution.AbstractContinuousDistribution specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.stat.inference.TTest specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.distribution.TDistribution specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.stat.descriptive.StorelessUnivariateStatistic specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.stat.descriptive.UnivariateStatistic specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.distribution.GammaDistribution specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.util.ContinuedFraction specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.distribution.Distribution specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=223
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 26 07:52:27 PDT 2021)
+Progress update: steps=1000, test inputs generated=835, failing inputs=0
+Progress update: steps=1271, test inputs generated=1076, failing inputs=0      (Thu Aug 26 07:53:27 PDT 2021)
+Progress update: steps=1812, test inputs generated=1554, failing inputs=0      (Thu Aug 26 07:54:27 PDT 2021)
+Progress update: steps=2000, test inputs generated=1713, failing inputs=0
+Progress update: steps=2451, test inputs generated=2088, failing inputs=0      (Thu Aug 26 07:55:27 PDT 2021)
+Progress update: steps=3000, test inputs generated=2542, failing inputs=0
+Progress update: steps=3021, test inputs generated=2560, failing inputs=0      (Thu Aug 26 07:56:27 PDT 2021)
+Progress update: steps=3625, test inputs generated=3039, failing inputs=0      (Thu Aug 26 07:57:27 PDT 2021)
+Progress update: steps=3625, test inputs generated=3040, failing inputs=0      (Thu Aug 26 07:57:28 PDT 2021)
+Normal method executions: 977630
+Exceptional method executions: 1091
+
+Average method execution time (normal termination):      0.274
+Average method execution time (exceptional termination): 0.760
+
+Regression test output:
+Regression test count: 1816
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_4/run_randoop.pl_133147_1629989536/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_4/run_randoop.pl_133147_1629989536/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_4/run_randoop.pl_133147_1629989536/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_4/run_randoop.pl_133147_1629989536/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_4/run_randoop.pl_133147_1629989536/randoop/RegressionTest.java
+
+Invalid tests generated: 0

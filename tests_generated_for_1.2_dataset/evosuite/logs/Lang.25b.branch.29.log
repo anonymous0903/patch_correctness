@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.text.translate.EntityArrays
+* Starting client
+* Connecting to master process on port 12142
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_43661_1628480927/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.text.translate.EntityArrays
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 13
+* Using seed 1628480936734
+* Starting evolution
+* Search finished after 2s and 0 generations, 7738 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 13
+* Number of covered goals: 13
+* Generated 11 tests with total length 12
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ZeroFitness :                      0 / 0            Finished!
+	- MaxTime :                          2 / 100         
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 912ms
+* Generating assertions
+* Resulting test suite's mutation score: 45%
+* Writing JUnit test case 'EntityArrays_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

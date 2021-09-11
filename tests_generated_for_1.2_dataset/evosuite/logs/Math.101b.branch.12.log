@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.complex.ComplexFormat
+* Starting client
+* Connecting to master process on port 14093
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_109009_1628364321/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.complex.ComplexFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 73
+* Using seed 1628364331519
+* Starting evolution
+* Search finished after 101s and 1897 generations, 256629 statements, best individual has fitness: 2.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 73
+* Number of covered goals: 67
+* Generated 16 tests with total length 39
+* Resulting test suite's coverage: 96%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                      2 / 0           
+	- MaxTime :                        101 / 100          Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 44144ms
+* Generating assertions
+* Resulting test suite's mutation score: 37%
+* Writing JUnit test case 'ComplexFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

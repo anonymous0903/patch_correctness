@@ -1,0 +1,52 @@
+Ignoring interface org.jfree.data.xy.TableXYDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.jfree.data.general.Series specified via --classlist or --testclass.
+Ignoring interface org.jfree.data.KeyedValues2D specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.category.CategoryDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.statistics.BoxAndWhiskerCategoryDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.function.Function2D specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.event.SeriesChangeListener specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.Values specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.general.Dataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.chart.util.PublicCloneable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.jfree.data.general.AbstractDataset specified via --classlist or --testclass.
+Ignoring abstract class org.jfree.data.xy.AbstractIntervalXYDataset specified via --classlist or --testclass.
+Ignoring interface org.jfree.data.xy.XYDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.jfree.data.general.AbstractSeriesDataset specified via --classlist or --testclass.
+Ignoring interface org.jfree.data.general.SeriesDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.pie.PieDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.jfree.data.xy.AbstractXYDataset specified via --classlist or --testclass.
+Ignoring interface org.jfree.data.xy.IntervalXYDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.xy.OHLCDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.KeyedValues specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.Values2D specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=175
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 19 08:00:59 PDT 2021)
+Progress update: steps=1000, test inputs generated=820, failing inputs=0
+Progress update: steps=1374, test inputs generated=1175, failing inputs=0      (Thu Aug 19 08:01:59 PDT 2021)
+Progress update: steps=2000, test inputs generated=1766, failing inputs=0
+Progress update: steps=2261, test inputs generated=2008, failing inputs=0      (Thu Aug 19 08:02:59 PDT 2021)
+Progress update: steps=3000, test inputs generated=2689, failing inputs=0
+Progress update: steps=3150, test inputs generated=2829, failing inputs=0      (Thu Aug 19 08:03:59 PDT 2021)
+Progress update: steps=3860, test inputs generated=3485, failing inputs=0      (Thu Aug 19 08:04:59 PDT 2021)
+Progress update: steps=4000, test inputs generated=3606, failing inputs=0
+Progress update: steps=4549, test inputs generated=4110, failing inputs=0      (Thu Aug 19 08:05:59 PDT 2021)
+Normal method executions: 1236669
+Exceptional method executions: 1076
+
+Average method execution time (normal termination):      0.200
+Average method execution time (exceptional termination): 0.924
+                                                                                                                                                                                                       
+Regression test output:
+Regression test count: 2214
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_95844_1629385245/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_95844_1629385245/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_95844_1629385245/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_95844_1629385245/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_95844_1629385245/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_95844_1629385245/randoop/RegressionTest.java
+
+Invalid tests generated: 0

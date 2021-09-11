@@ -1,0 +1,35 @@
+Ignoring interface org.apache.commons.math.FieldElement specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.stat.inference.ChiSquareTest specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class org.apache.commons.math.util.FastMathLiteralArrays specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.Field specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.exception.util.Localizable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.exception.util.ExceptionContextProvider specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=122
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=1, failing inputs=0      (Thu Aug 26 04:43:41 PDT 2021)
+Progress update: steps=380, test inputs generated=370, failing inputs=0      (Thu Aug 26 04:44:41 PDT 2021)
+Progress update: steps=727, test inputs generated=700, failing inputs=0      (Thu Aug 26 04:45:41 PDT 2021)
+Progress update: steps=1000, test inputs generated=963, failing inputs=0
+Progress update: steps=1177, test inputs generated=1129, failing inputs=0      (Thu Aug 26 04:46:41 PDT 2021)
+Progress update: steps=1783, test inputs generated=1700, failing inputs=0      (Thu Aug 26 04:47:41 PDT 2021)
+Progress update: steps=2000, test inputs generated=1902, failing inputs=0
+Progress update: steps=2545, test inputs generated=2416, failing inputs=0      (Thu Aug 26 04:48:41 PDT 2021)
+Progress update: steps=2545, test inputs generated=2417, failing inputs=0      (Thu Aug 26 04:48:42 PDT 2021)
+Normal method executions: 580733
+Exceptional method executions: 32
+
+Average method execution time (normal termination):      0.428
+Average method execution time (exceptional termination): 1.80
+
+Regression test output:
+Regression test count: 1839
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_66159_1629978189/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_66159_1629978189/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_66159_1629978189/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_66159_1629978189/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_66159_1629978189/randoop/RegressionTest.java
+
+Invalid tests generated: 0

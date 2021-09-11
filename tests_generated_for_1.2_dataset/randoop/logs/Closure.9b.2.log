@@ -1,0 +1,131 @@
+Ignoring interface com.google.javascript.jscomp.type.ReverseAbstractInterpreter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.deps.DependencyInfo specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.Region specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSourceFile specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.CodingConvention specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.CompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.ErrorHandler specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.ErrorManager specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible interface com.google.javascript.jscomp.CodeChangeHandler specified via --classlist or --testclass.
+PUBLIC MEMBERS=837
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 06:45:59 PDT 2021)
+Progress update: steps=1000, test inputs generated=666, failing inputs=0
+Progress update: steps=2000, test inputs generated=1612, failing inputs=0
+Progress update: steps=2255, test inputs generated=1852, failing inputs=0      (Mon Aug 23 06:46:59 PDT 2021)
+Progress update: steps=3000, test inputs generated=2555, failing inputs=0Aug 23, 2021 6:47:36 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing module$hi!: Compilation produced 1 syntax errors. (module$hi!#1)
+Aug 23, 2021 6:47:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: module$hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 6:47:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=4000, test inputs generated=3471, failing inputs=0
+Progress update: steps=4074, test inputs generated=3544, failing inputs=0      (Mon Aug 23 06:47:59 PDT 2021)Aug 23, 2021 6:48:14 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing module$hi!: Compilation produced 1 syntax errors. (module$hi!#1)
+Aug 23, 2021 6:48:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: module$hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 6:48:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=5000, test inputs generated=4389, failing inputs=0Aug 23, 2021 6:48:40 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing module$hi!: Compilation produced 1 syntax errors. (module$hi!#1)
+Aug 23, 2021 6:48:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: module$hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 6:48:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 6:48:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 6:48:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=5783, test inputs generated=5109, failing inputs=0      (Mon Aug 23 06:48:59 PDT 2021)Aug 23, 2021 6:49:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [JSC_OPTIMIZE_LOOP_ERROR: Exceeded max number of code motion iterations: {0}]
+
+Aug 23, 2021 6:49:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 23, 2021 6:49:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+
+Progress update: steps=6000, test inputs generated=5315, failing inputs=0Aug 23, 2021 6:49:24 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing module$hi!: Compilation produced 1 syntax errors. (module$hi!#1)
+Aug 23, 2021 6:49:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: module$hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 6:49:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=7000, test inputs generated=6245, failing inputs=0Aug 23, 2021 6:49:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing module$hi!: Compilation produced 1 syntax errors. (module$hi!#1)
+Aug 23, 2021 6:49:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: module$hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 6:49:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 6:49:57 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing module$hi!: Compilation produced 1 syntax errors. (module$hi!#1)
+Aug 23, 2021 6:49:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: module$hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 6:49:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=7400, test inputs generated=6618, failing inputs=0      (Mon Aug 23 06:49:59 PDT 2021)
+Progress update: steps=8000, test inputs generated=7176, failing inputs=0Aug 23, 2021 6:50:26 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing module$hi!: Compilation produced 1 syntax errors. (module$hi!#1)
+Aug 23, 2021 6:50:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: module$hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 6:50:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 6:50:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 6:50:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=8785, test inputs generated=7870, failing inputs=0      (Mon Aug 23 06:50:59 PDT 2021)
+Normal method executions: 1182676
+Exceptional method executions: 817
+
+Average method execution time (normal termination):      0.111
+Average method execution time (exceptional termination): 1.31
+                                                                                                                                                                                                       
+Regression test output:
+Regression test count: 4009
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_20184_1629726338/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_20184_1629726338/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_20184_1629726338/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_20184_1629726338/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_20184_1629726338/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_20184_1629726338/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_20184_1629726338/randoop/RegressionTest6.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_20184_1629726338/randoop/RegressionTest7.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_20184_1629726338/randoop/RegressionTest8.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_20184_1629726338/randoop/RegressionTest.java
+
+Invalid tests generated: 0

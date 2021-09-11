@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter
+* Starting client
+* Connecting to master process on port 7062
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_25805_1629877763/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_25805_1629877763/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_25805_1629877763/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_25805_1629877763/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_25805_1629877763/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_25805_1629877763/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_25805_1629877763/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_25805_1629877763/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.type.ChainableReverseAbstractInterpreter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 162
+* Using seed 1629877796736
+* Starting evolution
+* Search finished after 303s and 1516 generations, 435712 statements, best individual has fitness: 73.4126984126984
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 53%
+* Total number of goals: 162
+* Number of covered goals: 86
+* Generated 38 tests with total length 357
+* Resulting test suite's coverage: 53%
+* GA-Budget:
+	- MaxTime :                        324 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     73 / 0           
+* Time spent executing tests: 213652ms
+* Generating assertions
+* Resulting test suite's mutation score: 32%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'ChainableReverseAbstractInterpreter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

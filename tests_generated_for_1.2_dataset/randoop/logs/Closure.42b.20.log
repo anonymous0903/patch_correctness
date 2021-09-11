@@ -1,0 +1,51 @@
+Ignoring non-visible class com.google.javascript.rhino.jstype.PrototypeObjectType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.TypeSafeDispatcher specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.ObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.JSType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnresolvedTypeExpression specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ValueType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.ErrorReporter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.rhino.jstype.StaticScope specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.NamedType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSourceFile specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSlot specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.NoResolvedType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.InstanceObjectType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticReference specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.IndexedType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.Annotation specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ErrorFunctionType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ArrowType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ProxyObjectType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ParameterizedType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.IRFactory specified via --classlist or --testclass.
+PUBLIC MEMBERS=799
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Wed Aug 25 20:45:10 PDT 2021)
+Progress update: steps=1000, test inputs generated=525, failing inputs=0
+Progress update: steps=1122, test inputs generated=608, failing inputs=0      (Wed Aug 25 20:46:10 PDT 2021)
+Progress update: steps=1848, test inputs generated=1069, failing inputs=0      (Wed Aug 25 20:47:10 PDT 2021)
+Progress update: steps=2000, test inputs generated=1154, failing inputs=0
+Progress update: steps=2621, test inputs generated=1535, failing inputs=0      (Wed Aug 25 20:48:10 PDT 2021)
+Progress update: steps=3000, test inputs generated=1764, failing inputs=0
+Progress update: steps=3375, test inputs generated=1984, failing inputs=0      (Wed Aug 25 20:49:10 PDT 2021)
+Progress update: steps=3987, test inputs generated=2331, failing inputs=0      (Wed Aug 25 20:50:10 PDT 2021)
+Progress update: steps=3987, test inputs generated=2332, failing inputs=0      (Wed Aug 25 20:50:11 PDT 2021)
+Normal method executions: 2193860
+Exceptional method executions: 247
+
+Average method execution time (normal termination):      0.118
+Average method execution time (exceptional termination): 1.70
+
+Regression test output:
+Regression test count: 1224
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_2/run_randoop.pl_8667_1629949490/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_2/run_randoop.pl_8667_1629949490/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_2/run_randoop.pl_8667_1629949490/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_2/run_randoop.pl_8667_1629949490/randoop/RegressionTest.java
+
+Invalid tests generated: 0

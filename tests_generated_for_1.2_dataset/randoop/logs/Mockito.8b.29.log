@@ -1,0 +1,31 @@
+Ignoring abstract class org.mockito.internal.util.reflection.GenericMetadataSupport specified via --classlist or --testclass.
+PUBLIC MEMBERS=11
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sun Aug 08 14:02:32 PDT 2021)
+Progress update: steps=1000, test inputs generated=723, failing inputs=0
+Progress update: steps=1257, test inputs generated=899, failing inputs=0      (Sun Aug 08 14:03:32 PDT 2021)
+Progress update: steps=2000, test inputs generated=1444, failing inputs=0
+Progress update: steps=2059, test inputs generated=1484, failing inputs=0      (Sun Aug 08 14:04:32 PDT 2021)
+Progress update: steps=2791, test inputs generated=2018, failing inputs=0      (Sun Aug 08 14:05:32 PDT 2021)
+Progress update: steps=3000, test inputs generated=2173, failing inputs=0
+Progress update: steps=3547, test inputs generated=2564, failing inputs=0      (Sun Aug 08 14:06:32 PDT 2021)
+Progress update: steps=4000, test inputs generated=2884, failing inputs=0
+Progress update: steps=4171, test inputs generated=3001, failing inputs=0      (Sun Aug 08 14:07:32 PDT 2021)
+Progress update: steps=4171, test inputs generated=3002, failing inputs=0      (Sun Aug 08 14:07:32 PDT 2021)
+Normal method executions: 2540083
+Exceptional method executions: 98
+
+Average method execution time (normal termination):      0.0989
+Average method execution time (exceptional termination): 0.322
+
+Regression test output:
+Regression test count: 1463
+Writing JUnit tests...
+
+Created file /tmp/run_randoop.pl_32770_1628456420/randoop/RegressionTest0.java
+Created file /tmp/run_randoop.pl_32770_1628456420/randoop/RegressionTest1.java
+Created file /tmp/run_randoop.pl_32770_1628456420/randoop/RegressionTest2.java
+Created file /tmp/run_randoop.pl_32770_1628456420/randoop/RegressionTest.java
+
+Invalid tests generated: 0

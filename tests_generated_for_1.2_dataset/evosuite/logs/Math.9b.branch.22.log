@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.geometry.euclidean.threed.Line
+* Starting client
+* Connecting to master process on port 13235
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_1/run_evosuite.pl_24232_1629546382/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.geometry.euclidean.threed.Line
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 27
+* Using seed 1629546396042
+* Starting evolution
+* Search finished after 12s and 146 generations, 29549 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 27
+* Number of covered goals: 27
+* Generated 17 tests with total length 59
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                         13 / 300         
+	- ZeroFitness :                      0 / 0            Finished!
+* Time spent executing tests: 6251ms
+* Generating assertions
+* Resulting test suite's mutation score: 37%
+* Writing JUnit test case 'Line_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

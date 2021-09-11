@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optimization.direct.CMAESOptimizer
+* Starting client
+* Connecting to master process on port 17257
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_2/run_evosuite.pl_186247_1629469663/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optimization.direct.CMAESOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 286
+* Using seed 1629469676525
+* Starting evolution
+* Search finished after 325s and 592 generations, 313616 statements, best individual has fitness: 105.9666666551074
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 64%
+* Total number of goals: 286
+* Number of covered goals: 183
+* Generated 16 tests with total length 163
+* Resulting test suite's coverage: 64%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    106 / 0           
+	- MaxTime :                        406 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 358841ms
+* Generating assertions
+* Resulting test suite's mutation score: 6%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'CMAESOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,35 @@
+Ignoring interface org.apache.commons.math.FieldElement specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.exception.MathThrowable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.Field specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.random.BitsStreamGenerator specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.random.RandomGenerator specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=181
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sat Aug 07 15:04:19 PDT 2021)
+Progress update: steps=1000, test inputs generated=847, failing inputs=0
+Progress update: steps=1271, test inputs generated=1105, failing inputs=0      (Sat Aug 07 15:05:19 PDT 2021)
+Progress update: steps=1883, test inputs generated=1675, failing inputs=0      (Sat Aug 07 15:06:19 PDT 2021)
+Progress update: steps=2000, test inputs generated=1787, failing inputs=0
+Progress update: steps=2370, test inputs generated=2132, failing inputs=0      (Sat Aug 07 15:07:19 PDT 2021)
+Progress update: steps=2935, test inputs generated=2663, failing inputs=0      (Sat Aug 07 15:08:19 PDT 2021)
+Progress update: steps=3000, test inputs generated=2724, failing inputs=0
+Progress update: steps=3332, test inputs generated=3031, failing inputs=0      (Sat Aug 07 15:09:19 PDT 2021)
+Progress update: steps=3332, test inputs generated=3032, failing inputs=0      (Sat Aug 07 15:09:19 PDT 2021)
+Normal method executions: 2378946
+Exceptional method executions: 52
+
+Average method execution time (normal termination):      0.0926
+Average method execution time (exceptional termination): 0.573
+
+Regression test output:
+Regression test count: 1847
+Writing JUnit tests...
+
+Created file /tmp/run_randoop.pl_85530_1628373849/randoop/RegressionTest0.java
+Created file /tmp/run_randoop.pl_85530_1628373849/randoop/RegressionTest1.java
+Created file /tmp/run_randoop.pl_85530_1628373849/randoop/RegressionTest2.java
+Created file /tmp/run_randoop.pl_85530_1628373849/randoop/RegressionTest3.java
+Created file /tmp/run_randoop.pl_85530_1628373849/randoop/RegressionTest.java
+
+Invalid tests generated: 0

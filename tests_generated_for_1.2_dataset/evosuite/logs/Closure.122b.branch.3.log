@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 18061
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_5291_1629872455/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_5291_1629872455/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_5291_1629872455/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_5291_1629872455/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_5291_1629872455/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_5291_1629872455/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_5291_1629872455/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_5291_1629872455/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 658
+* Using seed 1629872480715
+* Starting evolution
+* Search finished after 302s and 1152 generations, 354588 statements, best individual has fitness: 422.8274463056882
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 37%
+* Total number of goals: 658
+* Number of covered goals: 243
+* Generated 22 tests with total length 232
+* Resulting test suite's coverage: 37%
+* GA-Budget:
+	- MaxTime :                        315 / 300          Finished!
+	- ZeroFitness :                    423 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 177386ms
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

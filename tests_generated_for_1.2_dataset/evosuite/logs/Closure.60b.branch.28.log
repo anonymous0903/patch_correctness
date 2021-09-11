@@ -1,0 +1,48 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 7385
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_7000_1629789251/build/classes
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_7000_1629789251/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_7000_1629789251/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_7000_1629789251/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_7000_1629789251/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_7000_1629789251/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_7000_1629789251/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/tmp/run_evosuite.pl_7000_1629789251/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 2426
+* Using seed 1629789270759
+* Starting evolution
+* Search finished after 309s and 423 generations, 166220 statements, best individual has fitness: 860.3885524971
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 00:20:56.845 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 57%
+* Total number of goals: 2426
+* Number of covered goals: 1385
+* Generated 1448 tests with total length 24771
+* Resulting test suite's coverage: 57%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        403 / 300          Finished!
+	- ZeroFitness :                    954 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 157194ms
+* Generating assertions
+[MASTER] 00:21:23.066 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 31 seconds more than allowed.
+* Resulting test suite's mutation score: 27%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve o=!"M: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'NodeUtil_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

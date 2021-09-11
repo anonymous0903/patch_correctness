@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.fraction.ProperFractionFormat
+* Starting client
+* Connecting to master process on port 14414
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_5/run_evosuite.pl_57301_1629596997/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.fraction.ProperFractionFormat
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 22
+* Using seed 1629597007415
+* Starting evolution
+* Search finished after 302s and 7001 generations, 918701 statements, best individual has fitness: 0.9705882352941176
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 22
+* Number of covered goals: 21
+* Generated 9 tests with total length 27
+* Resulting test suite's coverage: 95%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      1 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 126456ms
+* Generating assertions
+* Resulting test suite's mutation score: 62%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'ProperFractionFormat_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

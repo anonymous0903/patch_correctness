@@ -1,0 +1,54 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeCheck
+* Starting client
+* Connecting to master process on port 3036
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_7830_1629378918/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_7830_1629378918/lib/ant_deploy.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_7830_1629378918/lib/args4j_deploy.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_7830_1629378918/lib/guava-r06.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_7830_1629378918/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_7830_1629378918/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_7830_1629378918/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_7830_1629378918/lib/junit.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_7830_1629378918/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_7830_1629378918/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 909
+* Using seed 1629378931375
+* Starting evolution
+* Search finished after 312s and 663 generations, 206400 statements, best individual has fitness: 457.6171665958069
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 06:21:59.325 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 44%
+* Total number of goals: 909
+* Number of covered goals: 398
+* Generated 425 tests with total length 8063
+* Resulting test suite's coverage: 44%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    473 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        397 / 300          Finished!
+* Time spent executing tests: 275123ms
+* Generating assertions
+[MASTER] 06:22:16.520 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 17 seconds more than allowed.
+* Resulting test suite's mutation score: 9%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve JSC_HIDDEN_INTERFACE_PROPERTY: 1
+         connect,resolve 127.0.0.1:55: 1
+         connect,resolve 127.0.0.1:138: 1
+         resolve [JS property assignments:
+]: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'TypeCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

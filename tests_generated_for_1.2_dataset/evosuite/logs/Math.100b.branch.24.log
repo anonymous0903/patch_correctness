@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.estimation.AbstractEstimator
+* Starting client
+* Connecting to master process on port 4728
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_5/run_evosuite.pl_10749_1629535280/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.estimation.AbstractEstimator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 28
+* Using seed 1629535797865
+* Starting evolution
+* Search finished after 301s and 9355 generations, 1446125 statements, best individual has fitness: 6.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 28
+* Number of covered goals: 20
+* Generated 9 tests with total length 32
+* Resulting test suite's coverage: 71%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      6 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        301 / 300          Finished!
+* Time spent executing tests: 146485ms
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'AbstractEstimator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

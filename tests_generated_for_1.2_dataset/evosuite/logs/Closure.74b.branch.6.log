@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeFoldConstants
+* Starting client
+* Connecting to master process on port 3253
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_1202_1629447774/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_1202_1629447774/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_1202_1629447774/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_1202_1629447774/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_1202_1629447774/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_1202_1629447774/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_1202_1629447774/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_1202_1629447774/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeFoldConstants
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1147
+* Using seed 1629447786380
+* Starting evolution
+* Search finished after 308s and 613 generations, 275535 statements, best individual has fitness: 726.2095078388705
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 01:29:30.099 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 34%
+* Total number of goals: 1147
+* Number of covered goals: 395
+[MASTER] 01:29:38.227 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 9 seconds more than allowed.
+* Generated 428 tests with total length 9940
+* Resulting test suite's coverage: 34%
+* GA-Budget:
+	- ZeroFitness :                    729 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        383 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 232341ms
+* Generating assertions
+* Resulting test suite's mutation score: 12%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'PeepholeFoldConstants_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

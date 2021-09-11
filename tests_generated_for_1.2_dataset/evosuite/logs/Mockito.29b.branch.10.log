@@ -1,0 +1,45 @@
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.matchers.Same
+* Starting client
+* Connecting to master process on port 16536
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_99221_1628463268/target/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.matchers.Same
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 8
+* Using seed 1628463281552
+* Starting evolution
+* Search finished after 8s and 0 generations, 2997 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Generated 5 tests with total length 16
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                          9 / 100         
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      0 / 0            Finished!
+* Time spent executing tests: 927ms
+* Generating assertions
+* Resulting test suite's mutation score: 100%
+* Writing JUnit test case 'Same_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

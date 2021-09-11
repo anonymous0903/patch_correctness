@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.data.general.DatasetUtilities
+* Starting client
+* Connecting to master process on port 12448
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_42883_1629400022/build
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_42883_1629400022/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.general.DatasetUtilities
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 560
+* Using seed 1629400035153
+* Starting evolution
+* Search finished after 304s and 658 generations, 452536 statements, best individual has fitness: 59.9999999995288
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 87%
+* Total number of goals: 560
+* Number of covered goals: 485
+* Generated 139 tests with total length 475
+* Resulting test suite's coverage: 87%
+* GA-Budget:
+	- ZeroFitness :                     64 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        335 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 91686ms
+* Generating assertions
+* Resulting test suite's mutation score: 36%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'DatasetUtilities_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

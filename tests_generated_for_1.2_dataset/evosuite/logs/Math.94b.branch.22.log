@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.util.MathUtils
+* Starting client
+* Connecting to master process on port 20536
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_4/run_evosuite.pl_155532_1629525355/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.util.MathUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 236
+* Using seed 1629525367013
+* Starting evolution
+[MASTER] 22:57:38.151 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Search finished after 302s and 2032 generations, 504118 statements, best individual has fitness: 16.305211558307533
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 236
+* Number of covered goals: 218
+* Generated 105 tests with total length 115
+* Resulting test suite's coverage: 92%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     16 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        305 / 300          Finished!
+* Time spent executing tests: 98602ms
+* Generating assertions
+* Resulting test suite's mutation score: 54%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'MathUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

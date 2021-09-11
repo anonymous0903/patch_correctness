@@ -1,0 +1,234 @@
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.configuration.injection.PropertyAndSetterInjection
+* Starting client
+* Connecting to master process on port 18257
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_11687_1629578200/build/classes/main
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_11687_1629578200/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.configuration.injection.PropertyAndSetterInjection
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 16
+* Using seed 1629578273127
+* Starting evolution
+* Search finished after 301s and 7065 generations, 576850 statements, best individual has fitness: 16.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 12%
+* Total number of goals: 16
+* Number of covered goals: 2
+* Generated 1 tests with total length 1
+* Resulting test suite's coverage: 12%
+* GA-Budget:
+	- MaxTime :                        301 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     16 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 134023ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'PropertyAndSetterInjection_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter
+* Starting client
+* Connecting to master process on port 2152
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_11687_1629578200/build/classes/main
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_11687_1629578200/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.configuration.injection.filter.FinalMockCandidateFilter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 8
+* Using seed 1629578603486
+* Starting evolution
+* Search finished after 301s and 1599 generations, 140394 statements, best individual has fitness: 9.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 12%
+* Total number of goals: 8
+* Number of covered goals: 1
+* Generated 1 tests with total length 1
+* Resulting test suite's coverage: 12%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      9 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 17345ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'FinalMockCandidateFilter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.configuration.injection.filter.MockCandidateFilter
+* Starting client
+* Connecting to master process on port 8342
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_11687_1629578200/build/classes/main
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_11687_1629578200/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.configuration.injection.filter.MockCandidateFilter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 0
+* Search finished after 0s and 0 generations, 0 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100% (no goals)
+* Generated 0 tests with total length 0
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                          0 / 300         
+	- ZeroFitness :                      0 / 0            Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 0ms
+* Generating assertions
+* Resulting test suite's mutation score: 100%
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter
+* Starting client
+* Connecting to master process on port 3688
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_11687_1629578200/build/classes/main
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_11687_1629578200/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.configuration.injection.filter.NameBasedCandidateFilter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 7
+* Using seed 1629578952748
+* Starting evolution
+* Search finished after 302s and 4517 generations, 359771 statements, best individual has fitness: 7.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 14%
+* Total number of goals: 7
+* Number of covered goals: 1
+* Generated 1 tests with total length 2
+* Resulting test suite's coverage: 14%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      7 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        301 / 300          Finished!
+* Time spent executing tests: 43719ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'NameBasedCandidateFilter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter
+* Starting client
+* Connecting to master process on port 19811
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_11687_1629578200/build/classes/main
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_11687_1629578200/compileLib/byte-buddy-0.6.8.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.configuration.injection.filter.TypeBasedCandidateFilter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 5
+* Using seed 1629579279470
+* Starting evolution
+* Search finished after 301s and 6312 generations, 609301 statements, best individual has fitness: 5.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 20%
+* Total number of goals: 5
+* Number of covered goals: 1
+* Generated 1 tests with total length 2
+* Resulting test suite's coverage: 20%
+* GA-Budget:
+	- ZeroFitness :                      5 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 96512ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'TypeBasedCandidateFilter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

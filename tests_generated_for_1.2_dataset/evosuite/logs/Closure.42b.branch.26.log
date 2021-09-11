@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 20578
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_158696_1628429883/build/classes
+  - /tmp/run_evosuite.pl_158696_1628429883/lib/args4j.jar
+  - /tmp/run_evosuite.pl_158696_1628429883/lib/guava.jar
+  - /tmp/run_evosuite.pl_158696_1628429883/lib/json.jar
+  - /tmp/run_evosuite.pl_158696_1628429883/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_158696_1628429883/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_158696_1628429883/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_158696_1628429883/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 563
+* Using seed 1628429900304
+* Starting evolution
+* Search finished after 104s and 508 generations, 179835 statements, best individual has fitness: 314.72243120522785
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 43%
+* Total number of goals: 563
+* Number of covered goals: 243
+* Generated 26 tests with total length 218
+* Resulting test suite's coverage: 43%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        112 / 100          Finished!
+	- ZeroFitness :                    315 / 0           
+* Time spent executing tests: 59829ms
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

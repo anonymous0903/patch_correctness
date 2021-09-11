@@ -1,0 +1,26 @@
+######  Start test generation  /home/user/yangjun/tools/defects4j/framework/bin/gen_tests.pl: 2021-08-19 10:52:58  ######
+Mode: regression
+Parameters:
+ -g randoop
+ -p JacksonCore
+ -v 3b
+ -n 23
+ -b 300
+ -c /home/user/yangjun/tools/defects4j/framework/projects/JacksonCore/modified_classes/3.src
+ -s 23003
+Created test suite archive: JacksonCore-3b-randoop.23.tar.bz2
+Moved test suite archive to output directory: /home/user/yangjun/test_generation/test_suite_tests/randoop/JacksonCore/randoop/23
+######  End test generation  /home/user/yangjun/tools/defects4j/framework/bin/gen_tests.pl: 2021-08-19 10:58:52  ######
+######  Start test generation  /home/user/yangjun/tools/defects4j/framework/bin/gen_tests.pl: 2021-08-19 11:10:37  ######
+Mode: regression
+Parameters:
+ -g randoop
+ -p JacksonCore
+ -v 3b
+ -n 29
+ -b 300
+ -c /home/user/yangjun/tools/defects4j/framework/projects/JacksonCore/modified_classes/3.src
+ -s 29003
+Created test suite archive: JacksonCore-3b-randoop.29.tar.bz2
+Moved test suite archive to output directory: /home/user/yangjun/test_generation/test_suite_tests/randoop/JacksonCore/randoop/29
+######  End test generation  /home/user/yangjun/tools/defects4j/framework/bin/gen_tests.pl: 2021-08-19 11:16:07  ######

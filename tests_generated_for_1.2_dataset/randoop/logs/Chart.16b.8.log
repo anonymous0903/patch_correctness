@@ -1,0 +1,46 @@
+Ignoring interface org.jfree.data.Values specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.general.SeriesDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.Values2D specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.category.CategoryDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.KeyedValues specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.KeyedValues2D specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.jfree.data.general.Dataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.jfree.data.general.AbstractDataset specified via --classlist or --testclass.
+Ignoring interface org.jfree.data.general.SeriesChangeListener specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.jfree.data.DataUtilities specified via --classlist or --testclass.
+Ignoring interface org.jfree.data.category.IntervalCategoryDataset specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.jfree.data.general.AbstractSeriesDataset specified via --classlist or --testclass.
+PUBLIC MEMBERS=70
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 19 14:05:06 PDT 2021)
+Progress update: steps=1000, test inputs generated=801, failing inputs=0
+Progress update: steps=1664, test inputs generated=1365, failing inputs=0      (Thu Aug 19 14:06:06 PDT 2021)
+Progress update: steps=2000, test inputs generated=1648, failing inputs=0
+Progress update: steps=2729, test inputs generated=2226, failing inputs=0      (Thu Aug 19 14:07:06 PDT 2021)
+Progress update: steps=3000, test inputs generated=2434, failing inputs=0
+Progress update: steps=3605, test inputs generated=2925, failing inputs=0      (Thu Aug 19 14:08:06 PDT 2021)
+Progress update: steps=4000, test inputs generated=3237, failing inputs=0
+Progress update: steps=4570, test inputs generated=3692, failing inputs=0      (Thu Aug 19 14:09:06 PDT 2021)
+Progress update: steps=5000, test inputs generated=4027, failing inputs=0
+Progress update: steps=5884, test inputs generated=4724, failing inputs=0      (Thu Aug 19 14:10:06 PDT 2021)
+Progress update: steps=5884, test inputs generated=4725, failing inputs=0      (Thu Aug 19 14:10:06 PDT 2021)
+Normal method executions: 1633702
+Exceptional method executions: 2132
+
+Average method execution time (normal termination):      0.151
+Average method execution time (exceptional termination): 0.659
+
+Regression test output:
+Regression test count: 2836
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_151644_1629407094/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_151644_1629407094/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_151644_1629407094/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_151644_1629407094/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_151644_1629407094/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_151644_1629407094/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_151644_1629407094/randoop/RegressionTest.java
+
+Invalid tests generated: 0

@@ -1,0 +1,107 @@
+not using package 
+Ignoring interface org.mockito.invocation.DescribedInvocation specified via --classlist or --testclass.
+Ignoring interface org.mockito.internal.configuration.FieldAnnotationProcessor specified via --classlist or --testclass.
+Ignoring interface org.mockito.configuration.AnnotationEngine specified via --classlist or --testclass.
+Ignoring interface org.mockito.internal.progress.MockingProgress specified via --classlist or --testclass.
+Ignoring interface org.mockito.plugins.StackTraceCleanerProvider specified via --classlist or --testclass.
+Ignoring interface org.mockito.invocation.Location specified via --classlist or --testclass.
+Ignoring interface org.mockito.internal.configuration.injection.filter.OngoingInjecter specified via --classlist or --testclass.
+Ignoring interface org.mockito.mock.MockName specified via --classlist or --testclass.
+Ignoring interface org.mockito.internal.invocation.AbstractAwareMethod specified via --classlist or --testclass.
+Ignoring interface org.mockito.Captor specified via --classlist or --testclass.
+Ignoring interface org.mockito.internal.progress.ArgumentMatcherStorage specified via --classlist or --testclass.
+Ignoring abstract class org.mockito.internal.configuration.injection.MockInjectionStrategy specified via --classlist or --testclass.
+Ignoring interface org.mockito.invocation.Invocation specified via --classlist or --testclass.
+Ignoring interface org.mockito.exceptions.PrintableInvocation specified via --classlist or --testclass.
+Ignoring interface org.mockito.internal.creation.instance.Instantiator specified via --classlist or --testclass.
+Ignoring interface org.mockito.plugins.MockMaker specified via --classlist or --testclass.
+Ignoring interface org.mockito.configuration.IMockitoConfiguration specified via --classlist or --testclass.
+Ignoring abstract class org.mockito.internal.util.collections.Sets specified via --classlist or --testclass.
+Ignoring interface org.mockito.invocation.InvocationOnMock specified via --classlist or --testclass.
+Ignoring interface org.mockito.internal.configuration.injection.filter.MockCandidateFilter specified via --classlist or --testclass.
+Ignoring interface org.mockito.internal.invocation.realmethod.RealMethod specified via --classlist or --testclass.
+Ignoring interface org.mockito.Mock specified via --classlist or --testclass.
+Ignoring interface org.mockito.internal.invocation.MockitoMethod specified via --classlist or --testclass.
+Ignoring interface org.mockito.invocation.MockHandler specified via --classlist or --testclass.
+Ignoring interface org.mockito.stubbing.Answer specified via --classlist or --testclass.
+PUBLIC MEMBERS=258
+Explorer = randoop.generation.ForwardGenerator@3cbd7173
+
+Progress update: test inputs generated=0, failing inputs=0      (Fri Aug 20 07:10:51 PDT 2021)
+Progress update: test inputs generated=95, failing inputs=1      (Fri Aug 20 07:10:56 PDT 2021)
+Progress update: test inputs generated=169, failing inputs=4      (Fri Aug 20 07:11:01 PDT 2021)
+Progress update: test inputs generated=246, failing inputs=6      (Fri Aug 20 07:11:06 PDT 2021)
+Progress update: test inputs generated=346, failing inputs=12      (Fri Aug 20 07:11:11 PDT 2021)
+Progress update: test inputs generated=454, failing inputs=18      (Fri Aug 20 07:11:16 PDT 2021)
+Progress update: test inputs generated=515, failing inputs=20      (Fri Aug 20 07:11:21 PDT 2021)
+Progress update: test inputs generated=605, failing inputs=22      (Fri Aug 20 07:11:26 PDT 2021)
+Progress update: test inputs generated=699, failing inputs=28      (Fri Aug 20 07:11:31 PDT 2021)
+Progress update: test inputs generated=766, failing inputs=31      (Fri Aug 20 07:11:36 PDT 2021)
+Progress update: test inputs generated=875, failing inputs=37      (Fri Aug 20 07:11:41 PDT 2021)
+Progress update: test inputs generated=948, failing inputs=40      (Fri Aug 20 07:11:46 PDT 2021)
+Progress update: test inputs generated=1031, failing inputs=48      (Fri Aug 20 07:11:52 PDT 2021)
+Progress update: test inputs generated=1133, failing inputs=54      (Fri Aug 20 07:11:57 PDT 2021)
+Progress update: test inputs generated=1197, failing inputs=56      (Fri Aug 20 07:12:02 PDT 2021)
+Progress update: test inputs generated=1245, failing inputs=61      (Fri Aug 20 07:12:07 PDT 2021)
+Progress update: test inputs generated=1316, failing inputs=63      (Fri Aug 20 07:12:12 PDT 2021)
+Progress update: test inputs generated=1389, failing inputs=70      (Fri Aug 20 07:12:17 PDT 2021)
+Progress update: test inputs generated=1440, failing inputs=74      (Fri Aug 20 07:12:22 PDT 2021)
+Progress update: test inputs generated=1503, failing inputs=76      (Fri Aug 20 07:12:27 PDT 2021)
+Progress update: test inputs generated=1523, failing inputs=78      (Fri Aug 20 07:12:32 PDT 2021)
+Progress update: test inputs generated=1555, failing inputs=79      (Fri Aug 20 07:12:37 PDT 2021)
+Progress update: test inputs generated=1607, failing inputs=84      (Fri Aug 20 07:12:42 PDT 2021)
+Progress update: test inputs generated=1648, failing inputs=86      (Fri Aug 20 07:12:47 PDT 2021)
+Progress update: test inputs generated=1717, failing inputs=89      (Fri Aug 20 07:12:52 PDT 2021)
+Progress update: test inputs generated=1769, failing inputs=93      (Fri Aug 20 07:12:57 PDT 2021)
+Progress update: test inputs generated=1816, failing inputs=97      (Fri Aug 20 07:13:02 PDT 2021)
+Progress update: test inputs generated=1903, failing inputs=99      (Fri Aug 20 07:13:07 PDT 2021)
+Progress update: test inputs generated=1967, failing inputs=108      (Fri Aug 20 07:13:12 PDT 2021)
+Progress update: test inputs generated=2039, failing inputs=111      (Fri Aug 20 07:13:18 PDT 2021)
+Progress update: test inputs generated=2089, failing inputs=112      (Fri Aug 20 07:13:23 PDT 2021)
+Progress update: test inputs generated=2121, failing inputs=114      (Fri Aug 20 07:13:28 PDT 2021)
+Progress update: test inputs generated=2165, failing inputs=114      (Fri Aug 20 07:13:33 PDT 2021)
+Progress update: test inputs generated=2231, failing inputs=116      (Fri Aug 20 07:13:38 PDT 2021)
+Progress update: test inputs generated=2271, failing inputs=119      (Fri Aug 20 07:13:43 PDT 2021)
+Progress update: test inputs generated=2332, failing inputs=120      (Fri Aug 20 07:13:48 PDT 2021)
+Progress update: test inputs generated=2370, failing inputs=122      (Fri Aug 20 07:13:53 PDT 2021)
+Progress update: test inputs generated=2424, failing inputs=125      (Fri Aug 20 07:13:58 PDT 2021)
+Progress update: test inputs generated=2491, failing inputs=128      (Fri Aug 20 07:14:03 PDT 2021)
+Progress update: test inputs generated=2541, failing inputs=131      (Fri Aug 20 07:14:08 PDT 2021)
+Progress update: test inputs generated=2588, failing inputs=136      (Fri Aug 20 07:14:13 PDT 2021)
+Progress update: test inputs generated=2637, failing inputs=137      (Fri Aug 20 07:14:18 PDT 2021)
+Progress update: test inputs generated=2704, failing inputs=142      (Fri Aug 20 07:14:23 PDT 2021)
+Progress update: test inputs generated=2751, failing inputs=145      (Fri Aug 20 07:14:28 PDT 2021)
+Progress update: test inputs generated=2810, failing inputs=150      (Fri Aug 20 07:14:33 PDT 2021)
+Progress update: test inputs generated=2858, failing inputs=154      (Fri Aug 20 07:14:38 PDT 2021)
+Progress update: test inputs generated=2893, failing inputs=159      (Fri Aug 20 07:14:43 PDT 2021)
+Progress update: test inputs generated=2935, failing inputs=164      (Fri Aug 20 07:14:48 PDT 2021)
+Progress update: test inputs generated=2974, failing inputs=168      (Fri Aug 20 07:14:53 PDT 2021)
+Progress update: test inputs generated=3033, failing inputs=171      (Fri Aug 20 07:14:58 PDT 2021)
+Progress update: test inputs generated=3079, failing inputs=175      (Fri Aug 20 07:15:03 PDT 2021)
+Progress update: test inputs generated=3140, failing inputs=178      (Fri Aug 20 07:15:08 PDT 2021)
+Progress update: test inputs generated=3175, failing inputs=178      (Fri Aug 20 07:15:13 PDT 2021)
+Progress update: test inputs generated=3192, failing inputs=179      (Fri Aug 20 07:15:18 PDT 2021)
+Progress update: test inputs generated=3230, failing inputs=180      (Fri Aug 20 07:15:23 PDT 2021)
+Progress update: test inputs generated=3257, failing inputs=180      (Fri Aug 20 07:15:28 PDT 2021)
+Progress update: test inputs generated=3295, failing inputs=183      (Fri Aug 20 07:15:33 PDT 2021)
+Progress update: test inputs generated=3325, failing inputs=186      (Fri Aug 20 07:15:38 PDT 2021)
+Progress update: test inputs generated=3357, failing inputs=187      (Fri Aug 20 07:15:43 PDT 2021)
+Progress update: test inputs generated=3434, failing inputs=189      (Fri Aug 20 07:15:48 PDT 2021)
+Progress update: test inputs generated=3452, failing inputs=190      (Fri Aug 20 07:15:51 PDT 2021)
+Normal method executions: 1547878
+Exceptional method executions: 1124
+
+Average method execution time (normal termination):      0.162
+Average method execution time (exceptional termination): 1.33
+
+Regression test output:
+Regression test count: 1972
+Writing JUnit tests...
+
+Created file: /home/user/yangjun/test_generation/tmp/randoop_4/run_randoop.pl_3158_1629468572/randoop/RegressionTest0.java
+Created file: /home/user/yangjun/test_generation/tmp/randoop_4/run_randoop.pl_3158_1629468572/randoop/RegressionTest1.java
+Created file: /home/user/yangjun/test_generation/tmp/randoop_4/run_randoop.pl_3158_1629468572/randoop/RegressionTest2.java
+Created file: /home/user/yangjun/test_generation/tmp/randoop_4/run_randoop.pl_3158_1629468572/randoop/RegressionTest3.java
+Created file: /home/user/yangjun/test_generation/tmp/randoop_4/run_randoop.pl_3158_1629468572/randoop/RegressionTest.java
+
+Invalid tests generated: 0

@@ -1,0 +1,35 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.RandomStringUtils
+* Starting client
+* Connecting to master process on port 17809
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Lang_12_2/run_evosuite.pl_23691_1629979711/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.RandomStringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 57
+* Using seed 1629979721162
+* Starting evolution
+* Search finished after 231s and 85 generations, 41945 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 05:14:39.948 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 57
+* Number of covered goals: 57
+* Generated 63 tests with total length 270
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- MaxTime :                        491 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      0 / 0            Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 278980ms
+* Generating assertions
+[MASTER] 05:17:01.121 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 193 seconds more than allowed.
+[MASTER] 05:23:44.967 [main] ERROR ExternalProcessHandler - Class org.apache.commons.lang3.RandomStringUtils. Clients have not finished yet, although timeout.
+ClientNode: ASSERTION_GENERATION
+
+* Computation finished

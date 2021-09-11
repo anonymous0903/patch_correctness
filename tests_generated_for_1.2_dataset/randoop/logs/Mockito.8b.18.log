@@ -1,0 +1,34 @@
+Ignoring abstract class org.mockito.internal.util.reflection.GenericMetadataSupport specified via --classlist or --testclass.
+PUBLIC MEMBERS=11
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sun Aug 08 12:39:41 PDT 2021)
+Progress update: steps=1000, test inputs generated=729, failing inputs=0
+Progress update: steps=1581, test inputs generated=1133, failing inputs=0      (Sun Aug 08 12:40:41 PDT 2021)
+Progress update: steps=2000, test inputs generated=1437, failing inputs=0
+Progress update: steps=2850, test inputs generated=2012, failing inputs=0      (Sun Aug 08 12:41:41 PDT 2021)
+Progress update: steps=3000, test inputs generated=2122, failing inputs=0
+Progress update: steps=3978, test inputs generated=2794, failing inputs=0      (Sun Aug 08 12:42:41 PDT 2021)
+Progress update: steps=4000, test inputs generated=2809, failing inputs=0
+Progress update: steps=4972, test inputs generated=3491, failing inputs=0      (Sun Aug 08 12:43:41 PDT 2021)
+Progress update: steps=5000, test inputs generated=3509, failing inputs=0
+Progress update: steps=5841, test inputs generated=4105, failing inputs=0      (Sun Aug 08 12:44:41 PDT 2021)
+Progress update: steps=5841, test inputs generated=4105, failing inputs=0      (Sun Aug 08 12:44:41 PDT 2021)
+Normal method executions: 2497949
+Exceptional method executions: 131
+
+Average method execution time (normal termination):      0.0952
+Average method execution time (exceptional termination): 0.243
+
+Regression test output:
+Regression test count: 2066
+Writing JUnit tests...
+
+Created file /tmp/run_randoop.pl_90772_1628451419/randoop/RegressionTest0.java
+Created file /tmp/run_randoop.pl_90772_1628451419/randoop/RegressionTest1.java
+Created file /tmp/run_randoop.pl_90772_1628451419/randoop/RegressionTest2.java
+Created file /tmp/run_randoop.pl_90772_1628451419/randoop/RegressionTest3.java
+Created file /tmp/run_randoop.pl_90772_1628451419/randoop/RegressionTest4.java
+Created file /tmp/run_randoop.pl_90772_1628451419/randoop/RegressionTest.java
+
+Invalid tests generated: 0

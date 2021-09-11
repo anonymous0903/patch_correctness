@@ -1,0 +1,42 @@
+Ignoring abstract class org.apache.commons.math3.distribution.AbstractRealDistribution specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.exception.util.Localizable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class org.apache.commons.math3.util.FastMathLiteralArrays specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.analysis.integration.UnivariateIntegrator specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.distribution.RealDistribution specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.analysis.integration.BaseAbstractUnivariateIntegrator specified via --classlist or --testclass.
+Ignoring abstract class org.apache.commons.math3.util.ContinuedFraction specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.exception.util.ExceptionContextProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.random.RandomGenerator specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.analysis.UnivariateFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.distribution.IntegerDistribution specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.random.AbstractWell specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.random.RandomData specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.random.BitsStreamGenerator specified via --classlist or --testclass.
+PUBLIC MEMBERS=268
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 26 05:24:02 PDT 2021)
+Progress update: steps=906, test inputs generated=829, failing inputs=0      (Thu Aug 26 05:25:02 PDT 2021)
+Progress update: steps=1000, test inputs generated=920, failing inputs=0
+Progress update: steps=1545, test inputs generated=1442, failing inputs=0      (Thu Aug 26 05:26:04 PDT 2021)
+Progress update: steps=1897, test inputs generated=1778, failing inputs=0      (Thu Aug 26 05:27:28 PDT 2021)
+Progress update: steps=2000, test inputs generated=1875, failing inputs=0
+Progress update: steps=2319, test inputs generated=2181, failing inputs=0      (Thu Aug 26 05:28:28 PDT 2021)
+Progress update: steps=2571, test inputs generated=2423, failing inputs=0      (Thu Aug 26 05:29:02 PDT 2021)
+Normal method executions: 37133
+Exceptional method executions: 402
+
+Average method execution time (normal termination):      1.19
+Average method execution time (exceptional termination): 7.12
+
+Regression test output:
+Regression test count: 1701
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_157016_1629980619/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_157016_1629980619/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_157016_1629980619/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_157016_1629980619/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_157016_1629980619/randoop/RegressionTest.java
+
+Invalid tests generated: 0

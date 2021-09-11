@@ -1,0 +1,36 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.util.MultidimensionalCounter
+* Starting client
+* Connecting to master process on port 16985
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_Math_56_13/run_evosuite.pl_65908_1629979131/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.util.MultidimensionalCounter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 43
+* Using seed 1629979158831
+* Starting evolution
+* Search finished after 301s and 10911 generations, 2815081 statements, best individual has fitness: 48.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 43
+* Number of covered goals: 0
+* Generated 0 tests with total length 0
+* Resulting test suite's coverage: 0%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     48 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        301 / 300          Finished!
+* Time spent executing tests: 223455ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Done!
+
+* Computation finished

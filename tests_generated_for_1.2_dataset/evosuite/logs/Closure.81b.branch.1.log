@@ -1,0 +1,41 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 17969
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_971_1628430727/build/classes
+  - /tmp/run_evosuite.pl_971_1628430727/lib/args4j.jar
+  - /tmp/run_evosuite.pl_971_1628430727/lib/guava.jar
+  - /tmp/run_evosuite.pl_971_1628430727/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_971_1628430727/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_971_1628430727/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_971_1628430727/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 539
+* Using seed 1628430739576
+* Starting evolution
+[MASTER] 06:53:23.790 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 102s and 462 generations, 124689 statements, best individual has fitness: 339.4936132118446
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 38%
+* Total number of goals: 539
+* Number of covered goals: 204
+* Generated 11 tests with total length 93
+* Resulting test suite's coverage: 38%
+* GA-Budget:
+	- MaxTime :                        116 / 100          Finished!
+	- ZeroFitness :                    340 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 83644ms
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

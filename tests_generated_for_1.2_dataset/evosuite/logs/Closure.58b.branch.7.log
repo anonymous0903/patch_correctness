@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.LiveVariablesAnalysis
+* Starting client
+* Connecting to master process on port 15834
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_10971_1629866068/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_10971_1629866068/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_10971_1629866068/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_10971_1629866068/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_10971_1629866068/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_10971_1629866068/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_10971_1629866068/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_10971_1629866068/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.LiveVariablesAnalysis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 82
+* Using seed 1629866089848
+* Starting evolution
+* Search finished after 302s and 1175 generations, 78222 statements, best individual has fitness: 62.47378113845219
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 26%
+* Total number of goals: 82
+* Number of covered goals: 21
+* Generated 3 tests with total length 22
+* Resulting test suite's coverage: 26%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     62 / 0           
+	- MaxTime :                        309 / 300          Finished!
+* Time spent executing tests: 80251ms
+* Generating assertions
+* Resulting test suite's mutation score: 20%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'LiveVariablesAnalysis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

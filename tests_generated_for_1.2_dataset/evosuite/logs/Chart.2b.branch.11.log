@@ -1,0 +1,40 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.data.general.DatasetUtilities
+* Starting client
+* Connecting to master process on port 3346
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_95978_1629392124/build
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_95978_1629392124/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.data.general.DatasetUtilities
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 560
+* Using seed 1629392141187
+* Starting evolution
+* Search finished after 304s and 234 generations, 205949 statements, best individual has fitness: 95.49999999906626
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 10:01:58.295 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 80%
+* Total number of goals: 560
+* Number of covered goals: 447
+* Generated 473 tests with total length 14966
+* Resulting test suite's coverage: 80%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        373 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                    101 / 0           
+* Time spent executing tests: 121293ms
+* Generating assertions
+[MASTER] 10:02:03.857 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 6 seconds more than allowed.
+* Resulting test suite's mutation score: 22%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'DatasetUtilities_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 5177
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_23035_1629875479/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_23035_1629875479/lib/ant_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_23035_1629875479/lib/args4j_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_23035_1629875479/lib/google_common_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_23035_1629875479/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_23035_1629875479/lib/junit.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_23035_1629875479/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_23035_1629875479/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 45
+* Using seed 1629875492686
+* Starting evolution
+* Search finished after 302s and 4861 generations, 721308 statements, best individual has fitness: 14.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 62%
+* Total number of goals: 45
+* Number of covered goals: 28
+* Generated 8 tests with total length 52
+* Resulting test suite's coverage: 62%
+* GA-Budget:
+	- ZeroFitness :                     15 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        302 / 300          Finished!
+* Time spent executing tests: 167231ms
+* Generating assertions
+* Resulting test suite's mutation score: 9%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 19
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

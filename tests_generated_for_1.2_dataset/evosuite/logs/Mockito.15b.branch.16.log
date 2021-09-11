@@ -1,0 +1,45 @@
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.configuration.injection.FinalMockCandidateFilter
+* Starting client
+* Connecting to master process on port 12178
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_126207_1628446768/target/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.configuration.injection.FinalMockCandidateFilter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 7
+* Using seed 1628446780811
+* Starting evolution
+* Search finished after 101s and 612 generations, 56800 statements, best individual has fitness: 7.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 14%
+* Total number of goals: 7
+* Number of covered goals: 1
+* Generated 1 tests with total length 1
+* Resulting test suite's coverage: 14%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                      7 / 0           
+	- MaxTime :                        101 / 100          Finished!
+* Time spent executing tests: 4984ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'FinalMockCandidateFilter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

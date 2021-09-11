@@ -1,0 +1,834 @@
+Ignoring interface com.google.javascript.jscomp.type.ReverseAbstractInterpreter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.deps.DependencyInfo specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.Region specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSourceFile specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.CodingConvention specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.CompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.ErrorHandler specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.ErrorManager specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible interface com.google.javascript.jscomp.CodeChangeHandler specified via --classlist or --testclass.
+PUBLIC MEMBERS=837
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 07:45:36 PDT 2021)
+Progress update: steps=1000, test inputs generated=451, failing inputs=0Aug 23, 2021 7:46:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:46:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:46:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:46:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:46:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:46:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=1867, test inputs generated=1239, failing inputs=0      (Mon Aug 23 07:46:36 PDT 2021)Aug 23, 2021 7:46:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:46:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:46:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:46:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=2000, test inputs generated=1365, failing inputs=0Aug 23, 2021 7:46:44 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:46:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:46:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:46:44 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:46:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:46:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:46:45 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:46:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:46:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:46:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:46:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:46:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:46:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:46:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:46:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:46:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:46:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:47:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:47:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=3000, test inputs generated=2263, failing inputs=0Aug 23, 2021 7:47:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:47:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:47:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=3128, test inputs generated=2382, failing inputs=0      (Mon Aug 23 07:47:36 PDT 2021)Aug 23, 2021 7:47:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:47:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:47:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:47:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:47 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:47:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:47:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:47:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:47:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:48:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:48:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:48:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:48:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:20 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:48:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:48:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=4000, test inputs generated=3169, failing inputs=0Aug 23, 2021 7:48:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:48:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=4259, test inputs generated=3410, failing inputs=0      (Mon Aug 23 07:48:36 PDT 2021)Aug 23, 2021 7:48:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:48:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:48:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:40 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:48:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:48:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:48:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:46 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:48:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:48:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:48:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:48:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:01 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:49:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:49:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:49:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=5000, test inputs generated=4064, failing inputs=0Aug 23, 2021 7:49:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:49:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:28 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:49:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:49:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:49:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:49:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:33 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:49:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:49:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:34 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:49:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:49:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=5344, test inputs generated=4371, failing inputs=0      (Mon Aug 23 07:49:36 PDT 2021)Aug 23, 2021 7:49:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:49:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:49:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:49:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:49:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:49:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:49:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:49:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:56 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:49:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:49:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:49:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:49:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:50:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:50:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_NODE_TRAVERSAL_ERROR: {0}: Compilation produced 1 syntax errors. (JSC_NODE_TRAVERSAL_ERROR: {0}#1)
+Aug 23, 2021 7:50:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: JSC_NODE_TRAVERSAL_ERROR: {0}:1: ERROR - Parse error. missing ; before statement
+hi!: hi!
+  ^
+
+Aug 23, 2021 7:50:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=6000, test inputs generated=4942, failing inputs=0Aug 23, 2021 7:50:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:50:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:50:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: module$hi!: hi!
+
+Aug 23, 2021 7:50:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=6483, test inputs generated=5371, failing inputs=0      (Mon Aug 23 07:50:36 PDT 2021)
+Normal method executions: 1830436
+Exceptional method executions: 591
+
+
+Progress update: steps=6483, test inputs generated=5371, failing inputs=0      (Mon Aug 23 07:50:36 PDT 2021)Average method execution time (normal termination):      0.0959
+Average method execution time (exceptional termination): 5.52
+
+Regression test output:
+Regression test count: 2809
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_51827_1629729916/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_51827_1629729916/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_51827_1629729916/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_51827_1629729916/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_51827_1629729916/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_51827_1629729916/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_51827_1629729916/randoop/RegressionTest.java
+
+Invalid tests generated: 0

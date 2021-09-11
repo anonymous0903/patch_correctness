@@ -1,0 +1,27 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.analysis.differentiation.DSCompiler
+* Starting client
+* Connecting to master process on port 2032
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_Math_10_13/run_evosuite.pl_80287_1629977046/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.analysis.differentiation.DSCompiler
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 295
+* Using seed 1629977070055
+* Starting evolution
+* Search finished after 410s and 16 generations, 7846 statements, best individual has fitness: 40.5
+[MASTER] 04:31:25.124 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 109 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 04:39:37.255 [main] ERROR ExternalProcessHandler - Class org.apache.commons.math3.analysis.differentiation.DSCompiler. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+[MASTER] 04:39:37.251 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 317 seconds more than allowed.
+* Computation finished
+[MASTER] 04:39:26.015 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: org.apache.commons.math3.analysis.differentiation.DSCompiler with seed 1629977070055. Configuration id : null
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+[MASTER] 04:39:37.362 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 04:39:37.362 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 04:39:37.463 [main] ERROR TestGeneration - failed to write statistics data

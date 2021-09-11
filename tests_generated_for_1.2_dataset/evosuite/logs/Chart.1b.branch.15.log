@@ -1,0 +1,77 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.renderer.category.AbstractCategoryItemRenderer
+* Starting client
+* Connecting to master process on port 13058
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_174723_1628327480/build
+  - /tmp/run_evosuite.pl_174723_1628327480/lib/servlet.jar
+* Error while initializing target class: java.lang.ExceptionInInitializerError
+[MASTER] 02:11:30.941 [logback-2] ERROR TestSuiteGenerator - Problem for org.jfree.chart.renderer.category.AbstractCategoryItemRenderer. Full stack:
+java.lang.ExceptionInInitializerError: null
+	at java.awt.Color.<clinit>(Color.java:275) ~[na:1.8.0_171]
+	at org.jfree.chart.renderer.AbstractRenderer.<clinit>(AbstractRenderer.java) ~[build/:na]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_171]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_171]
+	at org.evosuite.Properties.getTargetClass(Properties.java:2147) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.Properties.getTargetClass(Properties.java:2116) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.setup.TestClusterGenerator.initializeTargetMethods(TestClusterGenerator.java:407) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:173) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:116) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:221) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:125) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_171]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_171]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_171]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_171]
+Caused by: java.lang.SecurityException: Security manager blocks ("java.lang.RuntimePermission" "loadLibrary./usr/java/jdk1.8.0_171/jre/lib/amd64/libawt_headless.so")
+java.lang.Thread.getStackTrace(Thread.java:1559)
+org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:440)
+java.lang.SecurityManager.checkLink(SecurityManager.java:835)
+java.lang.Runtime.load0(Runtime.java:803)
+java.lang.System.load(System.java:1086)
+java.lang.ClassLoader$NativeLibrary.load(Native Method)
+java.lang.ClassLoader.loadLibrary0(ClassLoader.java:1941)
+java.lang.ClassLoader.loadLibrary(ClassLoader.java:1845)
+java.lang.Runtime.loadLibrary0(Runtime.java:870)
+java.lang.System.loadLibrary(System.java:1122)
+java.awt.Toolkit$3.run(Toolkit.java:1636)
+java.awt.Toolkit$3.run(Toolkit.java:1634)
+java.security.AccessController.doPrivileged(Native Method)
+java.awt.Toolkit.loadLibraries(Toolkit.java:1633)
+java.awt.Toolkit.<clinit>(Toolkit.java:1670)
+java.awt.Color.<clinit>(Color.java:275)
+org.jfree.chart.renderer.AbstractRenderer.<clinit>(AbstractRenderer.java)
+java.lang.Class.forName0(Native Method)
+java.lang.Class.forName(Class.java:348)
+org.evosuite.Properties.getTargetClass(Properties.java:2147)
+org.evosuite.Properties.getTargetClass(Properties.java:2116)
+org.evosuite.setup.TestClusterGenerator.initializeTargetMethods(TestClusterGenerator.java:407)
+org.evosuite.setup.TestClusterGenerator.generateCluster(TestClusterGenerator.java:173)
+org.evosuite.setup.DependencyAnalysis.analyze(DependencyAnalysis.java:116)
+org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:221)
+org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:125)
+java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+java.util.concurrent.FutureTask.run(FutureTask.java:266)
+java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+java.lang.Thread.run(Thread.java:748)
+
+	at org.evosuite.runtime.sandbox.MSecurityManager.checkPermission(MSecurityManager.java:444) ~[evosuite-0.2.0.jar:na]
+	at java.lang.SecurityManager.checkLink(SecurityManager.java:835) ~[na:1.8.0_171]
+	at java.lang.Runtime.load0(Runtime.java:803) ~[na:1.8.0_171]
+	at java.lang.System.load(System.java:1086) ~[na:1.8.0_171]
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method) ~[na:1.8.0_171]
+	at java.lang.ClassLoader.loadLibrary0(ClassLoader.java:1941) ~[na:1.8.0_171]
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1845) ~[na:1.8.0_171]
+	at java.lang.Runtime.loadLibrary0(Runtime.java:870) ~[na:1.8.0_171]
+	at java.lang.System.loadLibrary(System.java:1122) ~[na:1.8.0_171]
+	at java.awt.Toolkit$3.run(Toolkit.java:1636) ~[na:1.8.0_171]
+	at java.awt.Toolkit$3.run(Toolkit.java:1634) ~[na:1.8.0_171]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_171]
+	at java.awt.Toolkit.loadLibraries(Toolkit.java:1633) ~[na:1.8.0_171]
+	at java.awt.Toolkit.<clinit>(Toolkit.java:1670) ~[na:1.8.0_171]
+	... 16 common frames omitted
+* Computation finished
+[MASTER] 02:11:31.070 [main] ERROR SearchStatistics - No statistics has been saved because EvoSuite failed to generate any test case
+[MASTER] 02:11:31.171 [main] ERROR TestGeneration - failed to write statistics data

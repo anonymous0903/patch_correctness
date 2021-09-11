@@ -1,0 +1,47 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeCheck
+* Starting client
+* Connecting to master process on port 10251
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_14976_1629375928/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_14976_1629375928/lib/ant_deploy.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_14976_1629375928/lib/args4j_deploy.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_14976_1629375928/lib/guava-r06.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_14976_1629375928/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_14976_1629375928/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_14976_1629375928/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_14976_1629375928/lib/junit.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_14976_1629375928/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_14976_1629375928/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 909
+* Using seed 1629375940246
+* Starting evolution
+* Search finished after 308s and 665 generations, 206324 statements, best individual has fitness: 545.1594768751777
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 36%
+* Total number of goals: 909
+* Number of covered goals: 328
+* Generated 29 tests with total length 292
+* Resulting test suite's coverage: 36%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    553 / 0           
+	- MaxTime :                        341 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 240774ms
+* Generating assertions
+[MASTER] 05:31:33.724 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 11%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'TypeCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

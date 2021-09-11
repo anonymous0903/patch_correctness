@@ -1,0 +1,39 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.optimization.direct.BOBYQAOptimizer
+* Starting client
+* Connecting to master process on port 21714
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_139294_1629435572/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.direct.BOBYQAOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 651
+* Using seed 1629435585828
+* Starting evolution
+* Search finished after 330s and 483 generations, 220002 statements, best individual has fitness: 579.5690476185773
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 22:07:01.913 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 11%
+* Total number of goals: 651
+* Number of covered goals: 72
+* Generated 81 tests with total length 1165
+* Resulting test suite's coverage: 11%
+* GA-Budget:
+	- RMIStoppingCondition
+	- MaxTime :                        457 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    580 / 0           
+* Time spent executing tests: 429035ms
+* Generating assertions
+[MASTER] 22:07:36.422 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 36 seconds more than allowed.
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'BOBYQAOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

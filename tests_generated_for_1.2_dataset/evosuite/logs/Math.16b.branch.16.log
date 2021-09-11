@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.util.FastMath
+* Starting client
+* Connecting to master process on port 11157
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_2/run_evosuite.pl_9975_1629428976/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.util.FastMath
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 822
+* Using seed 1629428989772
+* Starting evolution
+* Search finished after 305s and 2493 generations, 1013802 statements, best individual has fitness: 42.16324038455319
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 822
+* Number of covered goals: 759
+* Generated 266 tests with total length 267
+* Resulting test suite's coverage: 92%
+* GA-Budget:
+	- MaxTime :                        326 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                     42 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 103173ms
+* Generating assertions
+* Resulting test suite's mutation score: 52%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'FastMath_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

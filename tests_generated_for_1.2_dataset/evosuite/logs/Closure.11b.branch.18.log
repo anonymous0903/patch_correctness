@@ -1,0 +1,47 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeCheck
+* Starting client
+* Connecting to master process on port 5121
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_164403_1628408797/build/classes
+  - /tmp/run_evosuite.pl_164403_1628408797/lib/args4j.jar
+  - /tmp/run_evosuite.pl_164403_1628408797/lib/guava.jar
+  - /tmp/run_evosuite.pl_164403_1628408797/lib/json.jar
+  - /tmp/run_evosuite.pl_164403_1628408797/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_164403_1628408797/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_164403_1628408797/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_164403_1628408797/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1026
+* Using seed 1628408815603
+* Starting evolution
+* Search finished after 106s and 407 generations, 45206 statements, best individual has fitness: 871.9407931242681
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 17%
+* Total number of goals: 1026
+* Number of covered goals: 170
+* Generated 6 tests with total length 55
+* Resulting test suite's coverage: 17%
+* GA-Budget:
+	- MaxTime :                        119 / 100          Finished!
+	- ZeroFitness :                    872 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 52603ms
+* Generating assertions
+[MASTER] 00:49:04.900 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class com.google.common.base.CharMatcher, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+[MASTER] 00:49:04.903 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.ProcessTweaks, null
+[MASTER] 00:49:04.904 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.DiagnosticGroups, null
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'TypeCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

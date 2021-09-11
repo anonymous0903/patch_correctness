@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.OpenMapRealMatrix
+* Starting client
+* Connecting to master process on port 21678
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_100974_1629890929/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.OpenMapRealMatrix
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 31
+* Using seed 1629890942268
+* Starting evolution
+* Search finished after 315s and 125 generations, 32415 statements, best individual has fitness: 4.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 04:35:44.163 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 84%
+* Total number of goals: 31
+* Number of covered goals: 26
+* Generated 29 tests with total length 165
+* Resulting test suite's coverage: 84%
+* GA-Budget:
+	- ZeroFitness :                      5 / 0           
+	- MaxTime :                        424 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 354050ms
+* Generating assertions
+[MASTER] 04:36:09.609 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 34 seconds more than allowed.
+[MASTER] 04:39:05.080 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 04:39:17.750 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 04:39:25.702 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Resulting test suite's mutation score: 3%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 8
+* Writing JUnit test case 'OpenMapRealMatrix_ESTest' to evosuite-branch
+[MASTER] 04:39:42.389 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+[MASTER] 04:40:27.821 [logback-1] WARN  ShutdownHookHandler - Previous hooks were not executed. Going to remove them
+* Done!
+
+* Computation finished

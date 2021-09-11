@@ -1,0 +1,41 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter
+* Starting client
+* Connecting to master process on port 16638
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_7543_1628417271/build/classes
+  - /tmp/run_evosuite.pl_7543_1628417271/lib/args4j.jar
+  - /tmp/run_evosuite.pl_7543_1628417271/lib/guava.jar
+  - /tmp/run_evosuite.pl_7543_1628417271/lib/json.jar
+  - /tmp/run_evosuite.pl_7543_1628417271/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_7543_1628417271/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_7543_1628417271/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_7543_1628417271/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.type.ClosureReverseAbstractInterpreter
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 71
+* Using seed 1628417290234
+* Starting evolution
+* Search finished after 101s and 229 generations, 60248 statements, best individual has fitness: 63.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 21%
+* Total number of goals: 71
+* Number of covered goals: 15
+* Generated 1 tests with total length 6
+* Resulting test suite's coverage: 21%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                     64 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        101 / 100          Finished!
+* Time spent executing tests: 32621ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Writing JUnit test case 'ClosureReverseAbstractInterpreter_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

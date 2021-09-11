@@ -1,0 +1,40 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.format.PeriodFormatterBuilder
+* Starting client
+* Connecting to master process on port 7609
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_1/run_evosuite.pl_80067_1629430088/build/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.format.PeriodFormatterBuilder
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 571
+* Using seed 1629430100703
+* Starting evolution
+* Search finished after 306s and 903 generations, 417853 statements, best individual has fitness: 41.18888888842322
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 20:34:39.697 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 89%
+* Total number of goals: 571
+* Number of covered goals: 511
+* Generated 536 tests with total length 10329
+* Resulting test suite's coverage: 89%
+* GA-Budget:
+	- MaxTime :                        379 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                     41 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 147350ms
+* Generating assertions
+[MASTER] 20:34:46.440 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 6 seconds more than allowed.
+* Resulting test suite's mutation score: 17%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 53
+* Writing JUnit test case 'PeriodFormatterBuilder_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,45 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.CheckGlobalThis
+* Starting client
+* Connecting to master process on port 4315
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_14866_1629873609/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_14866_1629873609/lib/ant_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_14866_1629873609/lib/args4j_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_14866_1629873609/lib/google_common_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_14866_1629873609/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_14866_1629873609/lib/junit.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_14866_1629873609/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_14866_1629873609/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.CheckGlobalThis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 45
+* Using seed 1629873622934
+* Starting evolution
+* Search finished after 302s and 4036 generations, 745415 statements, best individual has fitness: 11.735714285714286
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 67%
+* Total number of goals: 45
+* Number of covered goals: 30
+* Generated 9 tests with total length 50
+* Resulting test suite's coverage: 67%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- ZeroFitness :                     12 / 0           
+* Time spent executing tests: 174555ms
+* Generating assertions
+[MASTER] 23:45:34.004 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 13%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 14
+* Writing JUnit test case 'CheckGlobalThis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

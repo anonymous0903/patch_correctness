@@ -1,0 +1,63 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 21188
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_80_21/run_evosuite.pl_22220_1629978266/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_80_21/run_evosuite.pl_22220_1629978266/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_80_21/run_evosuite.pl_22220_1629978266/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_80_21/run_evosuite.pl_22220_1629978266/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_80_21/run_evosuite.pl_22220_1629978266/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_80_21/run_evosuite.pl_22220_1629978266/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_80_21/run_evosuite.pl_22220_1629978266/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 2402
+* Using seed 1629978276395
+* Starting evolution
+* Search finished after 316s and 538 generations, 196669 statements, best individual has fitness: 712.1752088238449
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 04:51:10.369 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 63%
+* Total number of goals: 2402
+* Number of covered goals: 1520
+[MASTER] 04:52:27.904 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: com.google.javascript.jscomp.NodeUtil with seed 1629978276395. Configuration id : null
+java.lang.OutOfMemoryError: Java heap space
+	at java.io.ObjectOutputStream$HandleTable.growEntries(ObjectOutputStream.java:2346) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream$HandleTable.assign(ObjectOutputStream.java:2275) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:347) ~[na:1.7.0_80]
+	at java.util.HashMap.writeObject(HashMap.java:1129) ~[na:1.7.0_80]
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_80]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_80]
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:988) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1495) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1547) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1508) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:347) ~[na:1.7.0_80]
+	at java.util.ArrayList.writeObject(ArrayList.java:742) ~[na:1.7.0_80]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.7.0_80]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[na:1.7.0_80]
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:988) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1495) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1547) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1508) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1431) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1177) ~[na:1.7.0_80]
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:347) ~[na:1.7.0_80]
+	at sun.rmi.server.UnicastRef.marshalValue(UnicastRef.java:293) ~[na:1.7.0_80]
+[MASTER] 04:52:27.914 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 77 seconds more than allowed.
+* Computation finished

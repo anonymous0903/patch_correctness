@@ -1,0 +1,39 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.fraction.BigFraction
+* Starting client
+* Connecting to master process on port 12633
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_88674_1629396944/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.fraction.BigFraction
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 129
+* Using seed 1629396960557
+* Starting evolution
+* Search finished after 486s and 6 generations, 7185 statements, best individual has fitness: 1.0
+[MASTER] 11:24:09.415 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 185 seconds more than allowed.
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 98%
+* Total number of goals: 129
+* Number of covered goals: 127
+* Generated 65 tests with total length 135
+* Resulting test suite's coverage: 98%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        488 / 300          Finished!
+	- ZeroFitness :                      1 / 0           
+* Time spent executing tests: 3838ms
+* Generating assertions
+[MASTER] 11:25:26.399 [logback-1] WARN  ClassResetter - class java.lang.reflect.InvocationTargetException thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.fraction.BigFraction, java.lang.NullPointerException
+* Resulting test suite's mutation score: 54%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'BigFraction_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,48 @@
+Ignoring non-visible class com.google.javascript.rhino.jstype.PrototypeObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.ObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.JSType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnresolvedTypeExpression specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ValueType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.ErrorReporter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.rhino.jstype.StaticScope specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.NamedType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSlot specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.RecordType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.NoResolvedType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.InstanceObjectType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticReference specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.IndexedType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ErrorFunctionType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ArrowType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ProxyObjectType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ParameterizedType specified via --classlist or --testclass.
+PUBLIC MEMBERS=769
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 06:08:43 PDT 2021)
+Progress update: steps=928, test inputs generated=511, failing inputs=0      (Mon Aug 23 06:09:43 PDT 2021)
+Progress update: steps=1000, test inputs generated=557, failing inputs=0
+Progress update: steps=1494, test inputs generated=881, failing inputs=0      (Mon Aug 23 06:10:43 PDT 2021)
+Progress update: steps=2000, test inputs generated=1192, failing inputs=0
+Progress update: steps=2033, test inputs generated=1216, failing inputs=0      (Mon Aug 23 06:11:43 PDT 2021)
+Progress update: steps=2634, test inputs generated=1589, failing inputs=0      (Mon Aug 23 06:12:43 PDT 2021)
+Progress update: steps=3000, test inputs generated=1810, failing inputs=0
+Progress update: steps=3173, test inputs generated=1925, failing inputs=0      (Mon Aug 23 06:13:43 PDT 2021)
+Progress update: steps=3173, test inputs generated=1926, failing inputs=0      (Mon Aug 23 06:13:43 PDT 2021)
+Normal method executions: 2569993
+Exceptional method executions: 213
+
+Average method execution time (normal termination):      0.0993
+Average method execution time (exceptional termination): 0.418
+
+Regression test output:
+Regression test count: 1023
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_1/run_randoop.pl_54910_1629724103/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_1/run_randoop.pl_54910_1629724103/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_1/run_randoop.pl_54910_1629724103/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_1/run_randoop.pl_54910_1629724103/randoop/RegressionTest.java
+
+Invalid tests generated: 0

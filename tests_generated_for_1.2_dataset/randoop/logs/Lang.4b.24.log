@@ -1,0 +1,27 @@
+Ignoring abstract class org.apache.commons.lang3.text.translate.CharSequenceTranslator specified via --classlist or --testclass.
+PUBLIC MEMBERS=10
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sat Aug 21 23:08:29 PDT 2021)
+Progress update: steps=579, test inputs generated=372, failing inputs=0      (Sat Aug 21 23:09:29 PDT 2021)
+Progress update: steps=1000, test inputs generated=640, failing inputs=0
+Progress update: steps=1207, test inputs generated=763, failing inputs=0      (Sat Aug 21 23:10:29 PDT 2021)
+Progress update: steps=1656, test inputs generated=1034, failing inputs=0      (Sat Aug 21 23:11:29 PDT 2021)
+Progress update: steps=2000, test inputs generated=1257, failing inputs=0
+Progress update: steps=2087, test inputs generated=1313, failing inputs=0      (Sat Aug 21 23:12:29 PDT 2021)
+Progress update: steps=2584, test inputs generated=1621, failing inputs=0      (Sat Aug 21 23:13:29 PDT 2021)
+Normal method executions: 2616048
+Exceptional method executions: 411
+
+Average method execution time (normal termination):      0.101
+Average method execution time (exceptional termination): 0.494
+
+Regression test output:
+Regression test count: 930
+Writing JUnit tests...
+                                                                                                                                                                                                       
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_94709_1629612500/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_94709_1629612500/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_0/run_randoop.pl_94709_1629612500/randoop/RegressionTest.java
+
+Invalid tests generated: 0

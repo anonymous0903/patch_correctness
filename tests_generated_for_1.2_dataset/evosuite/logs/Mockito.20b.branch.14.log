@@ -1,0 +1,46 @@
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker
+* Starting client
+* Connecting to master process on port 10892
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_31671_1629584666/build/classes/main
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_31671_1629584666/compileLib/byte-buddy-0.2.1.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 14
+* Using seed 1629584744837
+* Starting evolution
+* Search finished after 301s and 4536 generations, 650849 statements, best individual has fitness: 8.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 50%
+* Total number of goals: 14
+* Number of covered goals: 7
+* Generated 4 tests with total length 14
+* Resulting test suite's coverage: 50%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                      8 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        301 / 300          Finished!
+* Time spent executing tests: 226839ms
+* Generating assertions
+* Resulting test suite's mutation score: 30%
+* Writing JUnit test case 'ByteBuddyMockMaker_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

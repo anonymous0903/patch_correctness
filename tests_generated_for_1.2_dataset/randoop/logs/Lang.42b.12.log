@@ -1,0 +1,38 @@
+Ignoring non-visible class org.apache.commons.lang.Entities specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.lang.exception.Nestable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class org.apache.commons.lang.IntHashMap specified via --classlist or --testclass.
+PUBLIC MEMBERS=40
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sat Aug 21 23:02:41 PDT 2021)
+Progress update: steps=1000, test inputs generated=591, failing inputs=0
+Progress update: steps=1967, test inputs generated=1062, failing inputs=0      (Sat Aug 21 23:03:41 PDT 2021)
+Progress update: steps=2000, test inputs generated=1074, failing inputs=0
+Progress update: steps=3000, test inputs generated=1512, failing inputs=0
+Progress update: steps=3497, test inputs generated=1729, failing inputs=0      (Sat Aug 21 23:04:41 PDT 2021)
+Progress update: steps=4000, test inputs generated=1936, failing inputs=0
+Progress update: steps=5000, test inputs generated=2389, failing inputs=0
+Progress update: steps=5104, test inputs generated=2442, failing inputs=0      (Sat Aug 21 23:05:41 PDT 2021)
+Progress update: steps=6000, test inputs generated=2864, failing inputs=0
+Progress update: steps=6356, test inputs generated=3037, failing inputs=0      (Sat Aug 21 23:06:41 PDT 2021)
+Progress update: steps=7000, test inputs generated=3345, failing inputs=0
+Progress update: steps=7542, test inputs generated=3589, failing inputs=0      (Sat Aug 21 23:07:41 PDT 2021)
+Progress update: steps=7542, test inputs generated=3590, failing inputs=0      (Sat Aug 21 23:07:41 PDT 2021)
+Normal method executions: 2302538
+Exceptional method executions: 838
+
+Average method execution time (normal termination):      0.105
+Average method execution time (exceptional termination): 0.463
+
+Regression test output:
+Regression test count: 2207
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_162912_1629612152/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_162912_1629612152/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_162912_1629612152/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_162912_1629612152/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_162912_1629612152/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_162912_1629612152/randoop/RegressionTest.java
+
+Invalid tests generated: 0

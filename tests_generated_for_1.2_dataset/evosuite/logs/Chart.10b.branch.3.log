@@ -1,0 +1,35 @@
+* EvoSuite 
+* Going to generate test cases for class: org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator
+* Starting client
+* Connecting to master process on port 8458
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_10634_1629406122/build
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_0/run_evosuite.pl_10634_1629406122/lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 2
+* Using seed 1629406135418
+* Starting evolution
+* Search finished after 1s and 0 generations, 5452 statements, best individual has fitness: 0.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Generated 1 tests with total length 2
+* Resulting test suite's coverage: 100%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      0 / 0            Finished!
+	- RMIStoppingCondition
+	- MaxTime :                          1 / 300         
+* Time spent executing tests: 578ms
+* Generating assertions
+* Resulting test suite's mutation score: 100%
+* Writing JUnit test case 'StandardToolTipTagFragmentGenerator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

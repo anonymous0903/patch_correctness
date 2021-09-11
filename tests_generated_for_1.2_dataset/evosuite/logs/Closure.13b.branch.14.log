@@ -1,0 +1,42 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeOptimizationsPass
+* Starting client
+* Connecting to master process on port 21451
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_43636_1628372875/build/classes
+  - /tmp/run_evosuite.pl_43636_1628372875/lib/args4j.jar
+  - /tmp/run_evosuite.pl_43636_1628372875/lib/guava.jar
+  - /tmp/run_evosuite.pl_43636_1628372875/lib/json.jar
+  - /tmp/run_evosuite.pl_43636_1628372875/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_43636_1628372875/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_43636_1628372875/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_43636_1628372875/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeOptimizationsPass
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 49
+* Using seed 1628372901620
+* Starting evolution
+* Search finished after 101s and 262 generations, 89999 statements, best individual has fitness: 4.4999
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 84%
+* Total number of goals: 49
+* Number of covered goals: 41
+* Generated 2 tests with total length 16
+* Resulting test suite's coverage: 84%
+* GA-Budget:
+	- ZeroFitness :                      4 / 0           
+	- MaxTime :                        106 / 100          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 41860ms
+* Generating assertions
+* Resulting test suite's mutation score: 70%
+* Writing JUnit test case 'PeepholeOptimizationsPass_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+[MASTER] 14:50:43.369 [Thread-3] ERROR ExternalProcessHandler - Exception while reading output of client process. Stream closed

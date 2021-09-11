@@ -1,0 +1,44 @@
+Ignoring abstract class org.apache.commons.math.linear.AbstractFieldMatrix specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.linear.BigMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.linear.AbstractRealVector specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.linear.SparseRealMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.linear.EigenDecomposition specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.analysis.UnivariateRealFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.linear.FieldMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.linear.AbstractRealMatrix specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.linear.RealMatrixPreservingVisitor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.linear.RealVector specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.linear.RealMatrixChangingVisitor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class org.apache.commons.math.linear.BiDiagonalTransformer specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.linear.SingularValueDecomposition specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.linear.DecompositionSolver specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.linear.AnyMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.util.CompositeFormat specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.linear.RealMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.linear.FieldVector specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.linear.FieldMatrixPreservingVisitor specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=532
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 26 03:19:42 PDT 2021)
+Progress update: steps=389, test inputs generated=220, failing inputs=0      (Thu Aug 26 03:20:42 PDT 2021)
+Progress update: steps=593, test inputs generated=352, failing inputs=0      (Thu Aug 26 03:21:42 PDT 2021)
+Progress update: steps=767, test inputs generated=464, failing inputs=0      (Thu Aug 26 03:22:42 PDT 2021)
+Progress update: steps=1000, test inputs generated=597, failing inputs=0
+Progress update: steps=1090, test inputs generated=661, failing inputs=0      (Thu Aug 26 03:23:42 PDT 2021)
+Progress update: steps=1253, test inputs generated=770, failing inputs=0      (Thu Aug 26 03:24:42 PDT 2021)
+Progress update: steps=1253, test inputs generated=771, failing inputs=0      (Thu Aug 26 03:24:42 PDT 2021)
+Normal method executions: 476506
+Exceptional method executions: 272
+
+Average method execution time (normal termination):      0.587
+Average method execution time (exceptional termination): 2.45
+
+Regression test output:
+Regression test count: 463
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_6/run_randoop.pl_98189_1629973151/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_6/run_randoop.pl_98189_1629973151/randoop/RegressionTest.java
+
+Invalid tests generated: 0

@@ -1,0 +1,29 @@
+PUBLIC MEMBERS=29
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sat Aug 21 08:52:27 PDT 2021)
+Progress update: steps=555, test inputs generated=343, failing inputs=0      (Sat Aug 21 08:53:27 PDT 2021)
+Progress update: steps=1000, test inputs generated=562, failing inputs=0
+Progress update: steps=1295, test inputs generated=706, failing inputs=0      (Sat Aug 21 08:54:27 PDT 2021)
+Progress update: steps=2000, test inputs generated=1033, failing inputs=0
+Progress update: steps=2163, test inputs generated=1107, failing inputs=0      (Sat Aug 21 08:55:27 PDT 2021)
+Progress update: steps=3000, test inputs generated=1501, failing inputs=0
+Progress update: steps=3051, test inputs generated=1526, failing inputs=0      (Sat Aug 21 08:56:27 PDT 2021)
+Progress update: steps=3979, test inputs generated=1957, failing inputs=0      (Sat Aug 21 08:57:27 PDT 2021)
+Progress update: steps=3979, test inputs generated=1958, failing inputs=0      (Sat Aug 21 08:57:28 PDT 2021)
+Normal method executions: 2480204
+Exceptional method executions: 0
+
+Average method execution time (normal termination):      0.102
+Average method execution time (exceptional termination): NaN
+
+Regression test output:
+Regression test count: 1008
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_4/run_randoop.pl_189737_1629561139/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_4/run_randoop.pl_189737_1629561139/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_4/run_randoop.pl_189737_1629561139/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_4/run_randoop.pl_189737_1629561139/randoop/RegressionTest.java
+
+Invalid tests generated: 0

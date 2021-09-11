@@ -1,0 +1,28 @@
+Ignoring interface org.apache.commons.math3.FieldElement specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.exception.util.ExceptionContextProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.Field specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=179
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 26 01:13:45 PDT 2021)
+Progress update: steps=363, test inputs generated=240, failing inputs=0      (Thu Aug 26 01:14:45 PDT 2021)
+Progress update: steps=478, test inputs generated=342, failing inputs=0      (Thu Aug 26 01:15:45 PDT 2021)
+Progress update: steps=625, test inputs generated=472, failing inputs=0      (Thu Aug 26 01:16:45 PDT 2021)
+Progress update: steps=824, test inputs generated=631, failing inputs=0      (Thu Aug 26 01:17:46 PDT 2021)
+Progress update: steps=1000, test inputs generated=774, failing inputs=0
+Progress update: steps=1014, test inputs generated=787, failing inputs=0      (Thu Aug 26 01:18:45 PDT 2021)
+Normal method executions: 390030
+Exceptional method executions: 118
+
+Average method execution time (normal termination):      0.476
+Average method execution time (exceptional termination): 5.98
+
+Regression test output:
+Regression test count: 588
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_106947_1629965582/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_106947_1629965582/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_106947_1629965582/randoop/RegressionTest.java
+
+Invalid tests generated: 0

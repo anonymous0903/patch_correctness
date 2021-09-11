@@ -1,0 +1,60 @@
+Ignoring interface org.mockito.plugins.StackTraceCleanerProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.invocation.AbstractAwareMethod specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.mock.MockName specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.mockito.internal.util.collections.Sets specified via --classlist or --testclass.
+Ignoring interface org.mockito.internal.invocation.realmethod.RealMethod specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.invocation.MockitoMethod specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.InjectMocks specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.invocation.InvocationOnMock specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.invocation.Location specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.progress.MockingProgress specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.Captor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.configuration.injection.filter.MockCandidateFilter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.exceptions.PrintableInvocation specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.configuration.AnnotationEngine specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.progress.ArgumentMatcherStorage specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.configuration.FieldAnnotationProcessor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.invocation.Invocation specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.mockito.internal.configuration.injection.MockInjectionStrategy specified via --classlist or --testclass.
+Ignoring interface org.mockito.invocation.MockHandler specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.plugins.MockMaker specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.stubbing.Answer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.configuration.IMockitoConfiguration specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.configuration.injection.filter.OngoingInjecter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.Mock specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.Spy specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.invocation.DescribedInvocation specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=265
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Wed Aug 25 12:20:00 PDT 2021)
+Progress update: steps=1000, test inputs generated=488, failing inputs=0
+Progress update: steps=2000, test inputs generated=1071, failing inputs=0
+Progress update: steps=2155, test inputs generated=1156, failing inputs=0      (Wed Aug 25 12:21:00 PDT 2021)
+Progress update: steps=3000, test inputs generated=1666, failing inputs=0
+Progress update: steps=3676, test inputs generated=2041, failing inputs=0      (Wed Aug 25 12:22:00 PDT 2021)
+Progress update: steps=4000, test inputs generated=2221, failing inputs=0
+Progress update: steps=4545, test inputs generated=2508, failing inputs=0      (Wed Aug 25 12:23:00 PDT 2021)
+Progress update: steps=5000, test inputs generated=2770, failing inputs=0
+Progress update: steps=5511, test inputs generated=3055, failing inputs=0      (Wed Aug 25 12:24:00 PDT 2021)
+Progress update: steps=6000, test inputs generated=3329, failing inputs=0
+Progress update: steps=6567, test inputs generated=3628, failing inputs=0      (Wed Aug 25 12:25:00 PDT 2021)
+Progress update: steps=6567, test inputs generated=3629, failing inputs=0      (Wed Aug 25 12:25:01 PDT 2021)
+Normal method executions: 1583004
+Exceptional method executions: 1188
+
+Average method execution time (normal termination):      0.152
+Average method execution time (exceptional termination): 1.23
+
+Regression test output:
+Regression test count: 2123
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_98103_1629919122/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_98103_1629919122/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_98103_1629919122/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_98103_1629919122/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_98103_1629919122/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_8/run_randoop.pl_98103_1629919122/randoop/RegressionTest.java
+
+Invalid tests generated: 0

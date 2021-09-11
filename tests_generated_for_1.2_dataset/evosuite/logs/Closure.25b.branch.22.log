@@ -1,0 +1,45 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeInference
+* Starting client
+* Connecting to master process on port 6093
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_11760_1629577115/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_11760_1629577115/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_11760_1629577115/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_11760_1629577115/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_11760_1629577115/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_11760_1629577115/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_11760_1629577115/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_0/run_evosuite.pl_11760_1629577115/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeInference
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 657
+* Using seed 1629577144607
+* Starting evolution
+* Search finished after 301s and 489 generations, 85177 statements, best individual has fitness: 687.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 657
+* Number of covered goals: 2
+* Generated 1 tests with total length 3
+* Resulting test suite's coverage: 0%
+* GA-Budget:
+	- MaxTime :                        303 / 300          Finished!
+	- RMIStoppingCondition
+	- ZeroFitness :                    687 / 0           
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 112771ms
+* Generating assertions
+[MASTER] 13:24:27.518 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'TypeInference_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.CholeskyDecompositionImpl
+* Starting client
+* Connecting to master process on port 9516
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_4/run_evosuite.pl_93277_1629486861/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.CholeskyDecompositionImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 65
+* Using seed 1629486873672
+* Starting evolution
+* Search finished after 302s and 6456 generations, 49567 statements, best individual has fitness: 44.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 37%
+* Total number of goals: 65
+* Number of covered goals: 24
+* Generated 7 tests with total length 31
+* Resulting test suite's coverage: 37%
+* GA-Budget:
+	- ZeroFitness :                     44 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        308 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 45073ms
+* Generating assertions
+* Resulting test suite's mutation score: 15%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'CholeskyDecompositionImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

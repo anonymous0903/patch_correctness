@@ -1,0 +1,45 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 18767
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_122_28/run_evosuite.pl_3737_1629967263/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_122_28/run_evosuite.pl_3737_1629967263/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_122_28/run_evosuite.pl_3737_1629967263/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_122_28/run_evosuite.pl_3737_1629967263/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_122_28/run_evosuite.pl_3737_1629967263/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_122_28/run_evosuite.pl_3737_1629967263/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_122_28/run_evosuite.pl_3737_1629967263/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_122_28/run_evosuite.pl_3737_1629967263/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 658
+* Using seed 1629967284239
+* Starting evolution
+[MASTER] 01:41:37.736 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 302s and 3014 generations, 583697 statements, best individual has fitness: 402.888874409317
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 39%
+* Total number of goals: 658
+* Number of covered goals: 257
+* Generated 27 tests with total length 297
+* Resulting test suite's coverage: 39%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    403 / 0           
+	- MaxTime :                        308 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 134025ms
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

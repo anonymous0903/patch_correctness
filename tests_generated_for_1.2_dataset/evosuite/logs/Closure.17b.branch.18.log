@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypedScopeCreator
+* Starting client
+* Connecting to master process on port 20237
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_169077_1628422679/build/classes
+  - /tmp/run_evosuite.pl_169077_1628422679/lib/args4j.jar
+  - /tmp/run_evosuite.pl_169077_1628422679/lib/guava.jar
+  - /tmp/run_evosuite.pl_169077_1628422679/lib/json.jar
+  - /tmp/run_evosuite.pl_169077_1628422679/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_169077_1628422679/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_169077_1628422679/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_169077_1628422679/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypedScopeCreator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 730
+* Using seed 1628422697574
+* Starting evolution
+* Search finished after 105s and 1004 generations, 76653 statements, best individual has fitness: 683.9902874902875
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 9%
+* Total number of goals: 730
+* Number of covered goals: 67
+* Generated 4 tests with total length 17
+* Resulting test suite's coverage: 9%
+* GA-Budget:
+	- MaxTime :                        119 / 100          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    684 / 0           
+* Time spent executing tests: 85288ms
+* Generating assertions
+* Resulting test suite's mutation score: 5%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 2
+* Writing JUnit test case 'TypedScopeCreator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

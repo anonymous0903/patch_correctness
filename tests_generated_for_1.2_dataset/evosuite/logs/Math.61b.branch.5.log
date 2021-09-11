@@ -1,0 +1,41 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.distribution.PoissonDistributionImpl
+* Starting client
+* Connecting to master process on port 2765
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_4/run_evosuite.pl_134144_1629396252/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.distribution.PoissonDistributionImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 20
+* Using seed 1629396265495
+* Starting evolution
+* Search finished after 301s and 12581 generations, 563979 statements, best individual has fitness: 17.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 25%
+* Total number of goals: 20
+* Number of covered goals: 5
+* Generated 3 tests with total length 3
+* Resulting test suite's coverage: 25%
+* GA-Budget:
+	- ZeroFitness :                     17 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        301 / 300          Finished!
+* Time spent executing tests: 198210ms
+* Generating assertions
+[MASTER] 11:09:31.157 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.util.FastMath, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+[MASTER] 11:09:31.165 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.special.Gamma, null
+[MASTER] 11:09:31.168 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.distribution.SaddlePointExpansion, null
+[MASTER] 11:09:31.175 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.distribution.NormalDistributionImpl, null
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'PoissonDistributionImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,3381 @@
+Ignoring non-visible class com.google.javascript.jscomp.ProcessDefines specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.ErrorReporter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.ConstCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ProcessTweaks specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckGlobalNames specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.PassConfig specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodeConsumer specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticScope specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.PrototypeObjectType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SemanticReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypeValidator specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.SourceFile specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.TypeSafeDispatcher specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.DisambiguateProperties specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckAccessControls specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.HotSwapCompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.CodingConvention specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CodeGenerator specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.PassFactory specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ChainableReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypedCodeGenerator specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.graph.DiGraph specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckGlobalThis specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceAst specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.rhino.jstype.ObjectType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VarCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckUnreachableCode specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.ScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ReferenceCollectingCallback specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.MessageFormatter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.RhinoErrorReporter specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.deps.DependencyInfo specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.TypedScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SyntacticScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.FunctionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.Annotation specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.VariableReferenceCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodePrinter specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.GraphvizGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.BasicErrorManager specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.PrepareAst specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.AbstractMessageFormatter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.JSType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.Region specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible interface com.google.javascript.jscomp.ReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.Tracer specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckSideEffects specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ControlFlowGraph specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckRegExp specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SuppressDocWarningsGuard specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.AdjacencyGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.WarningsGuard specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.ErrorManager specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.graph.Graph specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.CodeChangeHandler specified via --classlist or --testclass.
+PUBLIC MEMBERS=1213
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 08:28:38 PDT 2021)Aug 23, 2021 8:28:45 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=1000, test inputs generated=473, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:29:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:29:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:29:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:29:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: replaceMessages
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: processDefines
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeStandardOptimizations
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeMainOptimizations
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeModuleMotion
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: afterModuleMotion
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: markUnnormalized
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: denormalize
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: invertNames
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: operaCompoundAssignFix
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: sanityCheckAst
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: sanityCheckVars
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:16 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:29:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:18 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:29:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:29:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:29:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:29:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+
+Progress update: steps=2000, test inputs generated=1159, failing inputs=0Aug 23, 2021 8:29:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:29:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:29:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:29:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:29:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:29:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:29:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:29:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:29:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:29:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:29:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:29:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:29:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=2510, test inputs generated=1529, failing inputs=0      (Mon Aug 23 08:29:38 PDT 2021)Aug 23, 2021 8:29:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:29:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:29:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:29:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:29:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:29:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:29:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:29:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:29:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:51 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:29:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:29:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:54 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:29:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:54 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:29:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:55 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:29:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:56 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:29:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:58 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:29:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=3000, test inputs generated=1888, failing inputs=0Aug 23, 2021 8:29:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:29:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:29:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:29:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:30:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:01 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:30:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:04 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 23, 2021 8:30:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:08 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:30:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:30:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:30:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:16 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:30:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:18 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:30:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:20 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:30:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:30:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:30:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:30:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:30:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:30:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:30:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=4000, test inputs generated=2606, failing inputs=0Aug 23, 2021 8:30:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:30:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:36 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:30:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:819)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=4155, test inputs generated=2720, failing inputs=0      (Mon Aug 23 08:30:38 PDT 2021)Aug 23, 2021 8:30:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:30:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:30:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:30:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:30:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:30:46 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:30:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:47 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing goog.exportProperty: Compilation produced 1 syntax errors. (goog.exportProperty#1)
+Aug 23, 2021 8:30:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:30:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:30:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:30:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:30:54 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:30:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:30:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:30:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:30:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:30:58 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:30:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:30:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:30:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:30:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:02 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 23, 2021 8:31:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=5000, test inputs generated=3321, failing inputs=0Aug 23, 2021 8:31:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing goog.exportProperty: Compilation produced 1 syntax errors. (goog.exportProperty#1)
+Aug 23, 2021 8:31:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:31:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:31:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:31:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:31:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:24 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing goog.exportProperty: Compilation produced 1 syntax errors. (goog.exportProperty#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:819)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:31:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: eof
+
+Aug 23, 2021 8:31:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: :35: ERROR - Exceeded max number of code motion iterations: OR 28
+
+Aug 23, 2021 8:31:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:31:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:32 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing goog.exportProperty: Compilation produced 1 syntax errors. (goog.exportProperty#1)
+Aug 23, 2021 8:31:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:31:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:31:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=5846, test inputs generated=3897, failing inputs=0      (Mon Aug 23 08:31:38 PDT 2021)Aug 23, 2021 8:31:39 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:31:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:41 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 23, 2021 8:31:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:44 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:31:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+
+Progress update: steps=6000, test inputs generated=4004, failing inputs=0Aug 23, 2021 8:31:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:31:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:31:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:52 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:31:52 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:31:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:58 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:31:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:31:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:31:59 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:32:01 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:32:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:819)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:32:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:07 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 8:32:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:32:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:32:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:32:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:32:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:32:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:32:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:32:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 23, 2021 8:32:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:32:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:32:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:19 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 23, 2021 8:32:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:20 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing goog.exportProperty: Compilation produced 1 syntax errors. (goog.exportProperty#1)
+Aug 23, 2021 8:32:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:32:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:32:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+
+Progress update: steps=7000, test inputs generated=4714, failing inputs=0Aug 23, 2021 8:32:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 8:32:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:32:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:33 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 8:32:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:32:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:32:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=7302, test inputs generated=4924, failing inputs=0      (Mon Aug 23 08:32:38 PDT 2021)Aug 23, 2021 8:32:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:32:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:32:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:32:42 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 8:32:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:44 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing goog.exportProperty: Compilation produced 1 syntax errors. (goog.exportProperty#1)
+Aug 23, 2021 8:32:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:52 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing goog.exportProperty: Compilation produced 1 syntax errors. (goog.exportProperty#1)
+Aug 23, 2021 8:32:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:32:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:32:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 2 error(s), 0 warning(s)
+Aug 23, 2021 8:32:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: eof
+
+Aug 23, 2021 8:32:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:32:59 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing goog.exportProperty: Compilation produced 1 syntax errors. (goog.exportProperty#1)
+Aug 23, 2021 8:32:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:32:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:33:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 8:33:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:33:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:06 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 8:33:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:33:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:33:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:33:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:33:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:33:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:33:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: eof
+
+Aug 23, 2021 8:33:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:33:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=8000, test inputs generated=5412, failing inputs=0Aug 23, 2021 8:33:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:33:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:33:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing goog.exportProperty: Compilation produced 1 syntax errors. (goog.exportProperty#1)
+Aug 23, 2021 8:33:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:33:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:33:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate extern input: hi!
+
+Aug 23, 2021 8:33:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37
+
+Aug 23, 2021 8:33:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 4 error(s), 0 warning(s)
+Aug 23, 2021 8:33:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:819)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 8:33:21 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:33:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:21 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:33:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:33:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:33:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:32 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:33:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:33:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 8:33:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37: Compilation produced 1 syntax errors. (JSC_OPTIMIZE_LOOP_ERROR. Exceeded max number of code motion iterations: OR 28 at (unknown source) line 35 : 37#1)
+Aug 23, 2021 8:33:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 8:33:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Cannot read: catch
+
+Aug 23, 2021 8:33:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=8703, test inputs generated=5891, failing inputs=0      (Mon Aug 23 08:33:38 PDT 2021)
+Progress update: steps=8703, test inputs generated=5892, failing inputs=0      (Mon Aug 23 08:33:38 PDT 2021)
+Normal method executions: 1879054
+Exceptional method executions: 978
+
+Average method execution time (normal termination):      0.0934
+Average method execution time (exceptional termination): 1.60
+
+Regression test output:
+Regression test count: 3126
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_50078_1629732504/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_50078_1629732504/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_50078_1629732504/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_50078_1629732504/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_50078_1629732504/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_50078_1629732504/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_50078_1629732504/randoop/RegressionTest6.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_2/run_randoop.pl_50078_1629732504/randoop/RegressionTest.java
+
+Invalid tests generated: 0

@@ -1,0 +1,49 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.TypeCheck
+* Starting client
+* Connecting to master process on port 10878
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_12195_1629423249/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_12195_1629423249/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_12195_1629423249/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_12195_1629423249/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_12195_1629423249/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_12195_1629423249/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_12195_1629423249/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_1/run_evosuite.pl_12195_1629423249/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.TypeCheck
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 979
+* Using seed 1629423264342
+* Starting evolution
+* Search finished after 317s and 363 generations, 154427 statements, best individual has fitness: 579.6042334788588
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 18:41:05.064 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 36%
+* Total number of goals: 979
+* Number of covered goals: 351
+* Generated 360 tests with total length 5484
+* Resulting test suite's coverage: 36%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                    588 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        410 / 300          Finished!
+[MASTER] 18:41:23.008 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 19 seconds more than allowed.
+* Time spent executing tests: 373553ms
+* Generating assertions
+[MASTER] 18:42:16.787 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+[MASTER] 18:42:37.767 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+[MASTER] 18:42:41.991 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 20%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'TypeCheck_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

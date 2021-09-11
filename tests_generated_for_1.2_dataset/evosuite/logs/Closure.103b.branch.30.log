@@ -1,0 +1,284 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.DisambiguateProperties
+* Starting client
+* Connecting to master process on port 9198
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/ant_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/google_common_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/junit4-core.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/junit4-legacy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.DisambiguateProperties
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 294
+* Using seed 1629891726768
+* Starting evolution
+* Search finished after 302s and 341 generations, 87567 statements, best individual has fitness: 253.28333333333333
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 20%
+* Total number of goals: 294
+* Number of covered goals: 58
+* Generated 10 tests with total length 49
+* Resulting test suite's coverage: 20%
+* GA-Budget:
+	- ZeroFitness :                    253 / 0           
+	- MaxTime :                        308 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 76039ms
+* Generating assertions
+[MASTER] 04:47:28.055 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.087 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.147 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.179 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.223 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.267 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.303 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.330 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.371 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.435 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.479 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.523 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.555 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.595 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 04:47:28.639 [logback-2] ERROR TestRunnable - Suppressed/ignored exception during test case execution on class com.google.javascript.jscomp.DisambiguateProperties: null
+java.lang.NullPointerException: null
+	at org.evosuite.assertion.InspectorTraceObserver.visit(InspectorTraceObserver.java:67) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.visitDependencies(AssertionTraceObserver.java:75) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionTraceObserver.afterStatement(AssertionTraceObserver.java:139) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.informObservers_after(TestRunnable.java:160) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.executeStatements(TestRunnable.java:358) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:209) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestRunnable.call(TestRunnable.java:52) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 4
+* Writing JUnit test case 'DisambiguateProperties_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.ControlFlowAnalysis
+* Starting client
+* Connecting to master process on port 8741
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/ant_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/google_common_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/junit4-core.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/junit4-legacy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_1/run_evosuite.pl_15515_1629891713/lib/protobuf_deploy.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.ControlFlowAnalysis
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 386
+* Using seed 1629892054387
+* Starting evolution
+* Search finished after 304s and 441 generations, 156694 statements, best individual has fitness: 164.26828170976384
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 54%
+* Total number of goals: 390
+* Number of covered goals: 212
+* Generated 34 tests with total length 151
+* Resulting test suite's coverage: 54%
+* GA-Budget:
+	- ZeroFitness :                    164 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        322 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 157585ms
+* Generating assertions
+[MASTER] 04:53:08.257 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+* Resulting test suite's mutation score: 6%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'ControlFlowAnalysis_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

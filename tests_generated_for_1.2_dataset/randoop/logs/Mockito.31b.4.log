@@ -1,0 +1,59 @@
+Ignoring interface org.mockito.internal.progress.ArgumentMatcherStorage specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.reporting.PrintingFriendlyInvocation specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.configuration.AnnotationEngine specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.progress.MockingProgress specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.invocation.realmethod.RealMethod specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.stubbing.Answer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.invocation.MockitoMethod specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.invocation.InvocationOnMock specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.configuration.IMockitoConfiguration specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.exceptions.PrintableInvocation specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.exceptions.VerificationAwareInvocation specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=229
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Wed Aug 25 12:07:28 PDT 2021)
+Progress update: steps=1000, test inputs generated=452, failing inputs=0
+Progress update: steps=2000, test inputs generated=899, failing inputs=0
+Progress update: steps=3000, test inputs generated=1356, failing inputs=0
+Progress update: steps=4000, test inputs generated=1797, failing inputs=0
+Progress update: steps=4170, test inputs generated=1869, failing inputs=0      (Wed Aug 25 12:08:28 PDT 2021)
+Progress update: steps=5000, test inputs generated=2215, failing inputs=0
+Progress update: steps=6000, test inputs generated=2633, failing inputs=0
+Progress update: steps=7000, test inputs generated=3056, failing inputs=0
+Progress update: steps=7655, test inputs generated=3342, failing inputs=0      (Wed Aug 25 12:09:28 PDT 2021)
+Progress update: steps=8000, test inputs generated=3492, failing inputs=0
+Progress update: steps=9000, test inputs generated=3905, failing inputs=0
+Progress update: steps=10000, test inputs generated=4311, failing inputs=0
+Progress update: steps=10157, test inputs generated=4369, failing inputs=0      (Wed Aug 25 12:10:28 PDT 2021)
+Progress update: steps=11000, test inputs generated=4727, failing inputs=0
+Progress update: steps=12000, test inputs generated=5161, failing inputs=0
+Progress update: steps=12960, test inputs generated=5539, failing inputs=0      (Wed Aug 25 12:11:28 PDT 2021)
+Progress update: steps=13000, test inputs generated=5558, failing inputs=0
+Progress update: steps=14000, test inputs generated=5966, failing inputs=0
+Progress update: steps=15000, test inputs generated=6357, failing inputs=0
+Progress update: steps=16000, test inputs generated=6770, failing inputs=0
+Progress update: steps=16368, test inputs generated=6913, failing inputs=0      (Wed Aug 25 12:12:28 PDT 2021)
+Progress update: steps=16368, test inputs generated=6914, failing inputs=0      (Wed Aug 25 12:12:28 PDT 2021)
+Normal method executions: 1486889
+Exceptional method executions: 1853
+
+Average method execution time (normal termination):      0.153
+Average method execution time (exceptional termination): 1.15
+
+Regression test output:
+Regression test count: 4121
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_1/run_randoop.pl_135830_1629918435/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_1/run_randoop.pl_135830_1629918435/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_1/run_randoop.pl_135830_1629918435/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_1/run_randoop.pl_135830_1629918435/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_1/run_randoop.pl_135830_1629918435/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_1/run_randoop.pl_135830_1629918435/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_1/run_randoop.pl_135830_1629918435/randoop/RegressionTest6.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_1/run_randoop.pl_135830_1629918435/randoop/RegressionTest7.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_1/run_randoop.pl_135830_1629918435/randoop/RegressionTest8.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_1/run_randoop.pl_135830_1629918435/randoop/RegressionTest.java
+
+Invalid tests generated: 0

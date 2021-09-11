@@ -1,0 +1,33 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.util.ContinuedFraction
+* Starting client
+* Connecting to master process on port 20575
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_Math_31_26/run_evosuite.pl_133126_1629974674/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.util.ContinuedFraction
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 34
+* Using seed 1629974702715
+* Starting evolution
+* Search finished after 301s and 10273 generations, 0 statements, best individual has fitness: 35.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 0%
+* Total number of goals: 34
+* Number of covered goals: 0
+* Generated 0 tests with total length 0
+* Resulting test suite's coverage: 0%
+* GA-Budget:
+	- ZeroFitness :                     35 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 10295ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Done!
+
+* Computation finished

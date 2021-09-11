@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.OpenMapRealMatrix
+* Starting client
+* Connecting to master process on port 16623
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_146508_1629875058/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.OpenMapRealMatrix
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 31
+* Using seed 1629875073139
+* Starting evolution
+* Search finished after 313s and 93 generations, 19638 statements, best individual has fitness: 7.999999999068677
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 31
+* Number of covered goals: 22
+* Generated 6 tests with total length 27
+* Resulting test suite's coverage: 71%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                      8 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        376 / 300          Finished!
+* Time spent executing tests: 325118ms
+* Generating assertions
+* Resulting test suite's mutation score: 22%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 7
+* Writing JUnit test case 'OpenMapRealMatrix_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

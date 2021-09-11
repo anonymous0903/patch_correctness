@@ -1,0 +1,49 @@
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.stubbing.answers.AnswersValidator
+* Starting client
+* Connecting to master process on port 15681
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_5/run_evosuite.pl_3078_1629501822/target/classes
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.stubbing.answers.AnswersValidator
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 27
+* Using seed 1629501834355
+* Starting evolution
+* Search finished after 301s and 7505 generations, 1286873 statements, best individual has fitness: 14.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 48%
+* Total number of goals: 27
+* Number of covered goals: 13
+* Generated 6 tests with total length 22
+* Resulting test suite's coverage: 48%
+* GA-Budget:
+	- MaxTime :                        301 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     14 / 0           
+* Time spent executing tests: 149556ms
+* Generating assertions
+[MASTER] 16:28:59.598 [logback-1] WARN  ClassResetter - class java.lang.reflect.InvocationTargetException thrown during execution of method  __STATIC_RESET() for class org.mockito.cglib.proxy.Enhancer, org.evosuite.runtime.mock.java.lang.MockThrowable: java.lang.reflect.InvocationTargetException-->null
+* Resulting test suite's mutation score: 36%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'AnswersValidator_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

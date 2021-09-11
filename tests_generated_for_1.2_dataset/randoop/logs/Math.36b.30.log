@@ -1,0 +1,29 @@
+Ignoring interface org.apache.commons.math.FieldElement specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.Field specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.exception.util.Localizable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.exception.util.ExceptionContextProvider specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=422
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 19 10:08:46 PDT 2021)
+Progress update: steps=736, test inputs generated=720, failing inputs=0      (Thu Aug 19 10:09:46 PDT 2021)
+Progress update: steps=905, test inputs generated=882, failing inputs=0      (Thu Aug 19 10:10:51 PDT 2021)
+Progress update: steps=1000, test inputs generated=971, failing inputs=0
+Progress update: steps=1073, test inputs generated=1042, failing inputs=0      (Thu Aug 19 10:11:51 PDT 2021)
+Progress update: steps=1177, test inputs generated=1142, failing inputs=0      (Thu Aug 19 10:12:51 PDT 2021)
+Progress update: steps=1252, test inputs generated=1215, failing inputs=0      (Thu Aug 19 10:13:47 PDT 2021)
+Normal method executions: 648005
+Exceptional method executions: 101
+
+Average method execution time (normal termination):      0.226
+Average method execution time (exceptional termination): 0.349
+
+Regression test output:
+Regression test count: 790
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_173349_1629392914/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_173349_1629392914/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_173349_1629392914/randoop/RegressionTest.java
+
+Invalid tests generated: 0

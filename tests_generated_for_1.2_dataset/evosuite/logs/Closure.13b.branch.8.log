@@ -1,0 +1,41 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.PeepholeOptimizationsPass
+* Starting client
+* Connecting to master process on port 4293
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_172318_1628371894/build/classes
+  - /tmp/run_evosuite.pl_172318_1628371894/lib/args4j.jar
+  - /tmp/run_evosuite.pl_172318_1628371894/lib/guava.jar
+  - /tmp/run_evosuite.pl_172318_1628371894/lib/json.jar
+  - /tmp/run_evosuite.pl_172318_1628371894/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_172318_1628371894/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_172318_1628371894/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_172318_1628371894/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.PeepholeOptimizationsPass
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 49
+* Using seed 1628371913064
+* Starting evolution
+* Search finished after 102s and 353 generations, 81520 statements, best individual has fitness: 3.4999000000000002
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 88%
+* Total number of goals: 49
+* Number of covered goals: 43
+* Generated 2 tests with total length 23
+* Resulting test suite's coverage: 88%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        107 / 100          Finished!
+	- ZeroFitness :                      3 / 0           
+* Time spent executing tests: 69763ms
+* Generating assertions
+* Resulting test suite's mutation score: 70%
+* Writing JUnit test case 'PeepholeOptimizationsPass_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

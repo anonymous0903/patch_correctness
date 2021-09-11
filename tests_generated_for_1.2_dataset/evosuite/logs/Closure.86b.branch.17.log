@@ -1,0 +1,66 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 10073
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_4/run_evosuite.pl_18587_1629877660/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_4/run_evosuite.pl_18587_1629877660/lib/ant-launcher.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_4/run_evosuite.pl_18587_1629877660/lib/ant.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_4/run_evosuite.pl_18587_1629877660/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_4/run_evosuite.pl_18587_1629877660/lib/caja-r4314.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_4/run_evosuite.pl_18587_1629877660/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_4/run_evosuite.pl_18587_1629877660/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_4/run_evosuite.pl_18587_1629877660/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_4/run_evosuite.pl_18587_1629877660/lib/junit.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_4/run_evosuite.pl_18587_1629877660/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_4/run_evosuite.pl_18587_1629877660/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 2051
+* Using seed 1629877674620
+* Starting evolution
+* Search finished after 311s and 387 generations, 130197 statements, best individual has fitness: 613.5594119229725
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 64%
+* Total number of goals: 2051
+* Number of covered goals: 1303
+* Generated 382 tests with total length 649
+* Resulting test suite's coverage: 64%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        367 / 300          Finished!
+	- ZeroFitness :                    776 / 0           
+* Time spent executing tests: 130730ms
+* Generating assertions
+* Resulting test suite's mutation score: 25%
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         resolve hmU(9Q%(fB@`5<: 1
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'NodeUtil_ESTest' to evosuite-branch
+[MASTER] 00:57:14.999 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.NodeUtil. Lost connection with clients.
+ClientNode: WRITING_TESTS
+
+java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:228) ~[na:1.7.0_80]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.7.0_80]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:194) ~[na:1.7.0_80]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:148) ~[na:1.7.0_80]
+	at com.sun.proxy.$Proxy7.waitUntilFinished(Unknown Source) ~[na:na]
+	at org.evosuite.utils.ExternalProcessHandler.waitForResult(ExternalProcessHandler.java:597) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.executionmode.TestGeneration.generateTests(TestGeneration.java:445) [evosuite-0.2.0.jar:na]
+	at org.evosuite.executionmode.TestGeneration.executeTestGeneration(TestGeneration.java:66) [evosuite-0.2.0.jar:na]
+	at org.evosuite.EvoSuite.parseCommandLine(EvoSuite.java:260) [evosuite-0.2.0.jar:na]
+	at org.evosuite.EvoSuite.main(EvoSuite.java:293) [evosuite-0.2.0.jar:na]
+Caused by: java.io.EOFException: null
+	at java.io.DataInputStream.readByte(DataInputStream.java:267) ~[na:1.7.0_80]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:214) ~[na:1.7.0_80]
+	... 9 common frames omitted
+* Computation finished

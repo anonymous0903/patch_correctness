@@ -1,0 +1,2722 @@
+Ignoring interface com.google.javascript.jscomp.type.ReverseAbstractInterpreter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.deps.DependencyInfo specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.Region specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSourceFile specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.CodingConvention specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.CompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.ErrorHandler specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.jscomp.ErrorManager specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible interface com.google.javascript.jscomp.CodeChangeHandler specified via --classlist or --testclass.
+PUBLIC MEMBERS=837
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 07:13:05 PDT 2021)
+Progress update: steps=1000, test inputs generated=521, failing inputs=0Aug 23, 2021 7:13:29 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:36 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:36 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:44 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:44 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:46 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:46 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:46 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:47 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:48 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:13:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:50 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:50 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:51 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:52 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:13:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:56 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:57 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:13:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:13:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:13:57 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+
+Progress update: steps=2000, test inputs generated=1421, failing inputs=0Aug 23, 2021 7:14:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:03 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:03 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:04 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:04 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:04 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+
+Progress update: steps=2194, test inputs generated=1607, failing inputs=0      (Mon Aug 23 07:14:05 PDT 2021)Aug 23, 2021 7:14:07 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:08 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:08 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:11 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:14:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:13 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:14 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:16 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:18 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:20 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:21 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:21 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:14:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:14:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:25 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:26 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:28 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:28 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:29 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:30 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:30 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:32 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:32 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:33 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:33 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:34 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:35 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:35 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:35 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=3000, test inputs generated=2344, failing inputs=0Aug 23, 2021 7:14:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:38 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:40 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:41 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:41 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:41 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:14:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:44 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:14:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:48 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:50 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:14:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:50 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:51 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:51 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:52 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:52 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:14:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:55 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:55 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:56 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:56 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:56 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:57 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:59 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:14:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:14:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:14:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:14:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:14:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:01 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:01 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:04 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:04 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=3617, test inputs generated=2914, failing inputs=0      (Mon Aug 23 07:15:05 PDT 2021)Aug 23, 2021 7:15:06 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:07 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:08 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:08 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:12 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:12 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:12 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:15:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:14 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:15:14 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:15 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:18 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:19 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:20 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:20 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:20 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:20 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:21 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:21 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:21 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:22 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:23 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:23 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:24 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=4000, test inputs generated=3266, failing inputs=0Aug 23, 2021 7:15:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:15:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:28 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:29 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:30 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:32 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:33 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:34 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:34 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:35 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:15:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:36 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:38 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:38 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:38 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:41 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:42 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:15:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:15:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:45 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:45 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:45 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:45 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:45 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:45 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:46 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:46 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:47 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:51 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:51 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:52 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:54 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:55 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:57 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:59 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:15:59 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:15:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:15:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:01 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:04 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:04 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:04 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=4833, test inputs generated=4026, failing inputs=0      (Mon Aug 23 07:16:05 PDT 2021)Aug 23, 2021 7:16:05 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:05 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:06 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:06 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:07 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:07 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:08 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:08 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:11 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:11 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:11 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:12 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:12 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=5000, test inputs generated=4173, failing inputs=0Aug 23, 2021 7:16:13 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:13 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:13 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:13 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:15 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:15 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:15 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:16 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:16 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:16 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:16 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:18 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:18 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:16:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:22 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:22 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:23 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:23 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:16:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:24 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:25 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:25 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:25 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:25 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:27 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:27 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:27 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:27 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:16:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:29 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:29 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:29 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:30 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:30 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:30 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:30 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:30 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:32 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:32 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:32 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:33 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:34 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:34 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:34 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:16:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:35 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:36 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:36 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:36 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:38 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:16:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:40 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:40 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:40 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:42 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:42 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:42 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:42 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:44 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:44 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:44 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:46 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:46 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:46 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:16:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:47 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:48 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:48 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:48 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:52 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:52 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:52 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:52 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:54 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:54 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:16:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:55 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:56 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:56 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:57 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:57 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:57 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:16:59 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:16:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:16:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:17:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+
+Progress update: steps=6000, test inputs generated=5075, failing inputs=0Aug 23, 2021 7:17:03 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:17:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=6054, test inputs generated=5124, failing inputs=0      (Mon Aug 23 07:17:05 PDT 2021)Aug 23, 2021 7:17:05 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:06 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:06 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:06 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:07 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:07 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:07 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:07 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:07 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:08 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:09 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:17:09 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:10 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:10 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:10 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:12 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:12 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:12 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:12 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - At least one module must be provided
+
+Aug 23, 2021 7:17:12 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:17 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:17 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:18 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:18 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:18 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:19 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:19 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:19 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:19 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:21 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:21 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:21 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:21 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:22 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:22 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:22 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:22 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:23 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:23 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:23 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:23 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:23 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:17:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:24 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:24 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:24 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:25 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:25 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:25 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:26 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:26 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:26 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:28 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:28 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:28 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:28 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:17:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:29 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:29 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:29 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:31 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:31 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:33 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:33 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:33 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:33 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:34 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:34 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:34 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:35 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:35 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:35 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:37 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:37 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:38 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:38 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:17:38 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:39 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:39 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:17:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:43 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:43 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:47 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:47 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:47 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:47 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:48 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:48 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:48 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:49 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:49 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:50 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:50 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:50 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:50 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:51 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:51 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:51 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:51 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:53 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:54 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:54 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:54 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=7000, test inputs generated=5967, failing inputs=0Aug 23, 2021 7:17:55 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:55 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:55 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:55 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:56 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:56 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:56 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:58 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: hi!
+
+Aug 23, 2021 7:17:58 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:59 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:17:59 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:59 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:17:59 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:17:59 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:18:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:18:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:18:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:00 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:18:00 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:18:01 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:18:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:18:01 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:01 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:18:01 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:18:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:18:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:18:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:18:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:18:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:18:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:18:03 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:18:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:18:03 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:03 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:03 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:18:03 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+Aug 23, 2021 7:18:05 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing hi!: Compilation produced 1 syntax errors. (hi!#1)
+Aug 23, 2021 7:18:05 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: hi!:1: ERROR - Parse error. missing ; before statement
+hi!
+  ^
+
+Aug 23, 2021 7:18:05 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 1 error(s), 0 warning(s)
+
+Progress update: steps=7206, test inputs generated=6155, failing inputs=0      (Mon Aug 23 07:18:05 PDT 2021)
+Progress update: steps=7206, test inputs generated=6155, failing inputs=0      (Mon Aug 23 07:18:05 PDT 2021)
+Normal method executions: 1424094
+Exceptional method executions: 631
+
+Average method execution time (normal termination):      0.109
+Average method execution time (exceptional termination): 1.18
+
+Regression test output:
+Regression test count: 3165
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_21516_1629727964/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_21516_1629727964/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_21516_1629727964/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_21516_1629727964/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_21516_1629727964/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_21516_1629727964/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_21516_1629727964/randoop/RegressionTest6.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_21516_1629727964/randoop/RegressionTest.java
+
+Invalid tests generated: 0

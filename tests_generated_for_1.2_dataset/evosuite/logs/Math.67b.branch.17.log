@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer
+* Starting client
+* Connecting to master process on port 9959
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_4/run_evosuite.pl_41314_1629419255/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.optimization.MultiStartUnivariateRealOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 51
+* Using seed 1629419265470
+* Starting evolution
+* Search finished after 301s and 8656 generations, 1158047 statements, best individual has fitness: 27.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 43%
+* Total number of goals: 51
+* Number of covered goals: 22
+* Generated 17 tests with total length 57
+* Resulting test suite's coverage: 43%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        301 / 300          Finished!
+	- ZeroFitness :                     28 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 121588ms
+* Generating assertions
+* Resulting test suite's mutation score: 17%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'MultiStartUnivariateRealOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

@@ -1,0 +1,88 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.SourceMap
+* Starting client
+* Connecting to master process on port 19752
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.SourceMap
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 50
+* Using seed 1629721219301
+* Starting evolution
+* Search finished after 301s and 8458 generations, 1027170 statements, best individual has fitness: 8.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 80%
+* Total number of goals: 50
+* Number of covered goals: 40
+* Generated 19 tests with total length 77
+* Resulting test suite's coverage: 80%
+* GA-Budget:
+	- MaxTime :                        302 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      8 / 0           
+* Time spent executing tests: 135796ms
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'SourceMap_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: com.google.debugging.sourcemap.SourceMapConsumerV3
+* Starting client
+* Connecting to master process on port 2679
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/build/classes
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp/evosuite_2/run_evosuite.pl_29424_1629721201/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.debugging.sourcemap.SourceMapConsumerV3
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 170
+* Using seed 1629721533057
+* Starting evolution
+* Search finished after 302s and 187 generations, 46782 statements, best individual has fitness: 170.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 6%
+* Total number of goals: 170
+* Number of covered goals: 10
+* Generated 7 tests with total length 14
+* Resulting test suite's coverage: 6%
+* GA-Budget:
+	- ZeroFitness :                    171 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        302 / 300          Finished!
+	- RMIStoppingCondition
+* Time spent executing tests: 13303ms
+* Generating assertions
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'SourceMapConsumerV3_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

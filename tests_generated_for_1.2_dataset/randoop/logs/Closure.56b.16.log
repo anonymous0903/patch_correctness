@@ -1,0 +1,461 @@
+Ignoring non-visible class com.google.javascript.jscomp.ConstCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ProcessTweaks specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.PassConfig specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.PrototypeObjectType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.JsMessageVisitor specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.StrictModeCheck specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.HotSwapCompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.ChainableReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.graph.DiGraph specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckGlobalThis specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.ObjectType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceAst specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckUnreachableCode specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.ScopeCreator specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.deps.DependencyInfo specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.FunctionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VariableReferenceCheck specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.GraphvizGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.AbstractMessageFormatter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.JSType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.Region specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.ControlFlowGraph specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SuppressDocWarningsGuard specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ProcessDefines specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.ErrorReporter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckGlobalNames specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticScope specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.SemanticReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypeValidator specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSourceFile specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.DisambiguateProperties specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckAccessControls specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ControlStructureCheck specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CodingConvention specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSymbolTable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.PassFactory specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VarCheck specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ReferenceCollectingCallback specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.MessageFormatter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.RhinoErrorReporter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypedScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SyntacticScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.Annotation specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.BasicErrorManager specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible interface com.google.javascript.jscomp.ReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckSideEffects specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CheckRegExp specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.graph.AdjacencyGraph specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.WarningsGuard specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.ErrorManager specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.graph.Graph specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.CodeChangeHandler specified via --classlist or --testclass.
+PUBLIC MEMBERS=1359
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Tue Aug 24 05:42:47 PDT 2021)Aug 24, 2021 5:42:55 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+
+Progress update: steps=1000, test inputs generated=429, failing inputs=0Aug 24, 2021 5:43:09 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 24, 2021 5:43:27 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:43:27 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 24, 2021 5:43:28 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:43:29 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+
+Progress update: steps=2000, test inputs generated=1103, failing inputs=0Aug 24, 2021 5:43:35 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+
+Progress update: steps=2314, test inputs generated=1319, failing inputs=0      (Tue Aug 24 05:43:47 PDT 2021)Aug 24, 2021 5:43:51 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 24, 2021 5:43:51 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:43:52 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:43:52 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 24, 2021 5:43:52 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 5:43:54 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:43:55 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:43:57 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:43:57 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:44:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [DiagnosticGroup<checkRegExp>(null)]
+
+Aug 24, 2021 5:44:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [new]
+
+Aug 24, 2021 5:44:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 24, 2021 5:44:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 24, 2021 5:44:03 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:44:05 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 24, 2021 5:44:07 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:923)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=3000, test inputs generated=1770, failing inputs=0Aug 24, 2021 5:44:14 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:44:14 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:44:16 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:923)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 5:44:24 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:44:24 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:44:24 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 5:44:32 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:44:34 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+
+Progress update: steps=3829, test inputs generated=2362, failing inputs=0      (Tue Aug 24 05:44:47 PDT 2021)Aug 24, 2021 5:44:48 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:44:48 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:44:49 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:44:49 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+
+Progress update: steps=4000, test inputs generated=2490, failing inputs=0Aug 24, 2021 5:44:55 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:44:58 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:01 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 24, 2021 5:45:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [DiagnosticGroup<checkRegExp>(null)]
+
+Aug 24, 2021 5:45:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [new]
+
+Aug 24, 2021 5:45:02 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 24, 2021 5:45:02 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 24, 2021 5:45:02 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 24, 2021 5:45:02 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:04 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:05 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:05 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:08 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:13 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:17 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:17 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 24, 2021 5:45:20 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:21 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:23 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:25 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:29 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:30 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:34 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:35 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:35 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 24, 2021 5:45:36 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:39 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 24, 2021 5:45:41 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:45:45 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+
+Progress update: steps=5000, test inputs generated=3221, failing inputs=0
+Progress update: steps=5004, test inputs generated=3225, failing inputs=0      (Tue Aug 24 05:45:47 PDT 2021)java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:923)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2501)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 5:46:03 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:04 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:05 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 24, 2021 5:46:05 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2501)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 5:46:07 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:08 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [DiagnosticGroup<checkRegExp>(null)]
+
+Aug 24, 2021 5:46:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [new]
+
+Aug 24, 2021 5:46:08 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 24, 2021 5:46:08 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 24, 2021 5:46:09 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:13 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:14 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:14 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 24, 2021 5:46:14 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:15 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:923)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 5:46:19 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:21 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:23 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:23 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:24 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+
+Progress update: steps=6000, test inputs generated=3936, failing inputs=0Aug 24, 2021 5:46:26 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:27 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:29 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:30 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:31 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:33 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:34 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:37 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:923)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 24, 2021 5:46:42 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:43 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:44 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+
+Progress update: steps=6489, test inputs generated=4282, failing inputs=0      (Tue Aug 24 05:46:47 PDT 2021)Aug 24, 2021 5:46:47 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [DiagnosticGroup<checkRegExp>(null)]
+
+Aug 24, 2021 5:46:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [new]
+
+Aug 24, 2021 5:46:53 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 24, 2021 5:46:53 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 24, 2021 5:46:55 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:56 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:58 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:46:58 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:47:00 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:47:05 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:47:06 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:47:11 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:47:11 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:47:13 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:47:13 AM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: checkVars
+Aug 24, 2021 5:47:13 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:47:14 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+
+Progress update: steps=7000, test inputs generated=4639, failing inputs=0Aug 24, 2021 5:47:23 AM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 24, 2021 5:47:25 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:47:26 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:47:39 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+Aug 24, 2021 5:47:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [DiagnosticGroup<checkRegExp>(null)]
+
+Aug 24, 2021 5:47:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Duplicate input: [new]
+
+Aug 24, 2021 5:47:41 AM com.google.javascript.jscomp.LoggerErrorManager println
+SEVERE: ERROR - Root module {0} must contain at least one source code input
+
+Aug 24, 2021 5:47:41 AM com.google.javascript.jscomp.LoggerErrorManager printSummary
+WARNING: 3 error(s), 0 warning(s)
+Aug 24, 2021 5:47:45 AM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing (eof): Compilation produced 1 syntax errors. ((eof)#1)
+
+Progress update: steps=7799, test inputs generated=5230, failing inputs=0      (Tue Aug 24 05:47:47 PDT 2021)
+Progress update: steps=7799, test inputs generated=5231, failing inputs=0      (Tue Aug 24 05:47:47 PDT 2021)
+Normal method executions: 1868189
+Exceptional method executions: 881
+
+Average method execution time (normal termination):      0.0974
+Average method execution time (exceptional termination): 1.14
+
+Regression test output:
+Regression test count: 2782
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_1/run_randoop.pl_186833_1629808946/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_1/run_randoop.pl_186833_1629808946/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_1/run_randoop.pl_186833_1629808946/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_1/run_randoop.pl_186833_1629808946/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_1/run_randoop.pl_186833_1629808946/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_1/run_randoop.pl_186833_1629808946/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_1/run_randoop.pl_186833_1629808946/randoop/RegressionTest.java
+
+Invalid tests generated: 0

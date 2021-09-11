@@ -1,0 +1,49 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.time.FastDateParser
+* Starting client
+* Connecting to master process on port 2855
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Lang_10_22/run_evosuite.pl_16390_1629973835/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.time.FastDateParser
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 355
+* Using seed 1629973843283
+* Starting evolution
+* Search finished after 302s and 1900 generations, 380205 statements, best individual has fitness: 55.83333333333334
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 75%
+* Total number of goals: 355
+* Number of covered goals: 268
+* Generated 42 tests with total length 152
+* Resulting test suite's coverage: 79%
+* GA-Budget:
+	- MaxTime :                        308 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     56 / 0           
+	- RMIStoppingCondition
+* Time spent executing tests: 150952ms
+* Generating assertions
+[MASTER] 03:36:06.782 [main] ERROR ExternalProcessHandler - Class org.apache.commons.lang3.time.FastDateParser. Lost connection with clients.
+ClientNode: ASSERTION_GENERATION
+The JVM of the client process did crash:
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007f0af92bbec4, pid=16549, tid=139684240787200
+#
+# JRE version: Java(TM) SE Runtime Environment (7.0_80-b15) (build 1.7.0_80-b15)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.80-b11 mixed mode linux-amd64 compressed oops)
+# Problematic frame:
+# J 1938 C2 java.lang.Character.isWhitespace(C)Z (5 bytes) @ 0x00007f0af92bbec4 [0x00007f0af92bbe60+0x64]
+#
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+* Computation finished

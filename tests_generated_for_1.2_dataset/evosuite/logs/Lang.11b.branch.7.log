@@ -1,0 +1,50 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.RandomStringUtils
+* Starting client
+* Connecting to master process on port 17967
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Lang_11_7/run_evosuite.pl_3150_1629966831/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.RandomStringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 63
+* Using seed 1629966840333
+* Starting evolution
+* Search finished after 318s and 295 generations, 110518 statements, best individual has fitness: 3.999751073624211
+* Minimizing test suite
+[MASTER] 01:40:51.549 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: org.apache.commons.lang3.RandomStringUtils with seed 1629966840333. Configuration id : null
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.Arrays.copyOf(Arrays.java:2367) ~[na:1.7.0_80]
+	at java.lang.AbstractStringBuilder.expandCapacity(AbstractStringBuilder.java:130) ~[na:1.7.0_80]
+	at java.lang.AbstractStringBuilder.ensureCapacityInternal(AbstractStringBuilder.java:114) ~[na:1.7.0_80]
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:415) ~[na:1.7.0_80]
+	at java.lang.StringBuilder.append(StringBuilder.java:132) ~[na:1.7.0_80]
+	at org.evosuite.testcase.TestCodeVisitor.visitPrimitiveStatement(TestCodeVisitor.java:880) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.TestVisitor.visitStatement(TestVisitor.java:136) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.TestCodeVisitor.visitStatement(TestCodeVisitor.java:1395) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.DefaultTestCase.accept(DefaultTestCase.java:100) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.DefaultTestCase.toCode(DefaultTestCase.java:994) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:465) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:333) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:262) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:144) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:79) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.isCovered(TestFitnessFunction.java:150) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testsuite.TestSuiteMinimizer.minimizeTests(TestSuiteMinimizer.java:240) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testsuite.TestSuiteMinimizer.minimize(TestSuiteMinimizer.java:112) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateWholeSuite(TestSuiteGenerator.java:951) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:459) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:252) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:125) ~[evosuite-0.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_80]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+[MASTER] 01:40:55.069 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 16 seconds more than allowed.
+* Computation finished
+[MASTER] 01:41:03.080 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 01:41:03.080 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 01:41:03.184 [main] ERROR TestGeneration - failed to write statistics data

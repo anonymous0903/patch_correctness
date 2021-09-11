@@ -1,0 +1,13 @@
+######  Start test generation  /home/user/yangjun/tools/defects4j/framework/bin/gen_tests.pl: 2021-08-19 20:39:52  ######
+Mode: regression
+Parameters:
+ -g randoop
+ -p JacksonCore
+ -v 15b
+ -n 20
+ -b 300
+ -c /home/user/yangjun/tools/defects4j/framework/projects/JacksonCore/modified_classes/15.src
+ -s 20015
+Created test suite archive: JacksonCore-15b-randoop.20.tar.bz2
+Moved test suite archive to output directory: /home/user/yangjun/test_generation/test_suite_tests/randoop/JacksonCore/randoop/20
+######  End test generation  /home/user/yangjun/tools/defects4j/framework/bin/gen_tests.pl: 2021-08-19 20:45:21  ######

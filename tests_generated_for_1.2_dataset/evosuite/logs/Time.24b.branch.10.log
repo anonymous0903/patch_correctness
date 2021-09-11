@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.joda.time.format.DateTimeParserBucket
+* Starting client
+* Connecting to master process on port 3111
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_56993_1628352283/build/classes
+  - /home/junyang/patch_correctness/tools/drr/defects4j/framework/projects/Time/lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.format.DateTimeParserBucket
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 81
+* Using seed 1628352294866
+* Starting evolution
+* Search finished after 101s and 1187 generations, 238203 statements, best individual has fitness: 5.166666666666666
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 93%
+* Total number of goals: 81
+* Number of covered goals: 75
+* Generated 17 tests with total length 96
+* Resulting test suite's coverage: 93%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ZeroFitness :                      5 / 0           
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        103 / 100          Finished!
+* Time spent executing tests: 53706ms
+* Generating assertions
+* Resulting test suite's mutation score: 34%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'DateTimeParserBucket_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

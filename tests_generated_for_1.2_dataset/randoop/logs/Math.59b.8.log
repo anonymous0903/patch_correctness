@@ -1,0 +1,33 @@
+Ignoring interface org.apache.commons.math.FieldElement specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.exception.MathThrowable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.Field specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.random.BitsStreamGenerator specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.random.RandomGenerator specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=181
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sat Aug 07 13:25:10 PDT 2021)
+Progress update: steps=747, test inputs generated=720, failing inputs=0      (Sat Aug 07 13:26:10 PDT 2021)
+Progress update: steps=1000, test inputs generated=969, failing inputs=0
+Progress update: steps=1303, test inputs generated=1259, failing inputs=0      (Sat Aug 07 13:27:10 PDT 2021)
+Progress update: steps=1687, test inputs generated=1619, failing inputs=0      (Sat Aug 07 13:28:10 PDT 2021)
+Progress update: steps=2000, test inputs generated=1911, failing inputs=0
+Progress update: steps=2155, test inputs generated=2058, failing inputs=0      (Sat Aug 07 13:29:10 PDT 2021)
+Progress update: steps=2539, test inputs generated=2413, failing inputs=0      (Sat Aug 07 13:30:11 PDT 2021)
+Progress update: steps=2539, test inputs generated=2414, failing inputs=0      (Sat Aug 07 13:30:18 PDT 2021)
+Normal method executions: 2609505
+Exceptional method executions: 57
+
+Average method execution time (normal termination):      0.0877
+Average method execution time (exceptional termination): 70.6
+
+Regression test output:
+Regression test count: 1483
+Writing JUnit tests...
+
+Created file /tmp/run_randoop.pl_53519_1628367900/randoop/RegressionTest0.java
+Created file /tmp/run_randoop.pl_53519_1628367900/randoop/RegressionTest1.java
+Created file /tmp/run_randoop.pl_53519_1628367900/randoop/RegressionTest2.java
+Created file /tmp/run_randoop.pl_53519_1628367900/randoop/RegressionTest.java
+
+Invalid tests generated: 0

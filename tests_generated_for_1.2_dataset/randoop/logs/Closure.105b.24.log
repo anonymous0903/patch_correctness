@@ -1,0 +1,675 @@
+Ignoring abstract class com.google.javascript.jscomp.PassConfig specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.FoldConstants specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.PrototypeObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.SourceFile specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.TypeSafeDispatcher specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.parsing.Config specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ChainableReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.ObjectType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceAst specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible interface com.google.javascript.jscomp.ScopeCreator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodePrinter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.AbstractMessageFormatter specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.rhino.jstype.JSType specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.Region specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.AbstractCompiler specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.UnionTypeBuilder specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ValueType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.ProcessDefines specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.ErrorReporter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckGlobalNames specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodeConsumer specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticScope specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.SemanticReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypeValidator specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.StaticSlot specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CheckAccessControls specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CodingConvention specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.jscomp.CodeGenerator specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.PassFactory specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.TypedCodeGenerator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.VarCheck specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.MessageFormatter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.IndexedType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.RhinoErrorReporter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SyntacticScopeCreator specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.CompilerPass specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ErrorFunctionType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.NodeTypeNormalizer specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.CodingConventionAnnotator specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ArrowType specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ProxyObjectType specified via --classlist or --testclass.
+Ignoring abstract class com.google.javascript.jscomp.BasicErrorManager specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.SourceExcerptProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible class com.google.javascript.rhino.jstype.ParameterizedType specified via --classlist or --testclass.
+Ignoring non-visible interface com.google.javascript.jscomp.ReverseAbstractInterpreter specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.SymbolTable specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.rhino.jstype.Visitor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class com.google.javascript.jscomp.WarningsGuard specified via --classlist or --testclass.
+Ignoring interface com.google.javascript.jscomp.ErrorManager specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring non-visible interface com.google.javascript.jscomp.CodeChangeHandler specified via --classlist or --testclass.
+Ignoring non-visible class com.google.javascript.jscomp.InlineCostEstimator specified via --classlist or --testclass.
+PUBLIC MEMBERS=1827
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 16:39:43 PDT 2021)Aug 23, 2021 4:39:51 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+
+Progress update: steps=1000, test inputs generated=336, failing inputs=0java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.setQuotedString(Node.java:2036)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:777)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptOrFnNode.addFunction(ScriptOrFnNode.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:236)
+	at com.google.javascript.rhino.Node.toString(Node.java:939)
+	at com.google.javascript.rhino.Node.toString(Node.java:882)
+	at com.google.javascript.rhino.Node.toString(Node.java:872)
+	at com.google.javascript.rhino.jstype.JSTypeRegistry.createFromTypeNodes(JSTypeRegistry.java:1293)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ObjToIntMap.getExisting(ObjToIntMap.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ObjToIntMap.getExisting(ObjToIntMap.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+
+Progress update: steps=2000, test inputs generated=806, failing inputs=0
+Progress update: steps=2066, test inputs generated=840, failing inputs=0      (Mon Aug 23 16:40:43 PDT 2021)Aug 23, 2021 4:40:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:236)
+	at com.google.javascript.rhino.Node.toString(Node.java:939)
+	at com.google.javascript.rhino.Node.toString(Node.java:882)
+	at com.google.javascript.rhino.Node.toString(Node.java:872)
+	at java.lang.String.valueOf(String.java:2849)
+	at java.lang.StringBuilder.append(StringBuilder.java:128)
+	at com.google.javascript.rhino.Node.getDouble(Node.java:832)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:40:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:40:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:40:50 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:40:51 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:40:51 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:40:55 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:40:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:00 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:01 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:02 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:07 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:09 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:09 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:41:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:16 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:20 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:20 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:20 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:24 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 4:41:25 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:40 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+
+Progress update: steps=2821, test inputs generated=1332, failing inputs=0      (Mon Aug 23 16:41:43 PDT 2021)Aug 23, 2021 4:41:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:44 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeStandardOptimizations
+Aug 23, 2021 4:41:44 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeMainOptimizations
+Aug 23, 2021 4:41:44 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeModuleMotion
+Aug 23, 2021 4:41:44 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: afterModuleMotion
+Aug 23, 2021 4:41:44 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: denormalize
+Aug 23, 2021 4:41:45 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:46 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:51 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:51 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:52 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:52 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:52 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:53 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+
+Progress update: steps=3000, test inputs generated=1448, failing inputs=0Aug 23, 2021 4:41:56 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:57 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:41:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:02 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:02 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:02 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:04 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:04 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:12 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:13 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:13 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:15 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeStandardOptimizations
+Aug 23, 2021 4:42:15 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeMainOptimizations
+Aug 23, 2021 4:42:15 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeModuleMotion
+Aug 23, 2021 4:42:15 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: afterModuleMotion
+Aug 23, 2021 4:42:15 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: denormalize
+Aug 23, 2021 4:42:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:20 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:31 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:31 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:42 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:43 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+
+Progress update: steps=3458, test inputs generated=1771, failing inputs=0      (Mon Aug 23 16:42:43 PDT 2021)Aug 23, 2021 4:42:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:45 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.ScriptRuntime.escapeString(ScriptRuntime.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:42:45 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:47 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:48 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:51 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:51 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:51 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:51 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:52 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:53 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:42:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:04 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:04 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:04 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:04 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:06 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:09 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:11 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:14 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:15 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:15 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:28 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:32 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+
+Progress update: steps=4000, test inputs generated=2155, failing inputs=0Aug 23, 2021 4:43:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:34 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:36 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:37 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:39 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:39 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:39 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:39 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:41 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+
+Progress update: steps=4130, test inputs generated=2246, failing inputs=0      (Mon Aug 23 16:43:43 PDT 2021)Aug 23, 2021 4:43:44 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.getExistingIntProp(Node.java:777)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:236)
+	at com.google.javascript.rhino.Node.toString(Node.java:939)
+	at com.google.javascript.rhino.Node.toString(Node.java:882)
+	at com.google.javascript.rhino.Node.toString(Node.java:872)
+	at com.google.javascript.rhino.ScriptRuntime.toString(ScriptRuntime.java:347)
+	at sun.reflect.GeneratedMethodAccessor105.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:43:45 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:45 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:45 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:46 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:46 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:49 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:52 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:52 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:58 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:43:59 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:03 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:05 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:07 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+java.lang.IllegalStateException: FAILED ASSERTION
+	at com.google.javascript.rhino.Kit.codeBug(Kit.java:462)
+	at com.google.javascript.rhino.Node.propToString(Node.java:236)
+	at com.google.javascript.rhino.Node.toString(Node.java:939)
+	at com.google.javascript.rhino.Node.toString(Node.java:882)
+	at com.google.javascript.rhino.Node.toString(Node.java:872)
+	at com.google.javascript.rhino.ScriptRuntime.undefWriteError(ScriptRuntime.java:551)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at randoop.util.MethodReflectionCode.runReflectionCodeRaw(MethodReflectionCode.java:44)
+	at randoop.util.ReflectionCode.runReflectionCode(ReflectionCode.java:82)
+	at randoop.util.RunnerThread.executeReflectionCode(RunnerThread.java:49)
+	at randoop.util.RunnerThread.run(RunnerThread.java:43)
+Aug 23, 2021 4:44:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:08 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:10 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:15 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:17 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:18 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:19 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:20 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:21 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:22 PM com.google.javascript.jscomp.Compiler normalize
+INFO: Normalizing
+Aug 23, 2021 4:44:22 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:23 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:25 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:25 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:25 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:27 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:29 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:30 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:33 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:38 PM com.google.javascript.jscomp.parsing.ParserRunner parse
+INFO: Error parsing : Compilation produced 1 syntax errors. (#1)
+Aug 23, 2021 4:44:41 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeStandardOptimizations
+Aug 23, 2021 4:44:41 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeMainOptimizations
+Aug 23, 2021 4:44:41 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: beforeModuleMotion
+Aug 23, 2021 4:44:41 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: afterModuleMotion
+Aug 23, 2021 4:44:41 PM com.google.javascript.jscomp.PhaseOptimizer$NamedPass process
+INFO: denormalize
+
+Progress update: steps=4613, test inputs generated=2600, failing inputs=0      (Mon Aug 23 16:44:43 PDT 2021)
+Progress update: steps=4613, test inputs generated=2601, failing inputs=0      (Mon Aug 23 16:44:44 PDT 2021)
+Normal method executions: 2266879
+Exceptional method executions: 342
+
+Average method execution time (normal termination):      0.107
+Average method execution time (exceptional termination): 1.16
+
+Regression test output:
+Regression test count: 1537
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_4/run_randoop.pl_12472_1629761968/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_4/run_randoop.pl_12472_1629761968/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_4/run_randoop.pl_12472_1629761968/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_4/run_randoop.pl_12472_1629761968/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_4/run_randoop.pl_12472_1629761968/randoop/RegressionTest.java
+
+Invalid tests generated: 0

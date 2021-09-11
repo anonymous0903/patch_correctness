@@ -1,0 +1,34 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 16399
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_94_20/run_evosuite.pl_2492_1629966615/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_94_20/run_evosuite.pl_2492_1629966615/lib/ant_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_94_20/run_evosuite.pl_2492_1629966615/lib/args4j_deploy.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_94_20/run_evosuite.pl_2492_1629966615/lib/guava-r06.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_94_20/run_evosuite.pl_2492_1629966615/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_94_20/run_evosuite.pl_2492_1629966615/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_94_20/run_evosuite.pl_2492_1629966615/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_94_20/run_evosuite.pl_2492_1629966615/lib/junit.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_94_20/run_evosuite.pl_2492_1629966615/lib/libtrunk_rhino_parser_jarjared.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_94_20/run_evosuite.pl_2492_1629966615/lib/protobuf-java-2.3.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1958
+* Using seed 1629966623912
+* Starting evolution
+* Search finished after 312s and 527 generations, 174746 statements, best individual has fitness: 518.6756909065439
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 01:36:56.559 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 01:47:06.608 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.NodeUtil. Clients have not finished yet, although timeout.
+ClientNode: MINIMIZATION
+
+* Computation finished
+[MASTER] 01:47:06.709 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 01:47:06.709 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 01:47:06.810 [main] ERROR TestGeneration - failed to write statistics data

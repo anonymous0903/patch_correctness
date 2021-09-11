@@ -1,0 +1,35 @@
+Ignoring interface org.apache.commons.math3.exception.util.ExceptionContextProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.Field specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math3.random.RandomGenerator specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math3.random.BitsStreamGenerator specified via --classlist or --testclass.
+Ignoring non-visible class org.apache.commons.math3.util.FastMathLiteralArrays specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math3.FieldElement specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=199
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Thu Aug 26 05:18:36 PDT 2021)
+Progress update: steps=484, test inputs generated=461, failing inputs=0      (Thu Aug 26 05:19:36 PDT 2021)
+Progress update: steps=856, test inputs generated=821, failing inputs=0      (Thu Aug 26 05:20:36 PDT 2021)
+Progress update: steps=1000, test inputs generated=957, failing inputs=0
+Progress update: steps=1589, test inputs generated=1524, failing inputs=0      (Thu Aug 26 05:21:36 PDT 2021)
+Progress update: steps=2000, test inputs generated=1922, failing inputs=0
+Progress update: steps=2185, test inputs generated=2093, failing inputs=0      (Thu Aug 26 05:22:36 PDT 2021)
+Progress update: steps=2859, test inputs generated=2730, failing inputs=0      (Thu Aug 26 05:23:36 PDT 2021)
+Progress update: steps=2859, test inputs generated=2731, failing inputs=0      (Thu Aug 26 05:23:37 PDT 2021)
+Normal method executions: 1473939
+Exceptional method executions: 57
+
+Average method execution time (normal termination):      0.168
+Average method execution time (exceptional termination): 1.10
+
+Regression test output:
+Regression test count: 1772
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_93018_1629980286/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_93018_1629980286/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_93018_1629980286/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_93018_1629980286/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_5/run_randoop.pl_93018_1629980286/randoop/RegressionTest.java
+
+Invalid tests generated: 0

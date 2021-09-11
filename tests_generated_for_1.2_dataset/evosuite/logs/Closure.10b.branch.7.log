@@ -1,0 +1,64 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.NodeUtil
+* Starting client
+* Connecting to master process on port 10763
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_10_7/run_evosuite.pl_25439_1629964867/build/classes
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_10_7/run_evosuite.pl_25439_1629964867/lib/args4j.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_10_7/run_evosuite.pl_25439_1629964867/lib/guava.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_10_7/run_evosuite.pl_25439_1629964867/lib/json.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_10_7/run_evosuite.pl_25439_1629964867/lib/jsr305.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_10_7/run_evosuite.pl_25439_1629964867/lib/protobuf-java.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_10_7/run_evosuite.pl_25439_1629964867/build/lib/rhino.jar
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Closure_10_7/run_evosuite.pl_25439_1629964867/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.NodeUtil
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 2707
+* Using seed 1629964890887
+* Starting evolution
+* Search finished after 318s and 423 generations, 129133 statements, best individual has fitness: 973.3223246960777
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 01:08:07.872 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 57%
+* Total number of goals: 2707
+* Number of covered goals: 1547
+* Generated 1606 tests with total length 18261
+* Resulting test suite's coverage: 57%
+* GA-Budget:
+	- MaxTime :                        447 / 300          Finished!
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- ZeroFitness :                  1,054 / 0           
+[MASTER] 01:09:09.429 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 62 seconds more than allowed.
+* Time spent executing tests: 148896ms
+* Generating assertions
+[MASTER] 01:09:18.453 [logback-1] WARN  ClassResetter - class java.lang.ExceptionInInitializerError thrown during execution of method  __STATIC_RESET() for class com.google.common.base.CharMatcher, org.evosuite.runtime.TooManyResourcesException: Loop has been executed more times than the allowed 100000
+[MASTER] 01:09:18.464 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.ProcessTweaks, null
+[MASTER] 01:09:18.468 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.DiagnosticGroups, null
+[MASTER] 01:09:18.564 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+[MASTER] 01:09:18.730 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.common.base.CaseFormat, null
+[MASTER] 01:09:18.805 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class com.google.javascript.jscomp.WhitelistWarningsGuard, null
+[MASTER] 01:10:58.386 [main] ERROR ExternalProcessHandler - Class com.google.javascript.jscomp.NodeUtil. Lost connection with clients.
+ClientNode: ASSERTION_GENERATION
+
+java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:228) ~[na:1.7.0_80]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:161) ~[na:1.7.0_80]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:194) ~[na:1.7.0_80]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:148) ~[na:1.7.0_80]
+	at com.sun.proxy.$Proxy7.waitUntilFinished(Unknown Source) ~[na:na]
+	at org.evosuite.utils.ExternalProcessHandler.waitForResult(ExternalProcessHandler.java:597) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.executionmode.TestGeneration.generateTests(TestGeneration.java:445) [evosuite-0.2.0.jar:na]
+	at org.evosuite.executionmode.TestGeneration.executeTestGeneration(TestGeneration.java:66) [evosuite-0.2.0.jar:na]
+	at org.evosuite.EvoSuite.parseCommandLine(EvoSuite.java:260) [evosuite-0.2.0.jar:na]
+	at org.evosuite.EvoSuite.main(EvoSuite.java:293) [evosuite-0.2.0.jar:na]
+Caused by: java.io.EOFException: null
+	at java.io.DataInputStream.readByte(DataInputStream.java:267) ~[na:1.7.0_80]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:214) ~[na:1.7.0_80]
+	... 9 common frames omitted
+* Computation finished

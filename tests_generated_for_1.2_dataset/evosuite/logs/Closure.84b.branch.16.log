@@ -1,0 +1,47 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 14949
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_48169_1628413804/build/classes
+  - /tmp/run_evosuite.pl_48169_1628413804/lib/ant-launcher.jar
+  - /tmp/run_evosuite.pl_48169_1628413804/lib/ant.jar
+  - /tmp/run_evosuite.pl_48169_1628413804/lib/args4j.jar
+  - /tmp/run_evosuite.pl_48169_1628413804/lib/caja-r4314.jar
+  - /tmp/run_evosuite.pl_48169_1628413804/lib/guava.jar
+  - /tmp/run_evosuite.pl_48169_1628413804/lib/json.jar
+  - /tmp/run_evosuite.pl_48169_1628413804/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_48169_1628413804/lib/junit.jar
+  - /tmp/run_evosuite.pl_48169_1628413804/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_48169_1628413804/lib/protobuf-java.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 506
+* Using seed 1628413817122
+* Starting evolution
+[MASTER] 02:10:27.576 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 02:10:31.103 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 02:10:40.953 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 102s and 406 generations, 142466 statements, best individual has fitness: 296.6043274975589
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 41%
+* Total number of goals: 506
+* Number of covered goals: 209
+* Generated 12 tests with total length 112
+* Resulting test suite's coverage: 41%
+* GA-Budget:
+	- MaxTime :                        104 / 100          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                    297 / 0           
+* Time spent executing tests: 80821ms
+* Generating assertions
+* Resulting test suite's mutation score: 2%
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

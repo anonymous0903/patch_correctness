@@ -1,0 +1,34 @@
+Ignoring interface org.apache.commons.lang.exception.Nestable specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=34
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sun Aug 22 05:13:20 PDT 2021)
+Progress update: steps=1000, test inputs generated=509, failing inputs=0
+Progress update: steps=2000, test inputs generated=939, failing inputs=0
+Progress update: steps=2109, test inputs generated=980, failing inputs=0      (Sun Aug 22 05:14:20 PDT 2021)
+Progress update: steps=3000, test inputs generated=1341, failing inputs=0
+Progress update: steps=3488, test inputs generated=1531, failing inputs=0      (Sun Aug 22 05:15:20 PDT 2021)
+Progress update: steps=4000, test inputs generated=1726, failing inputs=0
+Progress update: steps=4663, test inputs generated=2015, failing inputs=0      (Sun Aug 22 05:16:20 PDT 2021)
+Progress update: steps=5000, test inputs generated=2161, failing inputs=0
+Progress update: steps=5717, test inputs generated=2444, failing inputs=0      (Sun Aug 22 05:17:20 PDT 2021)
+Progress update: steps=6000, test inputs generated=2538, failing inputs=0
+Progress update: steps=6663, test inputs generated=2803, failing inputs=0      (Sun Aug 22 05:18:20 PDT 2021)
+Progress update: steps=6663, test inputs generated=2804, failing inputs=0      (Sun Aug 22 05:18:20 PDT 2021)
+Normal method executions: 2270052
+Exceptional method executions: 556
+
+Average method execution time (normal termination):      0.109
+Average method execution time (exceptional termination): 0.465
+
+Regression test output:
+Regression test count: 1538
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_88046_1629634391/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_88046_1629634391/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_88046_1629634391/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_88046_1629634391/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_88046_1629634391/randoop/RegressionTest.java
+
+Invalid tests generated: 0

@@ -1,0 +1,39 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.StringUtils
+* Starting client
+* Connecting to master process on port 7947
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_3/run_evosuite.pl_2135_1629422002/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.StringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 1094
+* Using seed 1629422011999
+* Starting evolution
+* Search finished after 311s and 554 generations, 446803 statements, best individual has fitness: 41.55006752284144
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 18:19:54.299 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 95%
+* Total number of goals: 1094
+* Number of covered goals: 1038
+* Generated 1079 tests with total length 11619
+* Resulting test suite's coverage: 95%
+* GA-Budget:
+[MASTER] 18:20:04.298 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 11 seconds more than allowed.
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                     44 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        387 / 300          Finished!
+* Time spent executing tests: 200602ms
+* Generating assertions
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'StringUtils_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

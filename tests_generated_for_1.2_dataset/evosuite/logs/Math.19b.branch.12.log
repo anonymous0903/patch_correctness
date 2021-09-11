@@ -1,0 +1,40 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math3.optimization.direct.CMAESOptimizer
+* Starting client
+* Connecting to master process on port 12072
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_3/run_evosuite.pl_98960_1629890825/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.optimization.direct.CMAESOptimizer
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 286
+* Using seed 1629890841424
+* Starting evolution
+* Search finished after 356s and 150 generations, 100401 statements, best individual has fitness: 74.41648712322299
+[MASTER] 04:33:22.338 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 55 seconds more than allowed.
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 04:35:28.824 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 72%
+* Total number of goals: 286
+* Number of covered goals: 205
+* Generated 214 tests with total length 5476
+* Resulting test suite's coverage: 72%
+* GA-Budget:
+	- ZeroFitness :                     74 / 0           
+	- MaxTime :                        551 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 533676ms
+* Generating assertions
+[MASTER] 04:36:37.464 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 77 seconds more than allowed.
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 10
+* Writing JUnit test case 'CMAESOptimizer_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

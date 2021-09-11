@@ -1,0 +1,46 @@
+PUBLIC MEMBERS=29
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sun Aug 22 00:41:58 PDT 2021)
+Progress update: steps=1000, test inputs generated=584, failing inputs=0
+Progress update: steps=2000, test inputs generated=1082, failing inputs=0
+Progress update: steps=2197, test inputs generated=1175, failing inputs=0      (Sun Aug 22 00:42:58 PDT 2021)
+Progress update: steps=3000, test inputs generated=1565, failing inputs=0
+Progress update: steps=4000, test inputs generated=2059, failing inputs=0
+Progress update: steps=4638, test inputs generated=2369, failing inputs=0      (Sun Aug 22 00:43:58 PDT 2021)
+Progress update: steps=5000, test inputs generated=2560, failing inputs=0
+Progress update: steps=6000, test inputs generated=3047, failing inputs=0
+Progress update: steps=7000, test inputs generated=3542, failing inputs=0
+Progress update: steps=7055, test inputs generated=3573, failing inputs=0      (Sun Aug 22 00:44:58 PDT 2021)
+Progress update: steps=8000, test inputs generated=4005, failing inputs=0
+Progress update: steps=9000, test inputs generated=4467, failing inputs=0
+Progress update: steps=9599, test inputs generated=4737, failing inputs=0      (Sun Aug 22 00:45:58 PDT 2021)
+Progress update: steps=10000, test inputs generated=4934, failing inputs=0
+Progress update: steps=11000, test inputs generated=5368, failing inputs=0
+Progress update: steps=12000, test inputs generated=5550, failing inputs=0
+Progress update: steps=13000, test inputs generated=5663, failing inputs=0
+Progress update: steps=14000, test inputs generated=5764, failing inputs=0
+Progress update: steps=15000, test inputs generated=5860, failing inputs=0
+Progress update: steps=16000, test inputs generated=5948, failing inputs=0
+Progress update: steps=16743, test inputs generated=6007, failing inputs=0      (Sun Aug 22 00:46:58 PDT 2021)
+Progress update: steps=16743, test inputs generated=6008, failing inputs=0      (Sun Aug 22 00:46:58 PDT 2021)
+Normal method executions: 1897317
+Exceptional method executions: 0
+
+Average method execution time (normal termination):      0.110
+Average method execution time (exceptional termination): NaN
+
+Regression test output:
+Regression test count: 3045
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_190041_1629618108/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_190041_1629618108/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_190041_1629618108/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_190041_1629618108/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_190041_1629618108/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_190041_1629618108/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_190041_1629618108/randoop/RegressionTest6.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_3/run_randoop.pl_190041_1629618108/randoop/RegressionTest.java
+
+Invalid tests generated: 0

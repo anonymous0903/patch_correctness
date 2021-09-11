@@ -1,0 +1,39 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.OpenMapRealMatrix
+* Starting client
+* Connecting to master process on port 13135
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_13660_1629449076/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.OpenMapRealMatrix
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 31
+* Using seed 1629449089796
+* Starting evolution
+* Search finished after 308s and 58 generations, 17349 statements, best individual has fitness: 7.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+[MASTER] 01:51:19.224 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Coverage of criterion BRANCH: 71%
+* Total number of goals: 31
+* Number of covered goals: 22
+* Generated 26 tests with total length 389
+* Resulting test suite's coverage: 71%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- ZeroFitness :                      8 / 0           
+	- MaxTime :                        399 / 300          Finished!
+* Time spent executing tests: 387455ms
+* Generating assertions
+[MASTER] 01:51:32.817 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 22 seconds more than allowed.
+* Resulting test suite's mutation score: 8%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 9
+* Writing JUnit test case 'OpenMapRealMatrix_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

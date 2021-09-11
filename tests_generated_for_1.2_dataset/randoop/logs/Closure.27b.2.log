@@ -1,0 +1,42 @@
+PUBLIC MEMBERS=408
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Mon Aug 23 20:22:54 PDT 2021)
+Progress update: steps=1000, test inputs generated=976, failing inputs=0
+Progress update: steps=2000, test inputs generated=1944, failing inputs=0
+Progress update: steps=2191, test inputs generated=2130, failing inputs=0      (Mon Aug 23 20:23:54 PDT 2021)
+Progress update: steps=3000, test inputs generated=2902, failing inputs=0
+Progress update: steps=4000, test inputs generated=3840, failing inputs=0
+Progress update: steps=4141, test inputs generated=3975, failing inputs=0      (Mon Aug 23 20:24:54 PDT 2021)
+Progress update: steps=5000, test inputs generated=4785, failing inputs=0
+Progress update: steps=5951, test inputs generated=5659, failing inputs=0      (Mon Aug 23 20:25:54 PDT 2021)
+Progress update: steps=6000, test inputs generated=5704, failing inputs=0
+Progress update: steps=7000, test inputs generated=6621, failing inputs=0
+Progress update: steps=7541, test inputs generated=7118, failing inputs=0      (Mon Aug 23 20:26:54 PDT 2021)
+Progress update: steps=8000, test inputs generated=7533, failing inputs=0
+Progress update: steps=9000, test inputs generated=8455, failing inputs=0
+Progress update: steps=9168, test inputs generated=8606, failing inputs=0      (Mon Aug 23 20:27:54 PDT 2021)
+Progress update: steps=9168, test inputs generated=8607, failing inputs=0      (Mon Aug 23 20:27:54 PDT 2021)
+Normal method executions: 1884673
+Exceptional method executions: 2082
+
+Average method execution time (normal termination):      0.114
+Average method execution time (exceptional termination): 0.294
+
+Regression test output:
+Regression test count: 4843
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_25683_1629775352/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_25683_1629775352/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_25683_1629775352/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_25683_1629775352/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_25683_1629775352/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_25683_1629775352/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_25683_1629775352/randoop/RegressionTest6.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_25683_1629775352/randoop/RegressionTest7.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_25683_1629775352/randoop/RegressionTest8.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_25683_1629775352/randoop/RegressionTest9.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp/randoop_0/run_randoop.pl_25683_1629775352/randoop/RegressionTest.java
+
+Invalid tests generated: 0

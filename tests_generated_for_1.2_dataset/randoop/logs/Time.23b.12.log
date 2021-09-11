@@ -1,0 +1,41 @@
+Ignoring interface org.joda.time.ReadableInstant specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.joda.time.tz.Provider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.joda.time.DateTimeZone specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.chrono.BaseChronology specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.chrono.AssembledChronology specified via --classlist or --testclass.
+Ignoring abstract class org.joda.time.Chronology specified via --classlist or --testclass.
+Ignoring interface org.joda.time.tz.NameProvider specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=129
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Fri Aug 20 03:21:40 PDT 2021)
+Progress update: steps=1000, test inputs generated=884, failing inputs=0
+Progress update: steps=1172, test inputs generated=1042, failing inputs=0      (Fri Aug 20 03:22:40 PDT 2021)
+Progress update: steps=2000, test inputs generated=1803, failing inputs=0
+Progress update: steps=2211, test inputs generated=1992, failing inputs=0      (Fri Aug 20 03:23:40 PDT 2021)
+Progress update: steps=3000, test inputs generated=2690, failing inputs=0
+Progress update: steps=3133, test inputs generated=2811, failing inputs=0      (Fri Aug 20 03:24:40 PDT 2021)
+Progress update: steps=3919, test inputs generated=3519, failing inputs=0      (Fri Aug 20 03:25:40 PDT 2021)
+Progress update: steps=4000, test inputs generated=3588, failing inputs=0
+Progress update: steps=5000, test inputs generated=4494, failing inputs=0
+Progress update: steps=5653, test inputs generated=5071, failing inputs=0      (Fri Aug 20 03:26:40 PDT 2021)
+Progress update: steps=5653, test inputs generated=5072, failing inputs=0      (Fri Aug 20 03:26:40 PDT 2021)
+Normal method executions: 1104880
+Exceptional method executions: 657
+
+Average method execution time (normal termination):      0.216
+Average method execution time (exceptional termination): 1.10
+
+Regression test output:
+Regression test count: 2669
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_78444_1629454888/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_78444_1629454888/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_78444_1629454888/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_78444_1629454888/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_78444_1629454888/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_78444_1629454888/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_1/run_randoop.pl_78444_1629454888/randoop/RegressionTest.java
+
+Invalid tests generated: 0

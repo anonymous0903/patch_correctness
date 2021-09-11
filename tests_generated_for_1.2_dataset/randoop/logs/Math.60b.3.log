@@ -1,0 +1,41 @@
+Ignoring interface org.apache.commons.math.random.RandomData specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.distribution.ContinuousDistribution specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.analysis.UnivariateRealFunction specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.exception.MathThrowable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.distribution.DiscreteDistribution specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.distribution.IntegerDistribution specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.exception.util.Localizable specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.distribution.AbstractDistribution specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.random.RandomGenerator specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.distribution.AbstractContinuousDistribution specified via --classlist or --testclass.
+Ignoring abstract class org.apache.commons.math.util.ContinuedFraction specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.distribution.NormalDistribution specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.distribution.Distribution specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=146
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sat Aug 07 18:11:43 PDT 2021)
+Progress update: steps=839, test inputs generated=791, failing inputs=0      (Sat Aug 07 18:12:43 PDT 2021)
+Progress update: steps=1000, test inputs generated=945, failing inputs=0
+Progress update: steps=1582, test inputs generated=1470, failing inputs=0      (Sat Aug 07 18:13:43 PDT 2021)
+Progress update: steps=2000, test inputs generated=1850, failing inputs=0
+Progress update: steps=2006, test inputs generated=1855, failing inputs=0      (Sat Aug 07 18:15:33 PDT 2021)
+Progress update: steps=2695, test inputs generated=2491, failing inputs=0      (Sat Aug 07 18:16:33 PDT 2021)
+Progress update: steps=2868, test inputs generated=2650, failing inputs=0      (Sat Aug 07 18:16:44 PDT 2021)
+Normal method executions: 1555154
+Exceptional method executions: 291
+
+Average method execution time (normal termination):      0.114
+Average method execution time (exceptional termination): 1.05
+
+Regression test output:
+Regression test count: 1957
+Writing JUnit tests...
+
+Created file /tmp/run_randoop.pl_21776_1628385093/randoop/RegressionTest0.java
+Created file /tmp/run_randoop.pl_21776_1628385093/randoop/RegressionTest1.java
+Created file /tmp/run_randoop.pl_21776_1628385093/randoop/RegressionTest2.java
+Created file /tmp/run_randoop.pl_21776_1628385093/randoop/RegressionTest3.java
+Created file /tmp/run_randoop.pl_21776_1628385093/randoop/RegressionTest.java
+
+Invalid tests generated: 0

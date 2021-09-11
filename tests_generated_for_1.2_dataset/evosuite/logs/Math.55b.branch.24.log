@@ -1,0 +1,38 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.geometry.Vector3D
+* Starting client
+* Connecting to master process on port 7753
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_3/run_evosuite.pl_126256_1629534885/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.geometry.Vector3D
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 76
+* Using seed 1629534896730
+* Starting evolution
+* Search finished after 302s and 9208 generations, 572696 statements, best individual has fitness: 20.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 74%
+* Total number of goals: 76
+* Number of covered goals: 56
+* Generated 32 tests with total length 67
+* Resulting test suite's coverage: 74%
+* GA-Budget:
+	- ZeroFitness :                     20 / 0           
+	- MaxTime :                        302 / 300          Finished!
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 160753ms
+* Generating assertions
+[MASTER] 01:40:04.964 [logback-1] WARN  ClassResetter - class java.lang.NoClassDefFoundError thrown during execution of method  __STATIC_RESET() for class org.apache.commons.math.util.FastMath, null
+* Resulting test suite's mutation score: 20%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 3
+* Writing JUnit test case 'Vector3D_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

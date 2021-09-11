@@ -1,0 +1,215 @@
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.Mockito
+* Starting client
+* Connecting to master process on port 3127
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_13491_1629516091/target/classes
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.Mockito
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 30
+* Using seed 1629516103430
+* Starting evolution
+* Search finished after 301s and 5018 generations, 754709 statements, best individual has fitness: 1.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 97%
+* Total number of goals: 30
+* Number of covered goals: 29
+* Generated 25 tests with total length 41
+* Resulting test suite's coverage: 97%
+* GA-Budget:
+	- ShutdownTestWriter :               0 / 0           
+	- RMIStoppingCondition
+	- MaxTime :                        301 / 300          Finished!
+	- ZeroFitness :                      1 / 0           
+* Time spent executing tests: 92742ms
+* Generating assertions
+[MASTER] 20:26:48.920 [logback-1] WARN  ClassResetter - class java.lang.reflect.InvocationTargetException thrown during execution of method  __STATIC_RESET() for class org.mockito.cglib.proxy.Enhancer, org.evosuite.runtime.mock.java.lang.MockThrowable: java.lang.reflect.InvocationTargetException-->null
+* Resulting test suite's mutation score: 7%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 5
+* Writing JUnit test case 'Mockito_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
+* EvoSuite 
+* Going to generate test cases for class: org.mockito.internal.MockitoCore
+* Starting client
+* Connecting to master process on port 2732
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp/evosuite_4/run_evosuite.pl_13491_1629516091/target/classes
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/asm-all-5.0.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/assertj-core-2.1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cglib-and-asm-1.0.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/cobertura-2.0.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-assert-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/fest-util-1.1.4.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-all-1.3.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/hamcrest-core-1.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.1.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/objenesis-2.2.jar
+  - /home/user/yangjun/tools/defects4j/framework/projects/Mockito/lib/powermock-reflect-1.2.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.mockito.internal.MockitoCore
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 35
+* Using seed 1629516414118
+* Starting evolution
+[MASTER] 20:26:58.873 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$45 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$45
+[MASTER] 20:26:59.190 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:26:59.418 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$17 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$17
+[MASTER] 20:26:59.437 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:26:59.531 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:26:59.575 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:26:59.772 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$1c looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$1c
+[MASTER] 20:27:00.332 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:00.518 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:00.942 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:02.019 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:03.021 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:03.237 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:04.691 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:06.160 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$1b looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$1b
+[MASTER] 20:27:08.763 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:09.213 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:09.606 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:10.011 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:13.937 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:14.953 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:16.324 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:17.614 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:17.757 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:20.366 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:20.452 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:22.063 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:22.668 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:23.219 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:23.806 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:25.038 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:25.339 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:25.446 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:26.036 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:26.389 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:27.253 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:28.115 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:29.838 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:30.532 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:32.816 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:33.154 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:35.191 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:35.481 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$17_2 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$17_2
+[MASTER] 20:27:36.008 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$1b looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$1b
+[MASTER] 20:27:38.079 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:39.564 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$17 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$17
+[MASTER] 20:27:39.805 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:40.455 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:41.157 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:44.290 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:46.485 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:47.705 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:49.124 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:50.874 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:51.016 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:51.199 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:51.632 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:53.037 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:53.371 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:54.706 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:27:55.177 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:27:56.756 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:05.521 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:08.822 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:08.999 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:12.418 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:12.729 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:13.779 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:19.876 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:28:23.962 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:25.248 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:25.462 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:28:26.752 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:27.339 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:28:28.245 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:28.512 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:28:28.615 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:29.588 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:31.022 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:28:32.958 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:28:41.751 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:44.247 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:51.168 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:54.787 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:55.211 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:56.271 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:28:58.746 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:28:59.268 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:29:07.005 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:29:12.833 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:29:16.368 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:29:16.500 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:29:16.954 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:29:18.451 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:29:24.997 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:29:33.509 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:29:34.981 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:29:37.797 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:29:38.035 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:29:43.312 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:29:43.779 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:30:05.912 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:30:15.529 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:30:22.030 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:30:34.795 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:30:39.815 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:30:50.794 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:30:51.121 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:31:04.184 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16_2
+[MASTER] 20:31:17.170 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:31:19.251 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:31:22.164 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:31:28.493 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.invocation.Invocation$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) Invocation$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:31:28.871 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.jmock.ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) ClassImposterizer$ClassWithSuperclassToWorkAroundCglibBug$$EnhancerByMockitoWithCGLIB$$16
+[MASTER] 20:31:51.267 [logback-1] WARN  TestClusterGenerator - class $java.lang.annotation.Annotation$$EnhancerByMockitoWithCGLIB$$17 looks like an anonymous class, ignoring it (although reflection says false) Annotation$$EnhancerByMockitoWithCGLIB$$17
+[MASTER] 20:31:56.783 [logback-1] WARN  TestClusterGenerator - class org.mockito.internal.creation.MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16 looks like an anonymous class, ignoring it (although reflection says false) MockSettingsImpl$$EnhancerByMockitoWithCGLIB$$16
+* Search finished after 301s and 4902 generations, 706277 statements, best individual has fitness: 4.5
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 74%
+* Total number of goals: 35
+* Number of covered goals: 26
+* Generated 16 tests with total length 42
+* Resulting test suite's coverage: 77%
+* GA-Budget:
+	- MaxTime :                        301 / 300          Finished!
+	- ZeroFitness :                      5 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 87264ms
+* Generating assertions
+[MASTER] 20:31:58.630 [logback-1] WARN  ClassResetter - class java.lang.reflect.InvocationTargetException thrown during execution of method  __STATIC_RESET() for class org.mockito.cglib.proxy.Enhancer, org.evosuite.runtime.mock.java.lang.MockThrowable: java.lang.reflect.InvocationTargetException-->null
+[MASTER] 20:31:58.636 [logback-1] WARN  ClassResetter - class java.lang.reflect.InvocationTargetException thrown during execution of method  __STATIC_RESET() for class org.mockito.cglib.core.MethodWrapper, org.evosuite.runtime.mock.java.lang.MockThrowable: java.lang.reflect.InvocationTargetException-->null
+* Resulting test suite's mutation score: 0%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'MockitoCore_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

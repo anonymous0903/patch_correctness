@@ -1,0 +1,55 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.RandomStringUtils
+* Starting client
+* Connecting to master process on port 3379
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Lang_12_25/run_evosuite.pl_1378_1629966402/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.RandomStringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 57
+* Using seed 1629966410723
+* Starting evolution
+* Search finished after 316s and 61 generations, 36011 statements, best individual has fitness: 0.9990281827016521
+* Minimizing test suite
+[MASTER] 01:33:48.990 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 21 seconds more than allowed.
+* Computation finished
+[MASTER] 01:33:48.161 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: org.apache.commons.lang3.RandomStringUtils with seed 1629966410723. Configuration id : null
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.jar.Manifest$FastInputStream.<init>(Manifest.java:332) ~[na:1.7.0_80]
+	at java.util.jar.Manifest$FastInputStream.<init>(Manifest.java:327) ~[na:1.7.0_80]
+	at java.util.jar.Manifest.read(Manifest.java:195) ~[na:1.7.0_80]
+	at java.util.jar.Manifest.<init>(Manifest.java:69) ~[na:1.7.0_80]
+	at java.util.jar.JarFile.getManifestFromReference(JarFile.java:186) ~[na:1.7.0_80]
+	at java.util.jar.JarFile.getManifest(JarFile.java:167) ~[na:1.7.0_80]
+	at sun.misc.URLClassPath$JarLoader$2.getManifest(URLClassPath.java:779) ~[na:1.7.0_80]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:416) ~[na:1.7.0_80]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71) ~[na:1.7.0_80]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361) ~[na:1.7.0_80]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355) ~[na:1.7.0_80]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.7.0_80]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354) ~[na:1.7.0_80]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425) ~[na:1.7.0_80]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308) ~[na:1.7.0_80]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358) ~[na:1.7.0_80]
+	at ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(PackagingDataCalculator.java:73) ~[evosuite-0.2.0.jar:na]
+	at ch.qos.logback.classic.spi.PackagingDataCalculator.calculate(PackagingDataCalculator.java:57) ~[evosuite-0.2.0.jar:na]
+	at ch.qos.logback.classic.spi.ThrowableProxy.calculatePackagingData(ThrowableProxy.java:147) ~[evosuite-0.2.0.jar:na]
+	at ch.qos.logback.classic.spi.LoggingEvent.<init>(LoggingEvent.java:124) ~[evosuite-0.2.0.jar:na]
+	at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:440) ~[evosuite-0.2.0.jar:na]
+	at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:396) ~[evosuite-0.2.0.jar:na]
+	at ch.qos.logback.classic.Logger.error(Logger.java:559) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:430) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:333) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.execute(TestCaseExecutor.java:262) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.execution.TestCaseExecutor.runTest(TestCaseExecutor.java:144) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.runTest(TestFitnessFunction.java:79) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.TestFitnessFunction.isCovered(TestFitnessFunction.java:150) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testsuite.TestSuiteMinimizer.minimizeTests(TestSuiteMinimizer.java:240) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.testsuite.TestSuiteMinimizer.minimize(TestSuiteMinimizer.java:112) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateWholeSuite(TestSuiteGenerator.java:951) ~[evosuite-0.2.0.jar:na]
+[MASTER] 01:33:51.247 [main] ERROR SearchStatistics - No obtained value for output variable: Covered_Goals
+[MASTER] 01:33:51.247 [main] ERROR SearchStatistics - Not going to write down statistics data, as some are missing
+[MASTER] 01:33:51.347 [main] ERROR TestGeneration - failed to write statistics data

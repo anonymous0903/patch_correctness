@@ -1,0 +1,43 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 21657
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_46495_1628429186/build/classes
+  - /tmp/run_evosuite.pl_46495_1628429186/lib/args4j.jar
+  - /tmp/run_evosuite.pl_46495_1628429186/lib/guava.jar
+  - /tmp/run_evosuite.pl_46495_1628429186/lib/json.jar
+  - /tmp/run_evosuite.pl_46495_1628429186/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_46495_1628429186/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_46495_1628429186/build/lib/rhino.jar
+  - /tmp/run_evosuite.pl_46495_1628429186/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 563
+* Using seed 1628429204255
+* Starting evolution
+[MASTER] 06:26:54.977 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+[MASTER] 06:26:55.137 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.rhino.head.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 102s and 642 generations, 199747 statements, best individual has fitness: 332.06077963960377
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 42%
+* Total number of goals: 563
+* Number of covered goals: 235
+* Generated 21 tests with total length 195
+* Resulting test suite's coverage: 42%
+* GA-Budget:
+	- MaxTime :                        106 / 100          Finished!
+	- ZeroFitness :                    332 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 41483ms
+* Generating assertions
+* Resulting test suite's mutation score: 3%
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

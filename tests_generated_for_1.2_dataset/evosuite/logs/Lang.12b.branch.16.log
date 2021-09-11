@@ -1,0 +1,66 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.lang3.RandomStringUtils
+* Starting client
+* Connecting to master process on port 20991
+* Analyzing classpath: 
+  - /home/user/yangjun/test_generation/tmp_missing/evosuite_Lang_12_16/run_evosuite.pl_22990_1629965869/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.RandomStringUtils
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 57
+* Using seed 1629965877555
+* Starting evolution
+* Search finished after 316s and 281 generations, 108885 statements, best individual has fitness: 0.9998696388997523
+* Minimizing test suite
+[MASTER] 01:24:51.515 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 01:25:53.131 [logback-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 83 seconds more than allowed.
+[MASTER] 01:26:25.565 [logback-1] WARN  GenericClass - Class not found: class org.apache.commons.lang3.RandomStringUtils - keeping old class loader 
+java.lang.ClassNotFoundException: expect to get instruction without BasicBlock already set
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:155) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.loadClass(InstrumentingClassLoader.java:125) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.utils.GenericClass.getClass(GenericClass.java:153) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.utils.GenericClass.changeClassLoader(GenericClass.java:335) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.utils.GenericAccessibleObject.changeClassLoader(GenericAccessibleObject.java:147) [evosuite-0.2.0.jar:na]
+	at org.evosuite.utils.GenericMethod.changeClassLoader(GenericMethod.java:315) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.statements.MethodStatement.changeClassLoader(MethodStatement.java:785) [evosuite-0.2.0.jar:na]
+	at org.evosuite.testcase.DefaultTestCase.changeClassLoader(DefaultTestCase.java:237) [evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.AssertionGenerator.changeClassLoader(AssertionGenerator.java:221) [evosuite-0.2.0.jar:na]
+	at org.evosuite.assertion.MutationAssertionGenerator.setupClassLoader(MutationAssertionGenerator.java:181) [evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.addAssertions(TestSuiteGenerator.java:686) [evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.addAssertions(TestSuiteGenerator.java:668) [evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTests(TestSuiteGenerator.java:490) [evosuite-0.2.0.jar:na]
+	at org.evosuite.TestSuiteGenerator.generateTestSuite(TestSuiteGenerator.java:252) [evosuite-0.2.0.jar:na]
+	at org.evosuite.rmi.service.ClientNodeImpl$1.run(ClientNodeImpl.java:125) [evosuite-0.2.0.jar:na]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) [na:1.7.0_80]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [na:1.7.0_80]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [na:1.7.0_80]
+	at java.lang.Thread.run(Thread.java:745) [na:1.7.0_80]
+Caused by: java.lang.IllegalArgumentException: expect to get instruction without BasicBlock already set
+	at org.evosuite.graphs.cfg.BasicBlock.appendInstruction(BasicBlock.java:227) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.graphs.cfg.BasicBlock.setInstructions(BasicBlock.java:208) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.graphs.cfg.BasicBlock.<init>(BasicBlock.java:109) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.graphs.cfg.RawControlFlowGraph.determineBasicBlockFor(RawControlFlowGraph.java:321) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.graphs.cfg.ActualControlFlowGraph.computeNodes(ActualControlFlowGraph.java:296) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.graphs.cfg.ActualControlFlowGraph.computeGraph(ActualControlFlowGraph.java:263) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.graphs.cfg.ActualControlFlowGraph.<init>(ActualControlFlowGraph.java:97) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.graphs.cfg.CFGGenerator.computeActualCFG(CFGGenerator.java:223) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.graphs.cfg.CFGGenerator.registerCFGs(CFGGenerator.java:103) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.graphs.cfg.CFGMethodAdapter.visitEnd(CFGMethodAdapter.java:228) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.shaded.asm.MethodVisitor.visitEnd(Unknown Source) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.shaded.asm.MethodVisitor.visitEnd(Unknown Source) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.shaded.asm.MethodVisitor.visitEnd(Unknown Source) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.shaded.asm.tree.MethodNode.accept(Unknown Source) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.shaded.asm.tree.MethodNode.accept(Unknown Source) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.shaded.asm.tree.ClassNode.accept(Unknown Source) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.instrumentation.BytecodeInstrumentation.transformBytes(BytecodeInstrumentation.java:268) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.getTransformedBytes(InstrumentingClassLoader.java:132) ~[evosuite-0.2.0.jar:na]
+	at org.evosuite.instrumentation.InstrumentingClassLoader.instrumentClass(InstrumentingClassLoader.java:146) ~[evosuite-0.2.0.jar:na]
+	... 19 common frames omitted
+[MASTER] 01:26:30.201 [logback-2] ERROR AssertionGenerator - Problem for org.apache.commons.lang3.RandomStringUtils. Full stack:
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+[MASTER] 01:26:36.893 [logback-2] ERROR ClientNodeImpl - Error when generating tests for: org.apache.commons.lang3.RandomStringUtils with seed 1629965877555. Configuration id : null
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+* Computation finished

@@ -1,0 +1,44 @@
+* EvoSuite 
+* Going to generate test cases for class: com.google.javascript.jscomp.parsing.IRFactory
+* Starting client
+* Connecting to master process on port 2702
+* Analyzing classpath: 
+  - /tmp/run_evosuite.pl_86341_1628437082/build/classes
+  - /tmp/run_evosuite.pl_86341_1628437082/lib/args4j.jar
+  - /tmp/run_evosuite.pl_86341_1628437082/lib/guava.jar
+  - /tmp/run_evosuite.pl_86341_1628437082/lib/jsr305.jar
+  - /tmp/run_evosuite.pl_86341_1628437082/lib/libtrunk_rhino_parser_jarjared.jar
+  - /tmp/run_evosuite.pl_86341_1628437082/lib/protobuf-java.jar
+  - /tmp/run_evosuite.pl_86341_1628437082/lib/ant.jar
+* Finished analyzing classpath
+* Generating tests for class com.google.javascript.jscomp.parsing.IRFactory
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 539
+* Using seed 1628437094818
+* Starting evolution
+[MASTER] 08:38:23.414 [logback-1] WARN  TestClusterGenerator - class com.google.javascript.jscomp.mozilla.rhino.ContextFactory$1GlobalSetterImpl looks like an anonymous class, ignoring it (although reflection says false) GlobalSetterImpl
+* Search finished after 103s and 820 generations, 154190 statements, best individual has fitness: 327.69130178382136
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 39%
+* Total number of goals: 539
+* Number of covered goals: 209
+* Generated 15 tests with total length 82
+* Resulting test suite's coverage: 39%
+* GA-Budget:
+	- MaxTime :                        108 / 100          Finished!
+	- ZeroFitness :                    329 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+* Time spent executing tests: 70651ms
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'IRFactory_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

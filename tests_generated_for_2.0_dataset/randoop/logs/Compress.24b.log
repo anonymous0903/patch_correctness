@@ -1,0 +1,13 @@
+######  Start test generation  /home/user/yangjun/tools/defects4j/framework/bin/gen_tests.pl: 2021-08-19 23:07:26  ######
+Mode: regression
+Parameters:
+ -g randoop
+ -p Compress
+ -v 24b
+ -n 2
+ -b 300
+ -c /home/user/yangjun/tools/defects4j/framework/projects/Compress/modified_classes/24.src
+ -s 2024
+Created test suite archive: Compress-24b-randoop.2.tar.bz2
+Moved test suite archive to output directory: /home/user/yangjun/test_generation/test_suite_tests/randoop/Compress/randoop/2
+######  End test generation  /home/user/yangjun/tools/defects4j/framework/bin/gen_tests.pl: 2021-08-19 23:13:24  ######

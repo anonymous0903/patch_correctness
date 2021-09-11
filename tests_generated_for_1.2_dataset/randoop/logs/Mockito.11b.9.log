@@ -1,0 +1,60 @@
+Ignoring interface org.mockito.plugins.StackTraceCleanerProvider specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.invocation.AbstractAwareMethod specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.mock.MockName specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.mockito.internal.util.collections.Sets specified via --classlist or --testclass.
+Ignoring interface org.mockito.internal.invocation.realmethod.RealMethod specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.invocation.MockitoMethod specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.InjectMocks specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.invocation.InvocationOnMock specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.invocation.Location specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.progress.MockingProgress specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.Captor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.configuration.injection.filter.MockCandidateFilter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.exceptions.PrintableInvocation specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.configuration.AnnotationEngine specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.progress.ArgumentMatcherStorage specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.configuration.FieldAnnotationProcessor specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.invocation.Invocation specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.mockito.internal.configuration.injection.MockInjectionStrategy specified via --classlist or --testclass.
+Ignoring interface org.mockito.invocation.MockHandler specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.plugins.MockMaker specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.stubbing.Answer specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.configuration.IMockitoConfiguration specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.internal.configuration.injection.filter.OngoingInjecter specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.Mock specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.Spy specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.mockito.invocation.DescribedInvocation specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=265
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=6, test inputs generated=0, failing inputs=0      (Wed Aug 25 14:32:38 PDT 2021)
+Progress update: steps=1000, test inputs generated=582, failing inputs=0
+Progress update: steps=1176, test inputs generated=686, failing inputs=0      (Wed Aug 25 14:33:38 PDT 2021)
+Progress update: steps=2000, test inputs generated=1166, failing inputs=0
+Progress update: steps=2319, test inputs generated=1350, failing inputs=0      (Wed Aug 25 14:34:38 PDT 2021)
+Progress update: steps=3000, test inputs generated=1722, failing inputs=0
+Progress update: steps=3526, test inputs generated=2018, failing inputs=0      (Wed Aug 25 14:35:38 PDT 2021)
+Progress update: steps=4000, test inputs generated=2299, failing inputs=0
+Progress update: steps=4376, test inputs generated=2499, failing inputs=0      (Wed Aug 25 14:36:38 PDT 2021)
+Progress update: steps=5000, test inputs generated=2825, failing inputs=0
+Progress update: steps=5344, test inputs generated=3010, failing inputs=0      (Wed Aug 25 14:37:38 PDT 2021)
+Normal method executions: 1723305
+Exceptional method executions: 1077
+
+Average method execution time (normal termination):      0.138
+Average method execution time (exceptional termination): 1.69
+                                                                                                                                                                                                       
+Regression test output:
+Regression test count: 1833
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_76366_1629927082/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_76366_1629927082/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_76366_1629927082/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_76366_1629927082/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation_1.3/tmp_missing/randoop_0/run_randoop.pl_76366_1629927082/randoop/RegressionTest.java
+
+Invalid tests generated: 0
+
+Uncompilable sequences generated (count: 2).
+Please report at https://github.com/randoop/randoop/issues .

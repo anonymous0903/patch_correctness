@@ -1,0 +1,27 @@
+PUBLIC MEMBERS=43
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Sun Aug 22 01:01:12 PDT 2021)
+Progress update: steps=788, test inputs generated=610, failing inputs=0      (Sun Aug 22 01:02:12 PDT 2021)
+Progress update: steps=1000, test inputs generated=770, failing inputs=0
+Progress update: steps=1155, test inputs generated=892, failing inputs=0      (Sun Aug 22 01:03:12 PDT 2021)
+Progress update: steps=1514, test inputs generated=1149, failing inputs=0      (Sun Aug 22 01:04:12 PDT 2021)
+Progress update: steps=1873, test inputs generated=1390, failing inputs=0      (Sun Aug 22 01:05:12 PDT 2021)
+Progress update: steps=2000, test inputs generated=1484, failing inputs=0
+Progress update: steps=2286, test inputs generated=1656, failing inputs=0      (Sun Aug 22 01:06:12 PDT 2021)
+Normal method executions: 2348095
+Exceptional method executions: 655
+
+Average method execution time (normal termination):      0.102
+Average method execution time (exceptional termination): 0.792
+                                                                                                                                                                                                       
+Regression test output:
+Regression test count: 1071
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_4/run_randoop.pl_9251_1629619263/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_4/run_randoop.pl_9251_1629619263/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_4/run_randoop.pl_9251_1629619263/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_4/run_randoop.pl_9251_1629619263/randoop/RegressionTest.java
+
+Invalid tests generated: 0

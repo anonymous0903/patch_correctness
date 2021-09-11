@@ -1,0 +1,40 @@
+Ignoring abstract class org.apache.commons.math.estimation.WeightedMeasurement specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.linear.BigMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.linear.RealMatrix specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring abstract class org.apache.commons.math.estimation.AbstractEstimator specified via --classlist or --testclass.
+Ignoring interface org.apache.commons.math.estimation.Estimator specified via --classlist or --testclass; provide classes, not interfaces.
+Ignoring interface org.apache.commons.math.estimation.EstimationProblem specified via --classlist or --testclass; provide classes, not interfaces.
+PUBLIC MEMBERS=91
+Explorer = randoop.generation.ForwardGenerator(allSequences.size()=0,observers.size()=0,subsumed_sequences.size()=0,runtimePrimitivesSeen.size()=38)
+
+Progress update: steps=1, test inputs generated=0, failing inputs=0      (Fri Aug 20 22:47:31 PDT 2021)
+Progress update: steps=1000, test inputs generated=888, failing inputs=0
+Progress update: steps=1350, test inputs generated=1197, failing inputs=0      (Fri Aug 20 22:48:31 PDT 2021)
+Progress update: steps=2000, test inputs generated=1752, failing inputs=0
+Progress update: steps=2553, test inputs generated=2234, failing inputs=0      (Fri Aug 20 22:49:31 PDT 2021)
+Progress update: steps=3000, test inputs generated=2627, failing inputs=0
+Progress update: steps=3616, test inputs generated=3130, failing inputs=0      (Fri Aug 20 22:50:31 PDT 2021)
+Progress update: steps=4000, test inputs generated=3449, failing inputs=0
+Progress update: steps=4533, test inputs generated=3891, failing inputs=0      (Fri Aug 20 22:51:31 PDT 2021)
+Progress update: steps=5000, test inputs generated=4265, failing inputs=0
+Progress update: steps=5487, test inputs generated=4688, failing inputs=0      (Fri Aug 20 22:52:31 PDT 2021)
+Progress update: steps=5487, test inputs generated=4689, failing inputs=0      (Fri Aug 20 22:52:31 PDT 2021)
+Normal method executions: 3112863
+Exceptional method executions: 1550
+
+Average method execution time (normal termination):      0.0782
+Average method execution time (exceptional termination): 0.581
+
+Regression test output:
+Regression test count: 2751
+Writing JUnit tests...
+
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_5/run_randoop.pl_145629_1629524334/randoop/RegressionTest0.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_5/run_randoop.pl_145629_1629524334/randoop/RegressionTest1.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_5/run_randoop.pl_145629_1629524334/randoop/RegressionTest2.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_5/run_randoop.pl_145629_1629524334/randoop/RegressionTest3.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_5/run_randoop.pl_145629_1629524334/randoop/RegressionTest4.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_5/run_randoop.pl_145629_1629524334/randoop/RegressionTest5.java
+Created file /home/junyang/patch_correctness/tools/opad/test_generation/tmp/randoop_5/run_randoop.pl_145629_1629524334/randoop/RegressionTest.java
+
+Invalid tests generated: 0

@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.SingularValueDecompositionImpl
+* Starting client
+* Connecting to master process on port 4118
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp/evosuite_4/run_evosuite.pl_138539_1629437550/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.SingularValueDecompositionImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 65
+* Using seed 1629437560604
+* Starting evolution
+* Search finished after 302s and 4827 generations, 175894 statements, best individual has fitness: 5.0
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 65
+* Number of covered goals: 60
+* Generated 13 tests with total length 81
+* Resulting test suite's coverage: 92%
+* GA-Budget:
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        305 / 300          Finished!
+	- ZeroFitness :                      5 / 0           
+* Time spent executing tests: 85411ms
+* Generating assertions
+* Resulting test suite's mutation score: 45%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 1
+* Writing JUnit test case 'SingularValueDecompositionImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished

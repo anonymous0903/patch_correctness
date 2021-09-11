@@ -1,0 +1,37 @@
+* EvoSuite 
+* Going to generate test cases for class: org.apache.commons.math.linear.EigenDecompositionImpl
+* Starting client
+* Connecting to master process on port 11705
+* Analyzing classpath: 
+  - /home/junyang/patch_correctness/tools/opad/test_generation/tmp_missing/evosuite_0/run_evosuite.pl_80546_1629888956/target/classes
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.linear.EigenDecompositionImpl
+* Test criterion:
+  - Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 428
+* Using seed 1629888970370
+* Starting evolution
+* Search finished after 305s and 919 generations, 293951 statements, best individual has fitness: 67.01040006323151
+* Minimizing test suite
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 84%
+* Total number of goals: 428
+* Number of covered goals: 359
+* Generated 45 tests with total length 372
+* Resulting test suite's coverage: 84%
+* GA-Budget:
+	- ZeroFitness :                     67 / 0           
+	- RMIStoppingCondition
+	- ShutdownTestWriter :               0 / 0           
+	- MaxTime :                        360 / 300          Finished!
+* Time spent executing tests: 249518ms
+* Generating assertions
+* Resulting test suite's mutation score: 4%
+* Permissions denied during test execution: 
+  - java.lang.RuntimePermission: 
+         writeFileDescriptor: 6
+* Writing JUnit test case 'EigenDecompositionImpl_ESTest' to evosuite-branch
+* Done!
+
+* Computation finished
