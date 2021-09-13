@@ -1,4 +1,3 @@
-# patch_correctness
 ## Replication Package
 * __ASE_patches__: Patches from ASE'20 paper *Automated Patch Correctness Assessment: How Far are We?*. We directly reuse data from <https://zenodo.org/record/3730599/files/Patches_for_Static.zip>
 
