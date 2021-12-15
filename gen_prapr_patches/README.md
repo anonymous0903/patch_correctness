@@ -11,4 +11,4 @@ We use JD-Core API as our decompiler, see https://github.com/java-decompiler/jd-
 
 Then we use linux unidiff command to get difference of `a-*.java` and `b-*.java`, the result is denoted as project-version-mutant-id.patch. The corresponding script in `diff_jd.py`. We apply the result patch to original java files to get candidate source level patched java files. Then we verify this patches by replacing patched java files with their corresponding original java files and run `defects4j compile` and `defects4j test` command. If the patched program can't compile, we will manually fix the patch (fix-report.log tells us the mutation operation and the mutation position). Patches can't be fixed will be excluded.
 
-Finally for all the fixed patches we run linux diff command to get genuine source-code level patches, the script is shown in `apply_patch_and_d4j_test.py`
+Finally for all the fixed patches we run linux diff command to get genuine source-code level patches, the script is shown in `apply_patch.py`
