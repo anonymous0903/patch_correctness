@@ -3,6 +3,36 @@ import sys
 import numpy as np
 import os
 from sklearn.metrics import roc_auc_score
+import random
+
+# please use python3 instead of python2
+
+def get_top_N(sorted_dataset, N, reverse):
+    # the dataset has been sorted to descending order for capgen and ascending order for s3
+    top_N = list()
+    others = list()
+    tied = list()
+    threshold = sorted_dataset[N - 1][0]
+    for data in sorted_dataset:
+        if data[0] > threshold: 
+            if reverse: top_N.append(data)
+            else: others.append(data)
+        if data[0] < threshold: 
+            if reverse: others.append(data)
+            else: top_N.append(data)
+        if data[0] == threshold: tied.append(data)
+    
+    if len(top_N) < N and len(top_N) + len(tied) > N:
+        sampled = random.sample(tied, N - len(top_N))
+        top_N = top_N + sampled
+        for data in sampled:
+            tied.remove(data)
+        others = others + tied
+        assert len(others) == len(sorted_dataset) - N
+    elif len(top_N) + len(tied) == N:
+        top_N = top_N + tied
+    else: assert False
+    return top_N, others
 
 def get_full_ASE_scores(score_file):
     scores = []
@@ -180,6 +210,7 @@ def get_balanced_prapr_overfit_patches(result_file, balanced_overfit_patches_fil
 
 
 if __name__ == '__main__':
+    random.seed(1)
     tool = sys.argv[1]
     dataset = sys.argv[2]
     assert tool == 'capgen' or 's3', 'invalid input!'
@@ -249,9 +280,9 @@ if __name__ == '__main__':
     print(len(overfit_patches))
 
     merged_dataset = merge_two_group(correct_patches, overfit_patches)
-    if sys.argv[1] == 'capgen': reversed = True
-    if sys.argv[1] == 's3': reversed = False
-    sorted_dataset = sorted(merged_dataset, key=lambda x: x[0], reverse=reversed)
+    if sys.argv[1] == 'capgen': reverse = True
+    if sys.argv[1] == 's3': reverse = False
+    sorted_dataset = sorted(merged_dataset, key=lambda x: x[0], reverse=reverse)
 
     print('AUC score')
     print(AUC_score(merged_dataset))
@@ -260,12 +291,16 @@ if __name__ == '__main__':
     TN = 0
     FP = 0
     FN = 0
-    for element in sorted_dataset[:len(correct_patches)]:
+    
+    # get top N patches
+    top_N, others = get_top_N(sorted_dataset, len(correct_patches), reverse)
+    # print(top_N)
+    for element in top_N:
         if element[1]:
             TN += 1
         else:
             FN += 1
-    for element in sorted_dataset[len(correct_patches):]:
+    for element in others:
         if element[1]:
             FP += 1
         else:

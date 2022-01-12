@@ -5,6 +5,31 @@ import random
 import os,sys
 from sklearn.metrics import roc_auc_score
 
+# please use python3 instead of python2
+
+def get_top_N(sorted_dataset, N):
+    # the dataset has been sorted to descending order
+    top_N = list()
+    others = list()
+    tied = list()
+    threshold = sorted_dataset[N - 1][0]
+    for data in sorted_dataset:
+        if data[0] > threshold: top_N.append(data)
+        if data[0] < threshold: others.append(data)
+        if data[0] == threshold: tied.append(data)
+    
+    if len(top_N) < N and len(top_N) + len(tied) > N:
+        sampled = random.sample(tied, N - len(top_N))
+        top_N = top_N + sampled
+        for data in sampled:
+            tied.remove(data)
+        others = others + tied
+        assert len(others) == len(sorted_dataset) - N
+    elif len(top_N) + len(tied) == N:
+        top_N = top_N + tied
+    else: assert False
+        
+    return top_N, others
 
 def get_full_ASE_scores(score_file):
     scores = []
@@ -127,6 +152,7 @@ def merge_two_group(correct_patches, overfit_patches):
 
 
 if __name__ == '__main__':
+    random.seed(1)
     dataset = sys.argv[1]
     assert dataset in ['1.2', '2.0', 'merge', 'balance'], 'invalid input!'
     patch_root_dir_1 = '../../prapr_src_patches_1.2'
@@ -144,7 +170,7 @@ if __name__ == '__main__':
     print('prapr 2.0 correct patches: ' + str(len(prapr_correct_patches_2)))
     # ASE dataset
     balanced_overfit_patches = get_balanced_overfit_patches('result_1.2.csv', 'result_2.0.csv', 'result_ASE_patches.csv', balanced_overfit_file_path)
-    print('balanced overfit patches' + str(len(balanced_overfit_patches)))
+    print('balanced overfit patches: ' + str(len(balanced_overfit_patches)))
     ASE_correct_patches, ASE_overfit_patches = get_patches('result_ASE_patches.csv')
     print('ASE correct patches: ' + str(len(ASE_correct_patches)))
     print('ASE overfitting patches: ' + str(len(ASE_overfit_patches)))
@@ -188,12 +214,16 @@ if __name__ == '__main__':
     TN = 0
     FP = 0
     FN = 0
-    for element in sorted_dataset[:len(correct_patches)]:
+    
+    # get top N patches
+    top_N, others = get_top_N(sorted_dataset, len(correct_patches))
+    # print(sorted_dataset[top_N - 1])
+    for element in top_N:
         if element[1]:
             TN += 1
         else:
             FN += 1
-    for element in sorted_dataset[len(correct_patches):]:
+    for element in others:
         if element[1]:
             FP += 1
         else:
