@@ -24,10 +24,8 @@ def get_top_N(sorted_dataset, N):
         for data in sampled:
             tied.remove(data)
         others = others + tied
-        assert len(others) == len(sorted_dataset) - N
     elif len(top_N) + len(tied) == N:
         top_N = top_N + tied
-    else: assert False
         
     return top_N, others
 
@@ -67,8 +65,6 @@ def look_up_score(result_file, tool, project, id, mutant_id):
             if [tool, project, id, mutant_id] == line.split(',')[:4]:
                 return line.split(',')[-2]
     
-    assert False, [result_file, tool, project, id, mutant_id]
-
 def file_to_lines(file):
     items = list()
     with open(file) as f:
@@ -100,7 +96,6 @@ def get_balanced_overfit_patches(prapr_result_file, prapr_result_file_2, ASE_res
             if overfit_patch.split('/')[1] == 'Patches_others':
                 tool, project, id, mutant_id = overfit_patch.split('/')[-4:]
             score = look_up_score(ASE_result_file, tool, project, id, mutant_id)
-        else: assert False
         balanced_overfit_patches.append(float(score))
 
     return balanced_overfit_patches
@@ -133,7 +128,6 @@ def check_patch(file, project, id, mutant_id):
     if file.endswith('1.2.csv'): root_dir = patch_root_dir_1
     if file.endswith('2.0.csv'): root_dir = patch_root_dir_2
     mutant_dir = os.path.join(root_dir, project, id, mutant_id)
-    assert os.path.isdir(mutant_dir), mutant_dir
     if os.path.isfile(os.path.join(mutant_dir, 'CANT_FIX')): 
         return False
     if os.path.isfile(os.path.join(mutant_dir, 'NO_DIFF')): 

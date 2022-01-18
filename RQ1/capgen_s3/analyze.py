@@ -28,10 +28,8 @@ def get_top_N(sorted_dataset, N, reverse):
         for data in sampled:
             tied.remove(data)
         others = others + tied
-        assert len(others) == len(sorted_dataset) - N
     elif len(top_N) + len(tied) == N:
         top_N = top_N + tied
-    else: assert False
     return top_N, others
 
 def get_full_ASE_scores(score_file):
@@ -51,13 +49,11 @@ def get_full_ASE_scores(score_file):
     return scores
 
 def ASE_patch_to_info(patch):
-    assert patch.startswith('ASE_Patches')
     if patch.find('Patches_ICSE') != -1:
         label, tool, project, id = patch.split('/')[-4:]
         mutant_id = '0'
     elif patch.find('Patches_others') != -1:
         label, tool, project, id, mutant_id = patch.split('/')[-5:]
-    else: assert False
     label = label[1:]
 
     return label, tool, project, id, mutant_id
@@ -85,8 +81,6 @@ def look_up_score_ASE(tool, project, id, mutant_id, score_file):
             target = capgen
         if patch_id.endswith(suffix): return float(target)
     
-    assert False, '-'.join([tool, project, id, mutant_id])
-
 def get_ASE_scores(correct_file, overfit_file, score_file):
     correct_scores, overfit_scores = [], []
     correct_patches_paths = file_to_lines(correct_file)
@@ -94,7 +88,6 @@ def get_ASE_scores(correct_file, overfit_file, score_file):
     for patch in correct_patches_paths:
         if not patch.startswith('ASE_Patches'): continue
         label, tool, project, id, mutant_id = ASE_patch_to_info(patch)
-        assert label == 'correct'
         score = look_up_score_ASE(tool, project, id, mutant_id, score_file)
         # print(score)
         if str(score).lower() == 'nan': continue
@@ -102,7 +95,6 @@ def get_ASE_scores(correct_file, overfit_file, score_file):
     for patch in overfit_patches_paths:
         if not patch.startswith('ASE_Patches'): continue
         label, tool, project, id, mutant_id = ASE_patch_to_info(patch)
-        assert label == 'overfitting'
         score = look_up_score_ASE(tool, project, id, mutant_id, score_file)
         # print(score)
         if str(score).lower() == 'nan': continue
@@ -115,7 +107,6 @@ def check_patch(file, project, id, mutant_id):
     if file.endswith('1.2.csv'): root_dir = patch_root_dir_1
     if file.endswith('2.0.csv'): root_dir = patch_root_dir_2
     mutant_dir = os.path.join(root_dir, project, id, mutant_id)
-    assert os.path.isdir(mutant_dir), mutant_dir
     if os.path.isfile(os.path.join(mutant_dir, 'CANT_FIX')): 
         return False
     if os.path.isfile(os.path.join(mutant_dir, 'NO_DIFF')): 
@@ -188,12 +179,10 @@ def get_balanced_prapr_overfit_patches(result_file, balanced_overfit_patches_fil
     for patch in balanced_overfit_patches:
         if patch.startswith(prefix):
             project, id, mutant_id = patch.split('/')[-3:]
-            found = False
             count = 0
             for line in result_lines:
                 if line.startswith(','.join([project, id, mutant_id]) + ','): 
                     s3, capgen = line.split(',')[-3 : -1]
-                    found = True
                     if line.split(',')[-1] != 'null':
                         if sys.argv[1] == 's3':
                             target = s3
@@ -201,10 +190,7 @@ def get_balanced_prapr_overfit_patches(result_file, balanced_overfit_patches_fil
                             target = capgen
                         scores.append(float(target))
                         count += 1
-                        assert line.split(',')[-1] == 'FALSE'
                     # else: scores.append('nan')
-            assert found
-            assert count <= 1
     return scores
 
 
