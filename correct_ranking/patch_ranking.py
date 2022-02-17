@@ -17,21 +17,17 @@ def rank_correct_patch(patches_dict, tool):
     reverse = tool == 's3'
     correct_patches_dict = {k: v for k, v in patches_dict.items() if v['label'] == 'correct'}
     overfitting_patches_dict = {k: v for k, v in patches_dict.items() if v['label'] == 'overfitting'}
-    # print(str(len(correct_patches_dict)) + '\t' + str(len(overfitting_patches_dict)))
     if len(correct_patches_dict) > 0 and len(overfitting_patches_dict) == 0: return 0
     if len(correct_patches_dict) ==0 and len(overfitting_patches_dict) > 0: return None
-    # correct_patch_score = max(correct_patches_dict, key=lambda x: float(correct_patches_dict[x][tool]))
     correct_patch_score = max([float(patch_dict[tool]) for patch_dict in correct_patches_dict.values()])
     if reverse: correct_patch_score = min([float(patch_dict[tool]) for patch_dict in correct_patches_dict.values()])
     rank = 1
-    # print('length: ' + str(len(patches_dict)))
     for patch_name in patches_dict.keys():
         score = float(patches_dict[patch_name][tool])
         if not reverse:
             if score > correct_patch_score: rank += 1
         else:
             if score < correct_patch_score: rank += 1
-    # print(rank)
     return rank
      
 def rank_patches_per_bug(bugs_dict):
