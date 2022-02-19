@@ -36,7 +36,7 @@ def rank_patches_per_bug(bugs_dict):
         patches_dict = bugs_dict[bug_id]
         rank = rank_correct_patch(patches_dict, tool)
         if rank == None: continue
-        print(bug_id + ': ' + str(rank) + ' out of ' + str(len(patches_dict)))
+        # print(bug_id + ': ' + str(rank) + ' out of ' + str(len(patches_dict)))
    
 def store_ASE_patches(ase_patches):
     with open(join(s3_capgen_dir, 'ASE_patch_score_capgen_s3.txt')) as f:
@@ -102,34 +102,39 @@ def merge_prapr_ase_patches(prapr_patches, ase_patches):
                 
     return merged_patches
     
-def store_prapr_patches(prapr_patches):
-    with open(join(s3_capgen_dir, prapr_csv)) as f:
-        lines = f.readlines()
-        for line in lines[1:]:
+def store_prapr_or_dev_patches(patches, csv_file, patch_root_dir):
+    with open(join(s3_capgen_dir, csv_file), newline='') as f:
+        reader = csv.reader(f, delimiter=',')
+        for row in reader:
+        # for line in lines[1:]:
             project, id, mutant_id, toolASTDifferencing, toolCosine, toolStringDistance, toolVariable, toolSyntax, \
-                toolSemantic, s3, capgen, correct = line.strip().split(',')
+                toolSemantic, s3, capgen, correct = row
+            if project == 'project': continue
             if correct == 'TRUE': label = 'correct'
             else: label = 'overfitting'
-            patch_dir = join(prapr_patch_dir, project, id, mutant_id)
+            patch_dir = join(patch_root_dir, project, id, mutant_id)
             assert isdir(patch_dir), patch_dir
             bug_id = '-'.join([project, id])
             if isfile(join(patch_dir, 'CANT_FIX')): continue
-            add_patch_property(prapr_patches, bug_id, mutant_id, 's3', s3)
-            add_patch_property(prapr_patches, bug_id, mutant_id, 'capgen', capgen)
-            add_patch_property(prapr_patches, bug_id, mutant_id, 'label', label)
-            add_patch_property(prapr_patches, bug_id, mutant_id, 'overlapping', False)
+            add_patch_property(patches, bug_id, mutant_id, 's3', s3)
+            add_patch_property(patches, bug_id, mutant_id, 'capgen', capgen)
+            add_patch_property(patches, bug_id, mutant_id, 'label', label)
+            add_patch_property(patches, bug_id, mutant_id, 'overlapping', False)
     
-    with open(join(ssfix_dir, prapr_csv)) as f:
-        lines = f.readlines()
-        for line in lines[1:]:
-            project, id, mutant_id, line_in_buggy, line_in_patched, structural_score, conceptual_score, ssfix, correct = line.strip().split(',')
+    with open(join(ssfix_dir, csv_file), newline='') as f:
+        # lines = f.readlines()
+        reader = csv.reader(f, delimiter=',')
+        # for line in lines[1:]:
+        for row in reader:
+            project, id, mutant_id, line_in_buggy, line_in_patched, structural_score, conceptual_score, ssfix, correct = row
+            if project == 'project': continue
             if correct == 'True': label = 'correct'
             else: label = 'overfitting'
-            patch_dir = join(prapr_patch_dir, project, id, mutant_id)
+            patch_dir = join(patch_root_dir, project, id, mutant_id)
             assert isdir(patch_dir), patch_dir
             bug_id = '-'.join([project, id])
             if isfile(join(patch_dir, 'CANT_FIX')): continue
-            add_patch_property(prapr_patches, bug_id, mutant_id, 'ssfix', ssfix)
+            add_patch_property(patches, bug_id, mutant_id, 'ssfix', ssfix)
 
 if __name__ == '__main__':
     ssfix_dir = '/home/junyang/PCC_repo/patch_correctness/RQ1/ssFix'
@@ -139,11 +144,15 @@ if __name__ == '__main__':
     dev_csv = 'result_dev_patches_1.2.csv'
     ase_patches = dict()
     prapr_patches = dict()
+    dev_patches = dict()
     
     ASE_patch_dir = '/home/junyang/PCC_repo/patch_correctness/ASE_Patches'
-    prapr_patch_dir = '/home/junyang/PCC_repo/patch_correctness/prapr_src_patches_1.2'
+    prapr_patch_root_dir = '/home/junyang/PCC_repo/patch_correctness/prapr_src_patches_1.2'
+    dev_patch_root_dir = '/home/junyang/PCC_repo/patch_correctness/developer_patches_1.2'
     store_ASE_patches(ase_patches)
-    store_prapr_patches(prapr_patches)
+    store_prapr_or_dev_patches(prapr_patches, prapr_csv, prapr_patch_root_dir)
+    store_prapr_or_dev_patches(dev_patches, dev_csv, dev_patch_root_dir)
+    print(len(dev_patches))
     prapr_ase_merged_patches = merge_prapr_ase_patches(prapr_patches, ase_patches)
     # rank_patches_per_bug(ase_patches)
     # rank_patches_per_bug(prapr_patches)
