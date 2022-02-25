@@ -185,6 +185,31 @@ def display(dict_small, dict_merge, file_name):
     table = ax.table(cellText=text, rowLabels=df.index, colLabels=df.columns, loc='center', cellColours=plt.cm.Greys(df * 0.8))
     fig.savefig(file_name)
 
+@DeprecationWarning
+def print_ase_patches(ase_patches):
+    bug_nums = [('Chart', 26), ('Closure', 133), ('Lang', 65), ('Math', 106), ('Time', 26)]
+    count = 0
+    for bug_tuple in bug_nums:
+        project, num = bug_tuple
+        for seq in range(num):
+            id = str(seq + 1)
+            bug_id = project + '-' + id
+            if not bug_id in ase_patches: continue
+            patches_dict = ase_patches[bug_id]
+            for patch_name in patches_dict:
+                tool, patch_id, Dlabel = patch_name.split('-')
+                if patch_id == '0': sub_dir = 'Patches_ICSE'
+                else: sub_dir = 'Patches_others'
+                patch_dir = join(ASE_patch_dir, sub_dir, Dlabel, tool, project, id)
+                if patch_id != '0': patch_dir = join(patch_dir, patch_id)
+                if isfile(join(patch_dir, 'NOT_PLAUSIBLE')): continue
+                count += 1
+                assert isfile(join(patch_dir, 'src.patch'))
+                print(join(patch_dir, 'src.patch'))
+        
+    assert count == 902
+    sys.exit(0)
+    
 if __name__ == '__main__':
     ssfix_dir = '/home/junyang/PCC_repo/patch_correctness/RQ1/ssFix'
     s3_capgen_dir = '/home/junyang/PCC_repo/patch_correctness/RQ1/refined-scores/capgen_s3'
