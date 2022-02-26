@@ -123,8 +123,8 @@ def merge_prapr_ase_patches(prapr_patches, ase_patches):
         patches_dict = ase_patches[bug_id]
         for patch_name in patches_dict:
             patch_dict = patches_dict[patch_name]
-            # We no longer exclude overlapping patches when merging
-            # if patch_dict['overlapping']: continue
+            # Overlapping patches will be excluded when merging
+            if patch_dict['overlapping']: continue
             for k, v in patch_dict.items():
                 add_patch_property(merged_patches, bug_id, patch_name, k, v)
                 add_patch_property(ase_patches_filtered, bug_id, patch_name, k, v)
@@ -210,6 +210,23 @@ def print_ase_patches(ase_patches):
     assert count == 902
     sys.exit(0)
     
+def average_correct_rank(rank_dict):
+    rank_sum = 0
+    for bug_id in rank_dict:
+        rank, patch_num, tool = rank_dict[bug_id]
+        rank_sum += rank
+    
+    return rank_sum / len(rank_dict)
+
+def compare_correct_rank(rank_dict_small, rank_dict_merge):
+    drop = 0
+    for bug_id in rank_dict_small:
+        rank_small, patch_num_small, tool = rank_dict_small[bug_id]
+        rank_merge, patch_num_merge, tool = rank_dict_merge[bug_id]
+        if rank_merge > rank_small: drop += 1
+        
+    print('%d out of %d bugs correct rank droped' % (drop, len(rank_dict_small)))
+    
 if __name__ == '__main__':
     ssfix_dir = '/home/junyang/PCC_repo/patch_correctness/RQ1/ssFix'
     s3_capgen_dir = '/home/junyang/PCC_repo/patch_correctness/RQ1/refined-scores/capgen_s3'
@@ -237,5 +254,11 @@ if __name__ == '__main__':
     rank_dev_dict = rank_dev_patches(dev_patches, ase_patches, tool)
     rank_dev_merged_dict = rank_dev_patches(dev_patches, prapr_ase_merged_patches, tool)
     
-    display(rank_ase_dict, rank_merged_dict, "/home/junyang/PCC_repo/patch_correctness/tables/" + tool + '-ASE-prapr-correct-rank.png')
-    display(rank_dev_dict, rank_dev_merged_dict, "/home/junyang/PCC_repo/patch_correctness/tables/" + tool + '-ASE-prapr-dev-rank.png')
+    # display(rank_ase_dict, rank_merged_dict, "/home/junyang/PCC_repo/patch_correctness/tables/" + tool + '-ASE-prapr-correct-rank.png')
+    # display(rank_dev_dict, rank_dev_merged_dict, "/home/junyang/PCC_repo/patch_correctness/tables/" + tool + '-ASE-prapr-dev-rank.png')
+    
+    print(average_correct_rank(rank_ase_dict))
+    print(average_correct_rank(rank_patches_per_bug(prapr_patches, tool)))
+    print(average_correct_rank(rank_merged_dict))
+    
+    compare_correct_rank(rank_ase_dict, rank_merged_dict)
