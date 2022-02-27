@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib
 matplotlib.use("agg")
 from matplotlib import pyplot as plt
+import random
 
 
 # get scores of ssfix, s3, capgen, opad
@@ -46,6 +47,72 @@ def rank_patches_per_bug(bugs_dict, tool):
         rank_dict[bug_id] = (rank, len(patches_dict), tool)
         
     return rank_dict
+    
+def get_top_N(score_label_list, correct_num, tool):
+    top_N = list()
+    others = list()
+    tied = list()
+    if tool == 'capgen' or tool == 'ssfix': reverse = True
+    if tool == 's3': reverse = False
+    sorted_score_label_list = sorted(score_label_list, key=lambda x: x[0], reverse=reverse)
+    threshold = sorted_score_label_list[correct_num - 1][0]
+    for pair in score_label_list:
+        if pair[0] > threshold: 
+            if reverse: top_N.append(pair)
+            else: others.append(pair)
+        if pair[0] < threshold: 
+            if reverse: others.append(pair)
+            else: top_N.append(pair)
+        if pair[0] == threshold: tied.append(pair)
+    
+    if len(top_N) < correct_num and len(top_N) + len(tied) > correct_num:
+        sampled = random.sample(sorted(tied), correct_num - len(top_N))
+        top_N = top_N + sampled
+        for data in sampled:
+            tied.remove(data)
+        others = others + tied
+    elif len(top_N) + len(tied) == correct_num:
+        top_N = top_N + tied
+    assert len(top_N) == correct_num
+    return top_N, others
+
+def print_confusion_matrix_from_patches(patches, tool):
+    score_label_list = list()
+    correct_num = 0
+    for bug_id in patches:
+        patch_dict = patches[bug_id]
+        for patch_name in patch_dict:
+            score = float(patch_dict[patch_name][tool])
+            label = patch_dict[patch_name]['label']
+            score_label_list.append((score, label))
+            if label == 'correct': correct_num += 1       
+    
+    print_confusion_matrix(score_label_list, correct_num, tool)     
+            
+def print_confusion_matrix(score_label_list, correct_num, tool): 
+    TP = 0
+    TN = 0
+    FP = 0
+    FN = 0
+    top_N, others = get_top_N(score_label_list, correct_num, tool)
+    for element in top_N:
+        if element[1] == 'correct':
+            TN += 1
+        else:
+            FN += 1
+    for element in others:
+        if element[1] == 'correct':
+            FP += 1
+        else:
+            TP += 1
+    print("TN: " + str(TN))
+    print("FN: " + str(FN))
+    print("TP: " + str(TP))
+    print("FP: " + str(FP))
+
+    print("precision: " + str(TP / (TP + FP)))
+    print("recall: " + str(TP / (TP + FN)))
+    print("F1: " + str(TP / (TP + 1/2 * (FP + FN))))
     
 def rank_dev_patches(dev_patches, tool_patches, tool):
     reverse = tool == 's3'
@@ -227,27 +294,61 @@ def compare_correct_rank(rank_dict_small, rank_dict_merge):
         
     print('%d out of %d bugs correct rank droped' % (drop, len(rank_dict_small)))
     
+def get_balanced_dataset(prapr_ase_merged_patches, tool):
+    correct_patches = list()
+    ase_overfitting_patches = list()
+    prapr_overfitting_patches = list()
+    for bug_id in prapr_ase_merged_patches:
+        patch_dict = prapr_ase_merged_patches[bug_id]
+        for patch_name in patch_dict:
+            patch_full_name = bug_id + '_' + patch_name
+            properties = patch_dict[patch_name]
+            label = properties['label']
+            if label == 'correct': correct_patches.append((float(properties[tool]), label, patch_full_name))
+            if label == 'overfitting': 
+                if patch_name.startswith('mutant'): prapr_overfitting_patches.append((float(properties[tool]), label, patch_full_name))
+                else: ase_overfitting_patches.append((float(properties[tool]), label, patch_full_name))
+                
+    correct_num = len(correct_patches)
+    ase_overfitting_sample_num = round(654 / (654 + 1264) * correct_num)
+    prapr_overfitting_sample_num = round(1264 / (654 + 1264) * correct_num)
+    ase_overfitting_patches_sampled = random.sample(sorted(ase_overfitting_patches), ase_overfitting_sample_num)
+    prapr_overfitting_patches_sampled = random.sample(sorted(prapr_overfitting_patches), prapr_overfitting_sample_num)
+    assert len(ase_overfitting_patches_sampled + prapr_overfitting_patches_sampled) == correct_num, len(ase_overfitting_patches_sampled + prapr_overfitting_patches_sampled)
+    return ase_overfitting_patches_sampled + prapr_overfitting_patches_sampled + correct_patches
+    
 if __name__ == '__main__':
+    random.seed(1)
     ssfix_dir = '/home/junyang/PCC_repo/patch_correctness/RQ1/ssFix'
     s3_capgen_dir = '/home/junyang/PCC_repo/patch_correctness/RQ1/refined-scores/capgen_s3'
     opad_dir = '/home/junyang/PCC_repo/patch_correctness/RQ3/opad'
     ASE_patch_dir = '/home/junyang/PCC_repo/patch_correctness/ASE_Patches'
     prapr_patch_root_dir = '/home/junyang/PCC_repo/patch_correctness/prapr_src_patches_1.2'
+    prapr_add_patch_root_dir = '/home/junyang/PCC_repo/patch_correctness/prapr_src_patches_2.0'
     dev_patch_root_dir = '/home/junyang/PCC_repo/patch_correctness/developer_patches_1.2'
+    dev_add_patch_root_dir = '/home/junyang/PCC_repo/patch_correctness/developer_patches_2.0'
     prapr_csv = 'result_1.2.csv'
+    prapr_add_csv = 'result_2.0.csv'
     dev_csv = 'result_dev_patches_1.2.csv'
+    dev_add_csv = 'result_dev_patches_2.0.csv'
     
     ase_patches = dict()
     prapr_patches = dict()
     dev_patches = dict()
+    prapr_add_patches = dict()
     tool = sys.argv[1]
     
     store_ASE_patches(ase_patches)
     store_prapr_or_dev_patches(prapr_patches, prapr_csv, prapr_patch_root_dir)
+    store_prapr_or_dev_patches(prapr_add_patches, prapr_add_csv, prapr_add_patch_root_dir)
     store_prapr_or_dev_patches(dev_patches, dev_csv, dev_patch_root_dir)
     prapr_ase_merged_patches = merge_prapr_ase_patches(prapr_patches, ase_patches)
+    prapr_new_patches = prapr_patches.copy()
+    prapr_new_patches.update(prapr_add_patches)
     # print(ase_patches["Math-59"])
     # print(prapr_ase_merged_patches["Math-59"])
+    # print(sum([len(x) for x in prapr_new_patches.values()]))
+    # print(sum([len(x) for x in prapr_patches.values()]))
     
     rank_ase_dict = rank_patches_per_bug(ase_patches, tool)
     rank_merged_dict = rank_patches_per_bug(prapr_ase_merged_patches, tool)
@@ -257,8 +358,29 @@ if __name__ == '__main__':
     # display(rank_ase_dict, rank_merged_dict, "/home/junyang/PCC_repo/patch_correctness/tables/" + tool + '-ASE-prapr-correct-rank.png')
     # display(rank_dev_dict, rank_dev_merged_dict, "/home/junyang/PCC_repo/patch_correctness/tables/" + tool + '-ASE-prapr-dev-rank.png')
     
+    
+    
+    # compare_correct_rank(rank_ase_dict, rank_merged_dict)
+    
+    print('\nase patches:')
+    print_confusion_matrix_from_patches(ase_patches, tool)
     print(average_correct_rank(rank_ase_dict))
+    
+    print('\nprapr 1.2 patches:')
+    print_confusion_matrix_from_patches(prapr_patches, tool)
     print(average_correct_rank(rank_patches_per_bug(prapr_patches, tool)))
+    
+    print('\nprapr 2.0 patches:')
+    print_confusion_matrix_from_patches(prapr_new_patches, tool)
+    print(average_correct_rank(rank_patches_per_bug(prapr_new_patches, tool)))
+    
+    print('\nprapr + ase merged:')
+    print_confusion_matrix_from_patches(prapr_ase_merged_patches, tool)
     print(average_correct_rank(rank_merged_dict))
     
-    compare_correct_rank(rank_ase_dict, rank_merged_dict)
+    balanced_dataset = get_balanced_dataset(prapr_ase_merged_patches, tool)
+    with open('/home/junyang/PCC_repo/patch_correctness/balanced_dataset/balanced_dataset_patches.txt', 'w') as f:
+        f.writelines([x[-1] + '\n' for x in balanced_dataset])
+    print('\nbalanced dataset:')
+    print_confusion_matrix(balanced_dataset, int(len(balanced_dataset)/2), tool)
+    
