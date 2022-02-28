@@ -133,6 +133,59 @@ def rank_dev_patches(dev_patches, tool_patches, tool):
         # print('%s: developer patches ranking: %d out of %d' % (bug_id, ranking, len(overfitting_patches_dict) + 1))
     return rank_dict
 
+@DeprecationWarning
+def parse_ase_result(patch_list_path):
+    # the patch list includes TPs, i.e., overfitting patches identified as overfitting patches
+    patch_set = set()
+    with open(patch_list_path) as f:
+        patches = f.read().splitlines()
+    for patch_name in patches:
+        if patch_name.endswith('-plausible'): patch_name = patch_name.replace('-plausible', '')
+        if patch_name.startswith('patch'):
+            # this patch is from the five tools
+            patch_id = patch_name.split('-')[0][5:]
+            project, id, tool = patch_name.split('-')[1:4]
+        else: 
+            patch_id = '0'
+            tool, project, id = patch_name.split('-')
+        
+        dlabel = 'Doverfitting'
+        if patch_id == '0': subdir = 'Patches_ICSE'
+        else: subdir = 'Patches_others'
+        patch_dir = join(ASE_patch_dir, subdir, dlabel, tool, project, id)
+        if patch_id != '0': patch_dir = join(patch_dir, patch_id)
+        if not isdir(patch_dir): 
+            patch_dir = patch_dir.replace(dlabel, 'Dcorrect')
+            dlabel = 'Dcorrect'
+        assert isdir(patch_dir)
+        patch_set.append((project, id, tool, patch_id, dlabel))
+    return patch_set
+
+@DeprecationWarning
+def store_ASE_opad_result(ase_patches):
+    all_overfitting_patch_set = parse_ase_result('/home/junyang/PCC_repo/patch_correctness/ASE_Patches/overfitting_patches.txt')
+    evo_opad_TP_patch_set = parse_ase_result('/home/junyang/PCC_repo/patch_correctness/ASE_Patches/evosuite_opad_true_overfitting.txt')
+    rand_opad_TP_patch_set = parse_ase_result('/home/junyang/PCC_repo/patch_correctness/ASE_Patches/randoop_opad_true_overfitting.txt')
+    evo_opad_overfitting_patch_set = parse_ase_result('/home/junyang/PCC_repo/patch_correctness/ASE_Patches/evosuite_opad_overfitting.txt')
+    rand_opad_overfitting_patch_set = parse_ase_result('/home/junyang/PCC_repo/patch_correctness/ASE_Patches/randoop_opad_overfitting.txt')
+    evo_opad_FP_patch_set = evo_opad_overfitting_patch_set - evo_opad_TP_patch_set
+    rand_opad_FP_patch_set = rand_opad_overfitting_patch_set - rand_opad_TP_patch_set
+    for patch in evo_opad_FP_patch_set:
+        patch_name = '-'.join([patch[2], patch[3], patch[4]])
+        add_patch_property(ase_patches, patch[0] + '-' + patch[1], patch_name, 'evo_opad_label', 'FP')
+    
+    for patch in rand_opad_FP_patch_set:
+        patch_name = '-'.join([patch[2], patch[3], patch[4]])
+        add_patch_property(ase_patches, patch[0] + '-' + patch[1], patch_name, 'rand_opad_label', 'FP')
+        
+    for patch in evo_opad_TP_patch_set:
+        patch_name = '-'.join([patch[2], patch[3], patch[4]])
+        add_patch_property(ase_patches, patch[0] + '-' + patch[1], patch_name, 'evo_opad_label', 'TP')
+    
+    for patch in rand_opad_TP_patch_set:
+        patch_name = '-'.join([patch[2], patch[3], patch[4]])
+        add_patch_property(ase_patches, patch[0] + '-' + patch[1], patch_name, 'rand_opad_label', 'TP')
+    
 def store_ASE_patches(ase_patches):
     with open(join(s3_capgen_dir, 'ASE_patch_score_capgen_s3.txt')) as f:
         lines = f.readlines()
@@ -182,6 +235,7 @@ def store_ASE_patches(ase_patches):
                 elif label == 'overfitting': label = 'correct'
             add_patch_property(ase_patches, bug_id, patch_name, 'ssfix', ssfix)
             assert ase_patches[bug_id][patch_name]['label'] == label, ase_patches[bug_id]
+    # store_ASE_opad_result(ase_patches)
 
 def merge_prapr_ase_patches(prapr_patches, ase_patches):
     merged_patches = copy.deepcopy(prapr_patches)
@@ -310,8 +364,8 @@ def get_balanced_dataset(prapr_ase_merged_patches, tool):
                 else: ase_overfitting_patches.append((float(properties[tool]), label, patch_full_name))
                 
     correct_num = len(correct_patches)
-    ase_overfitting_sample_num = round(654 / (654 + 1264) * correct_num)
-    prapr_overfitting_sample_num = round(1264 / (654 + 1264) * correct_num)
+    ase_overfitting_sample_num = round(584 / (584 + 1905) * correct_num)
+    prapr_overfitting_sample_num = round(1905 / (584 + 1905) * correct_num)
     ase_overfitting_patches_sampled = random.sample(sorted(ase_overfitting_patches), ase_overfitting_sample_num)
     prapr_overfitting_patches_sampled = random.sample(sorted(prapr_overfitting_patches), prapr_overfitting_sample_num)
     assert len(ase_overfitting_patches_sampled + prapr_overfitting_patches_sampled) == correct_num, len(ase_overfitting_patches_sampled + prapr_overfitting_patches_sampled)
@@ -341,10 +395,11 @@ if __name__ == '__main__':
     store_ASE_patches(ase_patches)
     store_prapr_or_dev_patches(prapr_patches, prapr_csv, prapr_patch_root_dir)
     store_prapr_or_dev_patches(prapr_add_patches, prapr_add_csv, prapr_add_patch_root_dir)
-    store_prapr_or_dev_patches(dev_patches, dev_csv, dev_patch_root_dir)
-    prapr_ase_merged_patches = merge_prapr_ase_patches(prapr_patches, ase_patches)
+    # store_prapr_or_dev_patches(dev_patches, dev_csv, dev_patch_root_dir)
+    # prapr_ase_merged_patches = merge_prapr_ase_patches(prapr_patches, ase_patches)
     prapr_new_patches = prapr_patches.copy()
     prapr_new_patches.update(prapr_add_patches)
+    prapr_ase_merged_patches = merge_prapr_ase_patches(prapr_new_patches, ase_patches)
     # print(ase_patches["Math-59"])
     # print(prapr_ase_merged_patches["Math-59"])
     # print(sum([len(x) for x in prapr_new_patches.values()]))
@@ -352,8 +407,8 @@ if __name__ == '__main__':
     
     rank_ase_dict = rank_patches_per_bug(ase_patches, tool)
     rank_merged_dict = rank_patches_per_bug(prapr_ase_merged_patches, tool)
-    rank_dev_dict = rank_dev_patches(dev_patches, ase_patches, tool)
-    rank_dev_merged_dict = rank_dev_patches(dev_patches, prapr_ase_merged_patches, tool)
+    # rank_dev_dict = rank_dev_patches(dev_patches, ase_patches, tool)
+    # rank_dev_merged_dict = rank_dev_patches(dev_patches, prapr_ase_merged_patches, tool)
     
     # display(rank_ase_dict, rank_merged_dict, "/home/junyang/PCC_repo/patch_correctness/tables/" + tool + '-ASE-prapr-correct-rank.png')
     # display(rank_dev_dict, rank_dev_merged_dict, "/home/junyang/PCC_repo/patch_correctness/tables/" + tool + '-ASE-prapr-dev-rank.png')
