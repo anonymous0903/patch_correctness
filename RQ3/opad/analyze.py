@@ -7,7 +7,6 @@ def in_balanced(balanced_dataset_file, patch_tuple):
     with open(balanced_dataset_file) as f:
         patches = f.read().strip().split('\n')
 
-    print(len(patches))
     if len(patch_tuple) == 6:
         # ASE patch
         bug_id = patch_tuple[0] + '-' + patch_tuple[1]
@@ -121,7 +120,6 @@ if __name__ == '__main__':
     prapr_result_file = test_suite + '_opad_result_' + '1.2' + '.csv'
     prapr_patch_add_root_dir = '../../prapr_src_patches_' + '2.0'
     prapr_add_result_file = test_suite + '_opad_result_' + '2.0' + '.csv'
-    balanced_dataset_file = '/home/junyang/PCC_repo/patch_correctness/balanced_dataset/balanced_dataset_patches.txt'
 
     result_prapr = parse_parpr_result(prapr_result_file, prapr_patch_root_dir)
     result_prapr_add = parse_parpr_result(prapr_add_result_file, prapr_patch_add_root_dir)
@@ -136,11 +134,22 @@ if __name__ == '__main__':
         TP, FP, FN, TN = get_confusion_matrix(result_prapr)
         tp, fp, fn, tn = get_confusion_matrix(result_prapr_add)
     if dataset == 'merge':
-        TP, FP, FN, TN = get_confusion_matrix(result_prapr)
+        TP, FP, FN, TN = get_confusion_matrix(result_prapr | result_prapr_add)
         tp, fp, fn, tn = get_confusion_matrix([patch for patch in result_ase if not is_patch_overlap(patch)])
     if dataset == 'balance':
-        TP, FP, FN, TN = get_confusion_matrix([patch for patch in result_prapr if in_balanced(balanced_dataset_file, patch)])
-        tp, fp, fn, tn = get_confusion_matrix([patch for patch in result_ase if (not is_patch_overlap(patch) and in_balanced(balanced_dataset_file, patch))])
+        tp, fp, fn, tn = 0, 0, 0, 0
+        for count in range(10):
+            balanced_dataset_file = '/home/junyang/PCC_repo/patch_correctness/balanced_dataset/balanced_dataset_patches-' + str(count + 1) + '.txt'
+            TP_0, FP_0, FN_0, TN_0 = get_confusion_matrix([patch for patch in result_prapr | result_prapr_add if in_balanced(balanced_dataset_file, patch)])
+            tp_0, fp_0, fn_0, tn_0 = get_confusion_matrix([patch for patch in result_ase if (not is_patch_overlap(patch) and in_balanced(balanced_dataset_file, patch))])
+            TP += TP_0
+            FP += FP_0
+            FN += FN_0
+            TN += TN_0
+            tp += tp_0
+            fp += fp_0
+            fn += fn_0
+            tn += tn_0
     TP += tp
     FP += fp
     FN += fn
