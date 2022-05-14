@@ -183,31 +183,6 @@ def parse_ase_result(patch_list_path):
         assert isdir(patch_dir)
         patch_set.append((project, id, tool, patch_id, dlabel))
     return patch_set
-
-@DeprecationWarning
-def store_ASE_opad_result(ase_patches):
-    all_overfitting_patch_set = parse_ase_result('/home/junyang/PCC_repo/patch_correctness/ASE_Patches/overfitting_patches.txt')
-    evo_opad_TP_patch_set = parse_ase_result('/home/junyang/PCC_repo/patch_correctness/ASE_Patches/evosuite_opad_true_overfitting.txt')
-    rand_opad_TP_patch_set = parse_ase_result('/home/junyang/PCC_repo/patch_correctness/ASE_Patches/randoop_opad_true_overfitting.txt')
-    evo_opad_overfitting_patch_set = parse_ase_result('/home/junyang/PCC_repo/patch_correctness/ASE_Patches/evosuite_opad_overfitting.txt')
-    rand_opad_overfitting_patch_set = parse_ase_result('/home/junyang/PCC_repo/patch_correctness/ASE_Patches/randoop_opad_overfitting.txt')
-    evo_opad_FP_patch_set = evo_opad_overfitting_patch_set - evo_opad_TP_patch_set
-    rand_opad_FP_patch_set = rand_opad_overfitting_patch_set - rand_opad_TP_patch_set
-    for patch in evo_opad_FP_patch_set:
-        patch_name = '-'.join([patch[2], patch[3], patch[4]])
-        add_patch_property(ase_patches, patch[0] + '-' + patch[1], patch_name, 'evo_opad_label', 'FP')
-    
-    for patch in rand_opad_FP_patch_set:
-        patch_name = '-'.join([patch[2], patch[3], patch[4]])
-        add_patch_property(ase_patches, patch[0] + '-' + patch[1], patch_name, 'rand_opad_label', 'FP')
-        
-    for patch in evo_opad_TP_patch_set:
-        patch_name = '-'.join([patch[2], patch[3], patch[4]])
-        add_patch_property(ase_patches, patch[0] + '-' + patch[1], patch_name, 'evo_opad_label', 'TP')
-    
-    for patch in rand_opad_TP_patch_set:
-        patch_name = '-'.join([patch[2], patch[3], patch[4]])
-        add_patch_property(ase_patches, patch[0] + '-' + patch[1], patch_name, 'rand_opad_label', 'TP')
     
 def store_ASE_patches(ase_patches):
     with open(join(s3_capgen_dir, 'ASE_patch_score_capgen_s3.txt')) as f:
@@ -402,14 +377,14 @@ def get_balanced_dataset(prapr_ase_merged_patches, tool):
     return ase_overfitting_patches_sampled + prapr_overfitting_patches_sampled + correct_patches
     
 if __name__ == '__main__':
-    ssfix_dir = '/home/junyang/PCC_repo/patch_correctness/RQ1/ssFix'
-    s3_capgen_dir = '/home/junyang/PCC_repo/patch_correctness/RQ1/refined-scores/capgen_s3'
-    opad_dir = '/home/junyang/PCC_repo/patch_correctness/RQ3/opad'
-    ASE_patch_dir = '/home/junyang/PCC_repo/patch_correctness/ASE_Patches'
-    prapr_patch_root_dir = '/home/junyang/PCC_repo/patch_correctness/prapr_src_patches_1.2'
-    prapr_add_patch_root_dir = '/home/junyang/PCC_repo/patch_correctness/prapr_src_patches_2.0'
-    dev_patch_root_dir = '/home/junyang/PCC_repo/patch_correctness/developer_patches_1.2'
-    dev_add_patch_root_dir = '/home/junyang/PCC_repo/patch_correctness/developer_patches_2.0'
+    ssfix_dir = '../RQ1/ssFix'
+    s3_capgen_dir = '../RQ1/refined-scores/capgen_s3'
+    opad_dir = '../RQ3/opad'
+    ASE_patch_dir = '../ASE_Patches'
+    prapr_patch_root_dir = '../prapr_src_patches_1.2'
+    prapr_add_patch_root_dir = '../prapr_src_patches_2.0'
+    dev_patch_root_dir = '../developer_patches_1.2'
+    dev_add_patch_root_dir = '../developer_patches_2.0'
     prapr_csv = 'result_1.2.csv'
     prapr_add_csv = 'result_2.0.csv'
     dev_csv = 'result_dev_patches_1.2.csv'
@@ -421,8 +396,6 @@ if __name__ == '__main__':
     dev_add_patches = dict()
     prapr_add_patches = dict()
     tool = sys.argv[1]
-    # seed = sys.argv[2]
-    # random.seed(int(seed))
     
     store_ASE_patches(ase_patches)
     store_prapr_or_dev_patches(prapr_patches, prapr_csv, prapr_patch_root_dir)
@@ -433,10 +406,6 @@ if __name__ == '__main__':
     prapr_new_patches = prapr_patches.copy()
     prapr_new_patches.update(prapr_add_patches)
     prapr_ase_merged_patches = merge_prapr_ase_patches(prapr_new_patches, ase_patches)
-    # print(ase_patches["Math-59"])
-    # print(prapr_ase_merged_patches["Math-59"])
-    # print(sum([len(x) for x in prapr_new_patches.values()]))
-    # print(sum([len(x) for x in prapr_patches.values()]))
     def print_bug_num_multi_patch(patches):
         print('ori bug num: ' + str(len(patches)))
         print(len([bug_id for bug_id in patches.keys() if len(patches[bug_id].keys()) > 1]))
@@ -449,11 +418,6 @@ if __name__ == '__main__':
     rank_merged_dict = rank_patches_per_bug(prapr_ase_merged_patches, tool)
     # rank_dev_dict = rank_dev_patches(dev_patches, ase_patches, tool)
     # rank_dev_merged_dict = rank_dev_patches(dev_patches, prapr_ase_merged_patches, tool)
-    
-    # display(rank_ase_dict, rank_merged_dict, "/home/junyang/PCC_repo/patch_correctness/tables/" + tool + '-ASE-prapr-correct-rank.png')
-    # display(rank_dev_dict, rank_dev_merged_dict, "/home/junyang/PCC_repo/patch_correctness/tables/" + tool + '-ASE-prapr-dev-rank.png')
-    
-    
     
     # compare_correct_rank(rank_ase_dict, rank_merged_dict)
     
@@ -476,12 +440,6 @@ if __name__ == '__main__':
     merged_score_label_list = print_confusion_matrix_from_patches(prapr_ase_merged_patches, tool)
     print('AVR / average patch num: %s(%s)' % (average_correct_rank(rank_merged_dict), average_num_patches(rank_merged_dict)))
     print("number of bugs included: " + str(len(rank_merged_dict)))
-    
-    # balanced_dataset = get_balanced_dataset(prapr_ase_merged_patches, tool)
-    # with open('/home/junyang/PCC_repo/patch_correctness/balanced_dataset/balanced_dataset_patches-' + seed + '.txt', 'w') as f:
-    #     f.writelines([x[-1] + '\n' for x in balanced_dataset])
-    # print('\nbalanced dataset:')
-    # print_confusion_matrix(balanced_dataset, int(len(balanced_dataset)/2), tool)
     
     # calculate average of sampled balanced datasets
     count = 10

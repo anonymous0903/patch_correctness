@@ -139,7 +139,7 @@ if __name__ == '__main__':
     if dataset == 'balance':
         tp, fp, fn, tn = 0, 0, 0, 0
         for count in range(10):
-            balanced_dataset_file = '/home/junyang/PCC_repo/patch_correctness/balanced_dataset/balanced_dataset_patches-' + str(count + 1) + '.txt'
+            balanced_dataset_file = '../../balanced_dataset/balanced_dataset_patches-' + str(count + 1) + '.txt'
             TP_0, FP_0, FN_0, TN_0 = get_confusion_matrix([patch for patch in result_prapr | result_prapr_add if in_balanced(balanced_dataset_file, patch)])
             tp_0, fp_0, fn_0, tn_0 = get_confusion_matrix([patch for patch in result_ase if (not is_patch_overlap(patch) and in_balanced(balanced_dataset_file, patch))])
             TP += TP_0
